@@ -26,8 +26,8 @@ The IS Lab audio rack supports the following formats:
 
 ## Table of contents
 
-[IS Library and Media Preservation Lab: Audio rack workflow documentation](#is-library-and-media-preservation-lab:-audio-rack-workflow-documentation)
+[IS Library and Media Preservation Lab: Audio rack workflow documentation](#is-library-and-media-preservation-lab-audio-rack-workflow-documentation)
 
-[Overview](##overview)
+[Overview](#overview)
 
 
