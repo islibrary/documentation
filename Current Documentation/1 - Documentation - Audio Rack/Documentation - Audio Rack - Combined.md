@@ -140,11 +140,227 @@ After identifying formats and decks for digitization, contact a lab staff team m
 4. Consider tape length (90, 100, 110, or 120 min) and likelihood of getting caught, stretched, and damaged in the machine.
 5. Inspect pads, pinch rollers, hub teeth, and protective slips. 
 6. Rehousing and repair:
-> Pull the tape tightly against the supply reel to ensure the leader is securely attached. If it unwinds unevenly during an initial hand winding, rehouse or repair the tape before playback.
+> a. Pull the tape tightly against the supply reel to ensure the leader is securely attached. If it unwinds unevenly during an initial hand winding, rehouse or repair the tape before playback.
 7. Ensure that a sufficient amount of leader is attached and in good enough condition for playback.
 8. Assess the overall safety of playing tape and anticipate any potential difficulties  to monitor during playback.
 9. Determine the ideal storage conditions for longevity (container, shelf orientation, temperature and humidity controls).
-10. **Check the slots on the top of tape, to identify it as a Type I, Type Il, or Type IV tape.** This verifies that the settings on the tape deck are correct to ensure proper playback. For assistance, refer to the chart below:
+10. **Check the slots on the top of tape, to identify it as a Type I, Type II, or Type IV tape.** This verifies that the settings on the tape deck are correct to ensure proper playback. For assistance, refer to the chart below:
+
+Cassette Type | Image | EQ Curve
+:---: | :---: | :---: |
+Type IV | ![Cassette Types](https://theaudioowl.com/wp-content/uploads/2020/02/cassette-tape-type-notches.png?ezimgfmt=ng:webp/ngcb16)|70 μs
+Type III| ^ | 70 μs 
+Ty[e II ("high bias") | ^ | 70 μs 
+Type I ("normal bias") | ^ | 120 μs 
+
+“EQ Curve” refers to the low frequency boost and high frequency rolloff applied to the recording. Different cassette types were manufactured to be recorded with different EQ curves applied. On many tape decks, the notches in the top of the tapes correspond to the cassette type, and automatically apply the correct EQ accordingly. The Nakamichi Dragon requires users to set the EQ settings manually. 
+
+11. Type III vs. Type I tapes. These two varieties have the same notch positioning and different EQ curves; distinguishing between the two is difficult and necessary. Type III tapes are made with a ferro chromium magnetic formulation: look for FeCr or “ferro chromium” on the tape’s packaging.
+12. Select the appropriate EQ curve to be applied by the Nakamichi dragon (refer to the chart on the previous page). Labels have been adhered next to the EQ buttons on the Gray Nakamichi Dragon CAS 1 for assistance.
+
+(need to insert image of Nakamichi EQ buttons)
+
+13. **Dolby NR**: Determine if the tape was recorded with Dolby NR, and if so, select the appropriate form on the Dragon. Dolby NR identification is usually indicated on the tape itself, either in notes accompanying the tape or a logo on the cassette shell with Dolby NR logo. In the case of uncertainty about whether or not a tape was recorded with Dolby NR, **leave this setting turned off** on the Nakamichi Dragon.
+
+(need to insert image of Correct positions of the Dolby NR B-Type and C-Type buttons for each formulation of Dolby on the Nakamichi Dragon Tape Decks. Source: Nakamichi Dragon 3 Head Tape Deck manual.)
+
+#### Quarter-inch Tapes
+1. Identify tape type (acetate or polyester-based stock). 
+> a. Acetate: Identify potential issues, such as vinegar syndrome
+> b. Polyester: Identify potential issues, such as sticky-shed syndrome, and if the tape easily comes off the reel.
+2. Examine for pack wind, curling, cupping, stretching, twists, creases, or folds.
+3. Check for adequate leader or add additional leader as needed.
+4. Assess for tears, breaks, or splices requiring repair.
+5. Consider tape thickness and susceptibility to damage.
+6. Check for warping of the reel.
+7. Assess safety for playback and anticipate difficulties to monitor during transfer.
+8. Determine ideal storage conditions.
+
+
+
+#### ¼” Open Reel Audio Tape
+1. **Identifying the base of audio tape** 
+> **a. Acetate**: It is common to find acetate-based ¼” audio tape. This format was the predominant tape base until the 1970s. It can be identified by its transparency, in comparison to the opaqueness of polyester tape. Light will pass through the tape pack of acetate tape. Acetate-based tape will also break easily and cleanly when torn by hand, as opposed to polyester-based tape.
+> 
+> **b. Polyester**: Polyester is one of the most commonly found tape bases. It was first developed in the 1950s and came into wide use in the 1970s and 1980s. It can be identified by its opaqueness under light, in contrast to the transparency of acetate-based tape. If the tape is opaque and light does not pass through, it is most likely Polyester, unless it is one of the named PVC brands [mentioned in the PSAP guide](https://psap.library.illinois.edu/collection-id-guide/audiotape "mentioned in the PSAP guide"). Polyester stretches when pulled by hand, as opposed to acetate-based tape, which breaks cleanly. 
+
+
+
+(need to insert image here)
+Polyester vs acetate. From ARSC Guide to Audio Preservation pg. 26. 
+
+> **c. Paper**: It is unlikely that a tape would be paper-based, due to the limited adoption of the format. Paper was used as a base for magnetic audio tape from ca. 1935-1950, but was eventually phased out, as it was seen as inferior to acetate-based tape.
+>
+> **d. PVC**: Polyvinyl chloride is a fairly rare base of audio tape. It was mainly used by one German company BASF, from around 1942-1970. It is difficult to distinguish PVC tape from Polyester as they both appear opaque when light shines on them. It also stretches like polyester when pulled. BASF was the main manufacturer of the tape, and not many U.S. manufacturers made PVC-based tape (Page 4 of the FACET Field Evaluation Toolkit has a list of brands of tape known to be PVC base). PVC is especially susceptible to plasticizer loss, so if there is suspicion that a tape is PVC, do not attempt playback in the Lab. 
+
+2. **Sticky shed syndrome**: 
+> **a. Sticky Shed Syndrome represents a significant preservation risk to polyester ¼” open reel tapes**. PVC, acetate, or paper tapes do not get sticky shed syndrome. **Tapes affected by sticky-shed cannot be played nor transferred in the IS Lab**. During playback, polyester polyurethane binder tape with this condition sticks together, leaving magnetic deposits on the tape deck. The tape will audibly squeal during playback. **Attempting playback with a tape affected by sticky-shed can lead to complete loss of the magnetic binder and the recording itself**. These deposits can also damage the playback heads. If at any point in the playback process, squealing is heard, playback should be stopped immediately, and Lab staff should be alerted.
+
+> **b.** FACET developed an incomplete list of brands that have been observed to have sticky shed syndrome in almost all cases. **All of the following tapes must be baked before playback in the Lab:** 
+> * **Ampex 406, 407, 456, 457** 
+> * **Capitol Q15**
+> * **Scotch 226, 227, 806, 807, 808, 809**
+  
+> **c. Exercise extreme caution with any non-major brand of polyester base tape. Major brands are considered to be any of the following:** 
+> * **Afga** 
+> * **Ampex/Quantegy** 
+> * **AudioTape**
+> * **BASF**
+> * **EMI**
+> * **Maxell**
+> * **Orwo**
+> * **Reeves**
+> * **Soundcraft**
+> * **Scotch**
+> * **Sony**
+
+> **d.** Tapes affected by sticky-shed syndrome usually have a black coating on the tape, which was added for superior sound quality. Apart from this, there is no way to visually determine if a tape is susceptible to sticky shed syndrome. Any other brand must be examined, baked, and played back carefully. Archivists and researchers agree that major tape brands are consistent, stable, and reliable. By contrast, non-major brands, which often varied in formulations and were poorer in quality, present risks to their preservation. For more information on identifying sticky-shed syndrome, please refer to [Appendix B]().
+
+3. **Vinegar syndrome**:
+* A type of deterioration that affects acetate-based audio tapes. Similar to the way in which vinegar syndrome affects acetate-based film, affected tapes will have a profuse vinegar-like smell. In severe cases, the tape can become brittle due to “hydrolysis,” a reaction of the binder of the tape with moisture in the air. Vinegar syndrome is not considered as significant as sticky shed syndrome or soft binder syndrome. However, **tapes with advanced stages of vinegar syndrome probably are too brittle to withstand playback and should not be used in the Lab**. 
+* Please note: Contrary to film, AD test strips are not recommended for audio tape because they are not developed to detect the amount of acid in an affected audio tape. For more information on identifying vinegar syndrome, see [Appendix B]().
+
+#### Cleaning ¼” Audio Tape Decks
+
+(need to insert image of our tape deck)
+¼” Audio Tape Deck
+
+¼” Audio Tape Decks need to be cleaned before and after each transfer. 
+
+* Rollers **with** rubber are cleaned with **distilled water** and a foam cleaning swab. 
+* Rollers **without** rubber and the **deck heads** are cleaned with **Isopropyl Alcohol** and a foam cleaning swab. 
+
+(images/gifs will need to be added for the following, unsure if GitHub supports GIFS) 
+
+	
+        ¼” Audio Tape Deck Heads			        Cleaning a Rubber Roller
+
+				
+    	          Foam Cleaning Swabs		       Isopropyl Alcohol		   Distilled Water		
+
+
+	
+
+Tape wind issues (for ¼” open reel audio tape)
+Poor tape winds can cause mechanical issues to the tape and playback deck. It’s important to identify tape pack issues and the damages they pose to equipment.
+
+
+#### Adding leader (for ¼” audio tape) 
+It’s important to add leader to any ¼” open reel tape without leader, or with deteriorated leader, to the head and tail of the tape. Splicing materials and leader are both located on the black rolling cart, in the box labeled “splicing materials.” Please [refer to this video tutorial](https://www.youtube.com/watch?v=LXx2nq6dmpg "Proper Splicing Technique") for proper splicing technique.
+
+It’s important to not touch the dull side of the audio tape where the recording is encoded. It is advised that nitrile gloves are worn to make a splice.To perform a splice, please gather the following materials:
+* Leader
+* Razor blades
+* Splicing tape 
+* Splicing block 
+
+1. Lay the tape end on the splicing block, with the matte side facing down. On audio tape, the magnetic information is on the matte side, so it is important to put splicing tape on the base side (shiny side). Splice tape with the shiny side facing up. 
+
+
+![Analog Tape Splicing Example](https://tapeop.com/_m/photologue/photos/cache/TapeSpliceEdit01_display_hires.png)
+[Analog Tape Splicing Example](https://tapeop.com/tutorials/11/intro-analog-tape-splicing-and-editing-and-tape-loops/ "Intro to Analog Tape Splicing")
+
+
+2. Use the razor blade to cut the audio tape along the biased slot. Cut as close to the end of the tape as possible. 
+3. Once the tape is cut, remove the tape from the block temporarily. Put the end of the leader on the splicing block and make a cut, using the same biased slot. Like audio tape, the leader has a matte side and shiny side. Ensure the shiny sides of both are facing up.
+4. Join the two ends of the leader and tape together on the splicing block, shiny sides up. The two ends should match exactly. 
+5. Using the razor blade, scrape the blue adhesive splicing tape off the roll. Cut off a 1-2 cm piece of tape using scissors. Keep the razor blade stuck to that side of the tape. Do not touch the sticky side.
+6. Carefully use the razor blade to place the adhesive tape over the splice. The cut should be exactly in the middle of the tape. The adhesive tape should not extend over the edge of the tape and should have no air bubbles.
+7. Once the blue tape is down, flip the splice over to check the work. No blue should be visible in between the leader and the tape.
+8. Gently pinch tape on either side of the splice with an index finger and thumb. Twist in opposite directions to verify the splice strength.
+9. When the splice looks good, unroll about a wingspan in length of leader from its reel, and cut with scissors.
+
+#### Track Configuration and Tape Speed
+ 
+Proceed once it is confirmed that tape does not have the following issues:
+* Sticky-shed syndrome
+* Vinegar syndrome
+* Mold
+* Dirt
+* Mechanical or tape pack issues
+
+#### Playback on the Otari MX 5050 (R2R 2)
+1. Load the tape onto the deck on the left side of the machine. Ensure that the reel is completely and fully loaded into the hub.
+2. Pull on the hub and twist to secure the reel safely on the hub. 
+3. Refer to the diagram on the front of the machine for the threading pattern. Put a remote plastic reel on the takeup (right) side of the machine, unless one is already there.
+4. Play the tape on the deck. Fast forward to a segment of the tape where sound has been recorded. Monitor the sound quality and speed with the checklist below:
+* Note if the recording sounds too fast or too slow.
+* Note if the recording seems to be playing forwards or backwards. 
+* Using desktop stereo speakers or a pair of monitor headphones, listen carefully to the right and left channels. Alternatively, remove one cable from the patchbay to silence one channel and isolate the other. 
+* WaveLab may be used to confirm that information is playing through both channels.
+* **The Otari MX-50 cannot play quarter-track tapes**. It is a two track machine and can only play full-track or half-track tapes. For quarter track recordings, use the Otari MX-5050. The chart below shows the most common tape track configurations.
+* Refer to the flowchart and diagram below to determine the track configuration. Always use a magnetic viewer to confirm the track configuration. 
+* Magnetic viewers are weak magnets filled with fluid with metal particles used to discern the track configuration of audio tape recordings. The viewer sits in a plastic container on a sponge with water in the bottom of a container. The viewer should stay saturated with water so that the fluid in the viewer does not evaporate.
+* Use below flowchart and diagram to figure out the track configuration of the tape.
+
+
+(need to insert image)
+ From the FACET Field Guide Preservation Tool. Use the left column to identify the sound of a particular configuration. Use the center column to identify the corresponding configuration. Use the right column to make appropriate adjustments to the audio.
+
+
+(need to insert image)
+Variety of the most common track configurations.
+
+#### Playback Considerations
+**For cassette Tapes**:
+* Contact a member of Lab Staff to ensure that the deck is properly cleaned and [demagnetized](link to appendix 1).
+* Identify tape type and appropriate bias and EQ settings.
+* Check recording tab status.
+* Confirm Dolby NR type and availability of decoder.
+* Verify correct loading of tape for desired playback side.
+* Adjust azimuth if necessary.
+
+**For quarter-inch Tapes**:
+* Ensure deck is cleaned and demagnetized.
+* Set EQ setting according to recording origin.
+* Check for Dolby or DBX NR and decoder availability.
+* Lock reels in place before playback.
+* Identify recording speed and track configuration.
+* Adjust azimuth if necessary. 
+
+#### Mold and Dirt
+Many formats are susceptible to fungal growth.
+**Moldy tapes cannot be played back in the IS Media Lab**. Refer to images of moldy tape below:
+
+
+(need to insert images)
+Images of moldy audiotapes and moldy cassettes. 
+Mold is visible as white, cloudy coagulations.
+
+If a tape is discovered to have mold after bringing into the IS Media Lab. Wipe down any surfaces the tape touched during the inspection and alert Lab staff. Moldy tapes should be cleaned professionally or away from the IS Media Lab where there is little chance for contamination of other media. 
+
+Grooved media is also susceptible to mold growth. Some transcription discs and cylinders(an unsupported format) develop a type of plasticizer loss that is sometimes mistaken for mold due to its white color. Look for the spindly structures of mold growth as this plasticizer loss will look more powdery. 
+
+![Plasticizer loss on a disc](https://psap.library.illinois.edu/assets/record-lacquer-plasticizer2-320-591684bca696322963594dd155c9b0cb8c85f1efea34108ce0ca314eab4c5e41.jpg)
+[Plasticizer loss on a disc (from PSAP)](https://psap.library.illinois.edu/collection-id-guide/phonodisc. "Plasticizer loss on a disc")
+
+
+#### Dirt 
+Any format is susceptible to dirt and media with excess dirt should not be played back before cleaning. Vinyl Grooved discs may be cleaned with the record cleaner as detailed in the [Grooved Media Deterioration](#grooved-media-deterioration) section of this document. Shellac and transcription discs should only be cleaned by hand and dry cleaned. They should be wiped with a microfiber cloth in the direction of the grooves. With one hand holding the disc by the label in the center of the disc.  
+
+CDs may be cleaned dry only with a microfiber towel by starting in the center of the disc and wiping in a circular pattern toward the edge.
+
+#### Grooved Media Deterioration
+**Shellac (78 rpm)**:
+Shellac discs are a robust and relatively stable format. However, because of the variety in their composition, it is difficult to know for certain how shellac-based discs as a format will fare over time (Nguyen et al. 2011). Shellac discs become more brittle over time, particularly if stored without sufficient temperature and humidity controls (St. Laurent 1997). The organic cellulosic material present in most discs is susceptible to fungal growth, especially if conditions are humid or if the discs are exposed to water and not quickly dried. Exposure to water can also cause networks of fine cracks on the playback surface, a condition referred to as crazing.
+
+* Dry clean shellac discs with microfiber cloth found in gray “Audio Maintenance” box by the turntable. 
+* Use a magnifying glass or film loupe to inspect the surface of the disc. 
+* If no cracks can be found in the shellac coating of the discs, it is possible to spot clean dirty areas of the discs with distilled water only (seen in image to the right). Spray water onto the cloth and gently rub the surface of the disc in the direction of the grooves. 
+
+(need to insert image)
+Distilled Water
+
+
+
+
+
+
+
+
+
+
+
 
 
 
