@@ -44,7 +44,12 @@ The IS Lab audio rack supports the following formats:
 > > [Cassette Tapes](#cassette-tapes)
 > > 
 > > [Quarter Inch Tapes](#quarter-inch-tapes)
-> > 
+> >
+> > [Playback Considerations](#playback-considerations)
+> >
+> > [Mold and Dirt](#mold-and-dirt)
+> >
+> > [Grooved Media Deterioration](#grooved-media-deterioration)
 
 
 ## Resources
@@ -345,6 +350,7 @@ If a tape is discovered to have mold after bringing into the IS Media Lab. Wipe 
 Grooved media is also susceptible to mold growth. Some transcription discs and cylinders(an unsupported format) develop a type of plasticizer loss that is sometimes mistaken for mold due to its white color. Look for the spindly structures of mold growth as this plasticizer loss will look more powdery. 
 
 ![Plasticizer loss on a disc](https://psap.library.illinois.edu/assets/record-lacquer-plasticizer2-320-591684bca696322963594dd155c9b0cb8c85f1efea34108ce0ca314eab4c5e41.jpg)
+
 [Plasticizer loss on a disc (from PSAP)](https://psap.library.illinois.edu/collection-id-guide/phonodisc. "Plasticizer loss on a disc")
 
 
@@ -364,7 +370,51 @@ Shellac discs are a robust and relatively stable format. However, because of the
 (need to insert image)
 Distilled Water
 
+**Vinyl (45 and 33 1/3 rpm)**:
+Vinyl discs are the most stable physical sound recording format developed to date; they can last 100 years in a controlled environment. However, heat and ultraviolet radiation both degrade the polymer. Vinyl softens and flows when exposed to excessive heat, which deforms the grooves. Polyvinyl chloride (PVC) releases hydrogen chloride as it thermodegrades. Stabilizers added to the compound during production arrest this process, but excessive heat, ultraviolet radiation, and humidity accelerate the degradation and deplete the available stabilizers. Dust and foreign matter, such as oils from fingers, can cause distortion and surface noise in playback; these deposits can promote fungal growth and damage the playback surface. Water can combine with the “off-gassing” of hydrogen chloride to form hydrochloric acid in excessively hot conditions (St. Laurent 1997). Heat and pressure can also cause the discs to warp, which can adversely affect playback. Vinyl discs are relatively soft compared with shellac discs, and they are susceptible to mechanical damage, such as scratches. Consequently, they require much lighter downforce from the tonearm on a playback device than do shellac discs.
 
+1. Cleaning vinyl at the IS Media Preservation Lab 
+
+![Keith Monks Record Cleaner](https://audiolifestyle.pl/wp-content/uploads/2015/01/Square_Low_322137v2white.jpg)
+2. Turn on the Keith Monks record cleaner via the blue power button and place the record on the turntable (machine is located to the right of the Audio Transfer Station).      
+* Use the 45 adapter ring as necessary
+
+(need to insert image)
+Vinyl Record 45 Adapter Ring
+
+* Please refer to the Keith Monks record cleaning machine documentation for further information.
+3. **Apply cleaning solution**: Push down on the brush and slide it over the record. Ensure that the brush makes contact with the record. The brush should be fairly saturated, as shown in the image below.
+4. Turn the record knob to the “ON” setting to start rotating the record, press down on the cleaner dispenser button and let the cleaning solution cover the record with the brush. Take the brush off the record.
+
+(need to insert image)
+*The attached brush sometimes doesn’t cover the entire record that well. If this is happening, 
+loosen the knob on top of the brush (turn counterclockwise) to free it, and slide it on the metal rod 
+toward the center of the record or out toward the edge. 
+
+(need to insert image)
+Controls for the Keith Monks Record Cleaner 
+located on top in the front left corner of the device.
+
+
+5. If cleaning a 45 disc, do not use the attached brush. Instead just use the bottled cleaning solution and hand held brush.
+6. **Vacuum the record** by picking up the tone arm. **move it to the middle of the record**. Once the arm is lifted, the vacuum will automatically turn on. Let the vacuum catch on the grooves and let the record run until the tone arm has reached the end of the disc.
+7. Repeat for the second side if needed and let dry for a few minutes in the drying rack before playing. 
+
+(need to insert image)
+Start the vacuum “tone arm” in the middle grooves of the record and it will 
+track the grooves backwards toward the outer edge of the record. 
+
+(need to insert image) 
+Dry the record vertically on the light green drying rack 
+before playback. Drying is approximately 5 minutes. 
+
+**Lacquer Disc**:
+* The recording layer of all lacquer discs is susceptible to loss of plasticizer, which produces palmitic and stearic acid. This causes the recording to flake, crack, and separate from the rigid base, and results in loss of playback capability. The soft surface is easily marred by needle drops, gouges, and scratches. During the World War II era, glass replaced aluminum as the base in lacquer discs. Glass instantaneous discs become brittle and are subject to cracks and breakage. Their inherent fragility increases over time as the glass becomes more brittle. Nitrocellulose is a flammable substance. Although the spontaneous combustion of a lacquer disc is virtually unheard of, a concentrated collection of nitrocellulose compressed media can cause a fire to burn more intensely. 
+* Lacquer discs that are not flaking or de-plasticized may in certain cases be played back in the IS Media Preservation lab. Doing so will require research on what eq to apply on the preamp and correct stylus selection. **Talk to Lab Staff before attempting Lacquer or transcription disc playback in the IS Lab**.
+> * Lacquer discs should be dry cleaned with microfiber cloth only. Do not clean if there is any sign of delamination. 
+
+![Lacquer Disc Delamination](https://www.nedcc.org/assets/media/images/IRENE/DelaminatingDiscWeb.jpg)
+Lacquer disc displaying serious delamination of the lacquer coating. The grooves where the audio information is stored was laid in this lacquer coating. When delamination occurs the risk to the recording is severe.
 
 
 
