@@ -33,6 +33,19 @@ The IS Lab audio rack supports the following formats:
 [Resources](#resources)
 > [Wavelab Resources](#wavelab-resources)
 
+[Guidelines and Rules](#guidelines-and-rules)
+
+[Pre-Digitization](#pre-digitization)
+> [Audio Rack Workflow](#audio-rack-workflow)
+> > [Identifying audio formats and choosing the correct deck](#identifying-audio-formats-and-choosing-the-correct-deck)
+> > 
+> > [Required Inspection](#required-inspection)
+> > 
+> > [Cassette Tapes](#cassette-tapes)
+> > 
+> > [Quarter Inch Tapes](#quarter-inch-tapes)
+> > 
+
 
 ## Resources
 [UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas "UCLA Media Archival Studies Research Guide")
