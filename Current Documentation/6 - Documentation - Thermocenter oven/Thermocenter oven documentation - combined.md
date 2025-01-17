@@ -1,4 +1,4 @@
-# IS Library & Media Preservation Lab: Thermocenter oven documentation
+# IS Library and Media Preservation Lab: Thermocenter oven documentation
 
 ## Overview
 This document provides instructions for baking ¼” open reel audiotape and U-Matic videotape in the Thermocenter oven.
@@ -22,4 +22,49 @@ Richard Hess’ site is a helpful place to go for general info about audiotape, 
 
 ## Table of Contents
 
-[IS Library & Media Preservation Lab: Thermocenter oven documentation](#is-library-&-media-preservation-lab-thermocenter-oven-documentation)
+[IS Library and Media Preservation Lab: Thermocenter oven documentation](#is-library-and-media-preservation-lab-thermocenter-oven-documentation)
+
+[Overview](#overview)
+
+[Resources](#resources)
+
+[Rules and Guidelines](#rules-and-guidelines)
+
+[Operating the Thermocenter](#operating-the-thermocenter)
+> [Prep the tape](#prep-the-tape)
+> > [Open Reel 1/4” Audio Tape](#open-reel-1/4"-audio-tape)
+> > 
+> > [Method 1: From Ampex](#method-1-from-ampex)
+> > 
+> > [Method 2: From 3M](#method-2-from-3m)
+> 
+> [U-matic Tapes](#u-matic-tapes)
+> 
+> > [Disassemble the Umatic Cassette](#disassemble-the-umatic-cassette)
+> >
+> > [Baking Tape](#baking-tape)
+> >
+> > [Reassembly of Umatic Tapes](#reassembly-of-umatic-tapes)
+> [Open Reel Video](#open-reel-video
+
+## Rules and Guidelines
+
+## Operating the Thermocenter
+
+### Prep the tape
+
+#### Open Reel 1/4" Audio Tape
+
+#### Method 1: From Ampex
+
+#### Method 2: From 3M
+
+### U-matic Tapes
+
+#### Disassemble the Umatic Cassette
+
+#### Baking Tape
+
+#### Reassembly of Umatic Tapes
+
+### Open Reel Video
