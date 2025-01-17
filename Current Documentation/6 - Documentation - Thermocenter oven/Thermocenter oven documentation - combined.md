@@ -45,7 +45,8 @@ Richard Hess’ site is a helpful place to go for general info about audiotape, 
 > > [Baking Tape](#baking-tape)
 > >
 > > [Reassembly of Umatic Tapes](#reassembly-of-umatic-tapes)
-> [Open Reel Video](#open-reel-video
+> 
+> [Open Reel Video](#open-reel-video)
 
 ## Rules and Guidelines
 * **Assistance by an IS Lab Staff member is required** in order to bake audiotape or videotape in the ThermoCenter tape oven.
