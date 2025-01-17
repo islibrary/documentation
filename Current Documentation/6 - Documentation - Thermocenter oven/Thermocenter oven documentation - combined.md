@@ -21,3 +21,5 @@ This blog post from Radiomag contains four different methods for baking audio ta
 Richard Hess’ site is a helpful place to go for general info about audiotape, with topics such as degrading tapes, baking tapes, and non-major brands which are known to be particularly problematic.
 
 ## Table of Contents
+
+[IS Library & Media Preservation Lab: Thermocenter oven documentation](#is-library-&-media-preservation-lab-thermocenter-oven-documentation)
