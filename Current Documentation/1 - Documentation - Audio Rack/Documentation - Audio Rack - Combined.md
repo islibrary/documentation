@@ -24,7 +24,7 @@ The IS Lab audio rack supports the following formats:
   * 78 Shellac Transcription disc
   * Lacquer/Acetate Disc
 
-## Table of contents
+## Table of Contents
 
 [IS Library and Media Preservation Lab: Audio rack workflow documentation](#is-library-and-media-preservation-lab-audio-rack-workflow-documentation)
 
