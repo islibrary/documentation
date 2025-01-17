@@ -9,5 +9,15 @@ As audio tape deteriorates, the magnetic material may separate from the plastic 
 
 ## Resources
 **[“If I Knew You Were Coming I Would Have Baked a Tape: A Recipe for Tape Restoration”](https://www.wendycarlos.com/bake%20a%20tape/baketape.html)**
+
 This blog post contains several recipes for tape baking. Please refer to the section labeled ‘Restoration,’ where multiple baking temperatures and durations may be found.
 
+**[“Baking Magnetic Recording” by Radiomag](https://www.radioworld.com/industry/baking-magnetic-recording-tape)**
+
+This blog post from Radiomag contains four different methods for baking audio tape, with options for a traditional tape oven and a food dehydrator included.
+
+**[Degrading Tape](https://richardhess.com/notes/formats/magnetic-media/magnetic-tapes/analog-audio/degrading-tapes/)**
+
+Richard Hess’ site is a helpful place to go for general info about audiotape, with topics such as degrading tapes, baking tapes, and non-major brands which are known to be particularly problematic.
+
+## Table of Contents
