@@ -417,6 +417,44 @@ before playback. Drying is approximately 5 minutes.
 Lacquer disc displaying serious delamination of the lacquer coating. The grooves where the audio information is stored was laid in this lacquer coating. When delamination occurs the risk to the recording is severe.
 
 
+#### Setting the Signal Path on the Prism
+This section:
+* Defines the terms ‘audio signal’ and ‘audio signal flow.’
+* Explains the relationship between the audio playback decks, the Audio Patch Bay, and the Prism, and how it facilitates the transfer process.
+* Introduces the four panels on the Prism, their functions, and what kind of information each one provides about an audio signal.
+* Explains how to configure the settings on the Prism and on the Audio Patch Bay. This ensures the audio signal flows smoothly from the chosen deck to the Prism.
+
+**What is an audio signal?**
+An audio signal is a representation of sound, typically using either a changing level of electrical voltage for analog signals, or a series of binary numbers for digital signals. These are both forms of audio information.
+
+**What is an audio signal flow?**
+The audio signal flow is the path an audio signal travels, from its source to a specific output. It can be thought of as a chain of many devices, which are connected together in a pathway from playback to output.
+
+**Audio Rack Signal Flow Chart:**The signal flow chart on the following page shows the sequence of devices connected in the signal flow, and the function which each device performs during the transfer process.
+* The orange rectangles represent the **playback decks**, which read and play the audio recording.
+* The blue rectangles represent the **space extenders**, which maximize the amount of available space on the audio rack.
+* The green rectangle represents the **Audio Patch Bay**, the central hub that connects the sound source to hardware and software programs which monitor, transform, edit, and save audio signals.
+* The red rectangle represents the **Prism**, which converts the analog signal into a digital signal.
+
+#### About the Prism ADA-8XR
+This device transforms an analog audio signal into a digital signal. It also enables the creation of large systems with multiple audio channels. Due to its sophistication and complexity, learning to use the Prism can be challenging, and requires patience. Please follow the steps in this section carefully and treat it as a technical companion to the Prism.
+
+**The front panel of the Prism ADA-8XR contains four divided panels, which are responsible for the following functions (see next page):**
+* **Montior Panel:** Controls and displays all parameters of the two-channel Monitor.
+* **Mimic Panel:** Displays the flow of signals through the Prism.
+* **Meter Panel:** Contains eight LED bar graphs used to control selected channels.
+* **Menu Panel:** Manages parametic adjustments. On the bottom are the Configuration/Stores buttons.
+
+#### Configuring the Audio Patch Bay
+1. For DAT, reel to reel, and minicasette decks, the signal runs to the Prism via the audio patchbay (PB). To route the signal to the Prism, the ¼” cables should be plugged into the output 24 labeled “To PRS.” Ensure the signal is routed properly by using both ¼” cables, one for each channel on the patchbay. The table below is a key that shows how the left and right channels of different decks in the audio rack are assigned to corresponding channels in the prism. It distinguishes between Path 1 inputs and Path 2 inputs.
+2. Please ensure that the media is actively playing back in the selected deck PRIOR to opening the WaveLab application. This step will ensure that WaveLab recognizes the audio signal upon opening the application.
+3. Refer to the Menu Panel located on the far right side of the Prism. Press the small square button labeled “Bank,” then the button for “1” or “2,” depending on the desired path. The display will read  “Path 1/2 Template [Store4.1] Load?” Press the circular button labeled “Enter/Accept.” The Prism will respond with an audible click to confirm the selected path has been set.
+	*As shown in the images below, the Meter and Mimic Panels will display the path for which they are set. Pay attention to this 		information when setting levels and cueing a particular channel.
+
+## Digitization
+
+
+
 
 
 
