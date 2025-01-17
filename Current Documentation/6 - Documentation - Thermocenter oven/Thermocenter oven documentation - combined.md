@@ -48,6 +48,13 @@ Richard Hess’ site is a helpful place to go for general info about audiotape, 
 > [Open Reel Video](#open-reel-video
 
 ## Rules and Guidelines
+* **Assistance by an IS Lab Staff member is required** in order to bake audiotape or videotape in the ThermoCenter tape oven.
+* **The goal of baking is not to fully restore the tape, but to render it usable enough to be transferred to a more stable medium.**
+* <ins>Treat each baking session as a test.</ins> If the tape’s issues persist, repeat the baking process once and note if there is improvement. **If no progress is made after the second baking attempt, the tape should not be used.**
+* Let the oven stabilize before baking the tape.
+* Check the temperature each hour, as much as possible.
+* After baking, tapes **must be left at room temperature for at least 24 hours prior** to being worked on or transferred.
+* **Do not bake acetate tape.** Only polyester tape is bakeable. 
 
 ## Operating the Thermocenter
 
