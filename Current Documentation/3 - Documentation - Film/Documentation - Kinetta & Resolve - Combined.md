@@ -1,1 +1,44 @@
 # IS Library and Media Preservation Lab: Kinetta and DaVinci Resolve documentation
+
+*Last updated: March 5, 2024*
+
+## Overview
+The Kinetta workflow documentation provides instructions for every stage of the film scanning process, including:
+
+1. **Pre-scan inspection:** Examining the state and quality of the film, and taking note of technical damage or deterioration which may impact the scanning process.
+2. **Loading film:** Winding film onto a core and properly threading it through the machine.
+3. **Configuring settings:** Setting up the Kinetta software to properly capture and stabilize image information, and adjusting exposure to get a clear image.
+4. **Capture process:** Using the Kinetta software to create a scanned, digital copy of the film for long-term file storage and preservation.
+5. **Post-production:** Using DaVinci Resolve for color correction and AEO-Light for adjustments to optical sound.
+
+The Kinetta in the IS Lab supports the following film formats: **8mm, Super 8, 16mm, 35mm.**
+
+## Resources
+[Overview of the Kinetta Archival Scanner](http://www.kinetta.com/overview.html)
+
+A general overview and introduction to the Kinetta scanner, including supported formats, examples of film scans, and device specifications.
+
+[The Kinetta Archival Scanner](https://archive.org/details/kinetta-desktop-cine-film-scanner/mode/2up)
+
+Virtual pamphlet including information on the Kinetta’s technical specifications, how it works, and the long-term cost efficiencies of its use in an archival setting.
+
+[Film Format Identification Guide](https://www.archives.gov/preservation/formats/motion-picture-film-identify-formats.html)
+
+Informational site from the National Archives on identifying basic elements of film, such as gauges, negatives and positives, and soundtracks.
+
+[Preserving Early Motion Picture History with the Kinetta Archival Scanner](http://kinetta.com/download/files/PaperPrintf2008forWeb.pdf)
+
+Narrative article describing the use of the Kinetta scanner in archival settings, and how it has contributed to the preservation of cinema history.
+
+[DaVinci Resolve Templates](https://motionarray.com/browse/davinci-resolve-templates/effects/?sort_by=most-popular&utm_source=bing&utm_medium=cpc&utm_campaign=626176449&utm_content=1151189655527101&utm_term=davinci%20resolve%20effects&keyword=davinci%20resolve%20effects&ad=&matchtype=e&device=c&msclkid=2def7a94d7a7151e95a51f566037cc3a)
+
+An online library of color correction templates and color palettes which can be downloaded and imported into DaVinci Resolve.
+
+[Guide to A-D Strips](https://filmcare.org/ad_strips)
+
+An informational site on using A-D strips to identify vinegar syndrome and anticipate the preservation needs of impacted film.
+
+[Extended Introduction to AEO Light](https://www.youtube.com/watch?v=KRG3nGpnBTA)
+
+A YouTube guide to navigating the user interface of the AEO Light software (used for optical soundtrack extraction).
+
