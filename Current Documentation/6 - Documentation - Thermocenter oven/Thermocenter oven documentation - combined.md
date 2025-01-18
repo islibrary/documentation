@@ -32,7 +32,7 @@ Richard Hess’ site is a helpful place to go for general info about audiotape, 
 
 [Operating the Thermocenter](#operating-the-thermocenter)
 > [Prep the tape](#prep-the-tape)
-> > [Open Reel 1/4” Audio Tape](#open-reel-1/4"-audio-tape)
+> > [Open Reel 1/4” Audio Tape](#open-reel-1/4-audio-tape)
 > > 
 > > [Method 1: From Ampex](#method-1-from-ampex)
 > > 
