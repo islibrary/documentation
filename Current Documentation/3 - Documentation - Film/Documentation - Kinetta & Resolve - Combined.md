@@ -42,3 +42,120 @@ An informational site on using A-D strips to identify vinegar syndrome and antic
 
 A YouTube guide to navigating the user interface of the AEO Light software (used for optical soundtrack extraction).
 
+## Table of Contents
+
+[IS Library and Media Preservation Lab: Kinetta and DaVinci Resolve documentation](#is-library-and-media-preservation-lab-kinetta-and-davinci-resolve-documentation)
+
+[Overview](#overview)
+
+[Resources](#resources)
+
+[Table of Contents](#table-of-contents)
+
+## Pre-scanning inspection and film scanning prep
+
+### Film Inspection Bench
+
+### Characteristics to record during inspection:
+
+### Issues which may complicate the scanning process:
+
+### Winding film onto core prior to scanning
+
+## Kinetta Workflow
+
+### Cleaning the Equipment
+
+#### Cleaning the Film Gate Path:
+
+#### Cleaning the six blue Particle Transfer Rollers (PTRs):
+
+#### Cleaning the camera
+
+### Loading the film
+
+### Scanning Prep
+
+#### Load film onto the scanner
+
+### Prep the Software and Hardware
+
+#### Calibration Process
+
+### Record
+
+#### Monitor recording
+
+#### Save the Recording
+
+#### Check Capture Quality
+
+## Post-production
+
+### DaVinci Resolve Workflow
+
+#### DaVinci Resolve Overview 
+
+#### Setting up a new project
+
+#### Stabilize the film
+
+#### Set sizing for the image
+
+#### Color correction
+
+#### Save the Corrected Film
+
+#### Trimming & Splicing Footage (Editing Basics)
+
+#### Adding Subtitles & Intertitles
+
+#### Exporting access copies
+
+### AEO Light Workflow
+
+#### AEO Light Overview
+
+#### A Note on Optical Sound
+
+#### Convert files into DPX using Davinci Resolve
+
+#### Open DPX files in AEO Light
+
+#### Adjust the Soundtrack’s Legibility
+
+#### Preparing the Soundtrack Scan
+
+#### Sample the audio track 
+
+#### Extract the Audio
+
+#### Adding Soundtrack in Davinci Resolve
+
+## Troubleshooting
+
+## Appendix A: Film Format Identification
+
+## Appendix B: Key Commands for Resolve 
+
+### File
+
+### Timeline Navigation
+
+### Marking
+
+### Playback
+
+### Editing
+
+### Effects
+
+## Appendix C: Identifying Edge Codes
+
+### 8mm
+
+### 16 mm
+
+## Appendix D: Information on Codecs
+
+## Appendix E: Film Inspection Sheet
