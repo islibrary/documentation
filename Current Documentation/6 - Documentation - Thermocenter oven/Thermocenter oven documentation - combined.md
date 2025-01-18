@@ -61,7 +61,7 @@ Richard Hess’ site is a helpful place to go for general info about audiotape, 
 
 ### Prep the tape
 
-#### Open Reel 1/4 Audio Tape
+#### Open Reel Audio Tape
 
 #### Method 1: From Ampex
 
