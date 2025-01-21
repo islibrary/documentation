@@ -52,6 +52,14 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 [Table of Contents](#table-of-contents)
 
+[Pre-scanning inspection and film scanning prep](#pre-scanning-inspection-and-film-scanning-prep)
+
+[Film Inspection Bench](#film-inspection-bench)
+
+[Characteristics to record during inspection](#characteristics-to-record-during-inspection)
+
+[Issues which may complicate the scanning process](#issues-which-may-complicate-the-scanning-process)
+
 ## Pre-scanning inspection and film scanning prep
 
 ### Film Inspection Bench
