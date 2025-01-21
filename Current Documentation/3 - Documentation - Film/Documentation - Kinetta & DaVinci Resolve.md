@@ -213,6 +213,10 @@ The film bench in the IS Lab provides a dedicated space for film inspection, spl
 * Shrunken film.
 * Brittle texture.
 
+**Important:** Please be aware that choosing to scan a film afflicted with these issues could result in significant and irreversible damage to said film. It is important to understand the preservation risks associated with degrading media.
+
+Attach enough leader to allow for two turns around a core without the film’s image entering the scanner gate (about 6 feet). Attach the leader to the head and tail of the film. Refer to the winding instructions below.
+
 ### Winding film onto core prior to scanning
 
 ## Kinetta Workflow
