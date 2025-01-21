@@ -204,6 +204,15 @@ The film bench in the IS Lab provides a dedicated space for film inspection, spl
 
 ### Issues which may complicate the scanning process:
 
+* **Vinegar syndrome** is a symptom of aging acetate film, caused by the breakdown of the film's plastic base. Over time, acetate film releases a vapor which accelerates its own deterioration. Symptoms of vinegar syndrome include:
+> * A strong or unpleasant vinegar-like odor
+> * Shrinkage
+> * Buckling
+> * Use A-D strips, located in the left-hand drawer of the film bench, to determine the severity of vinegar syndrome. Refer to this site for help using A-D strips, determining the severity of vinegar syndrome for a film, and next steps for preservation.
+* Warping.
+* Shrunken film.
+* Brittle texture.
+
 ### Winding film onto core prior to scanning
 
 ## Kinetta Workflow
