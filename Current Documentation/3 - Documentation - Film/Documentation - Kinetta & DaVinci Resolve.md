@@ -231,6 +231,8 @@ Attach enough leader to allow for two turns around a core without the film’s i
 
 **Please note:** a correctly coiled film roll should be wound tightly enough so that it looks like a solid disc with even sides (as seen in the image below):
 
+![film on core](https://github.com/user-attachments/assets/c4f8157b-611f-4f81-beab-fdbd98cfffd3)
+
 For more information, please refer to pages 23 and 26 of this film inspection guide.
 
 ## Kinetta Workflow
