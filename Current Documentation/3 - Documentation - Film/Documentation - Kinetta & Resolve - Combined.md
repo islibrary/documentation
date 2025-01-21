@@ -114,7 +114,51 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 > [AEO Light Workflow](#aeo-light-workflow)
 
-> > [
+> > [AEO Light Overview](#aeo-light-overview)
+
+> > [A Note on Optical Sound](#a-note-on-optical-sound)
+
+> > [Convert files into DPX using DaVinci Resolve](#convert-files-into-dpx-using-davinci-resolve)
+
+> > [Open DPX files in AEO Light](#open-dpx-files-in-aeo-light)
+
+> > [Adjust the Soundtrack’s Legibility](#adjust-the-soundtracks-legibility)
+
+> > [Preparing the Soundtrack Scan](#preparing-the-soundtrack-scan)
+
+> > [Sample the audio track](#sample-the-audio-track)
+
+> > [Extract the audio](#extract-the-audio)
+
+> > [Adding Soundtrack in DaVinci Resolve](#adding-soundtrack-in-davinci-resolve)
+
+[Troubleshooting](#troubleshooting)
+
+[Appendix A: Film Format Identification](#appendix-a-film-format-identification)
+
+[Appendix B: Key Commands for Resolve](#appendix-b-key-commands-for-resolve)
+
+> [File](#file)
+
+> [Timeline Navigation](#timeline-navigation)
+
+> [Marking](#marking)
+
+> [Playback](#playback)
+
+> [Editing](#editing)
+
+> [Effects](#effects)
+
+[Appendix C: Identifying Edge Codes](#appendix-c-identifying-edge-codes)
+
+> [8mm](#8mm)
+
+> [16mm](#16mm)
+
+[Appendix D: Information on Codecs](#appendix-d-information-on-codecs)
+
+[Appendix E: Film Inspection Sheet](#appendix-e-film-inspection-sheet)
 
 ## Pre-scanning inspection and film scanning prep
 
@@ -182,7 +226,7 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 #### A Note on Optical Sound
 
-#### Convert files into DPX using Davinci Resolve
+#### Convert files into DPX using DaVinci Resolve
 
 #### Open DPX files in AEO Light
 
@@ -194,7 +238,7 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 #### Extract the Audio
 
-#### Adding Soundtrack in Davinci Resolve
+#### Adding Soundtrack in DaVinci Resolve
 
 ## Troubleshooting
 
@@ -218,7 +262,7 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 ### 8mm
 
-### 16 mm
+### 16mm
 
 ## Appendix D: Information on Codecs
 
