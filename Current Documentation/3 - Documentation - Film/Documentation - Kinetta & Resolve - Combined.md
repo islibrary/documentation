@@ -170,6 +170,21 @@ Please note that if a given film is on a reel, **it must be wound onto a core** 
 
 ### Film Inspection Bench
 
+The film bench in the IS Lab provides a dedicated space for film inspection, splicing, and recording various characteristics of film on an inspection sheet. The following tools are available for use at the inspection bench:
+
+1. **Powder-free gloves:** to cover hands during inspection.
+2. **Magnifying glass:** for close inspection of the image content and edge code.
+3. **Rewind bench:** for efficiently winding through a film, winding it onto a core, cleaning film, finding and repairing broken or damaged segments, and attaching leader. 
+4. **Split reels:** for loading film onto the rewind bench, located directly underneath the inspection bench. A split reel consists of two flat discs that “split” apart to accommodate the core. 
+> > * The lab has 16mm and 35mm split reels available.
+> > * 8mm film may be put onto a 16mm split reel.
+5. **Cores:** a plastic cylinder used to store 35mm, 16mm, 70mm, and Super 8 film and can be found in 4", 3", 2", and 1" sizes.
+6. **X-Acto Knife:** For trimming or splitting a film into segments.
+7. **Tape:** For joining two segments in a splice.
+8. **Guillotine:** for taping and sealing a splice between two segments of film.
+9. **Edge code binders:** containing pages of symbols and their corresponding year(s) of production. Refer to Appendix C for more information about edge codes.
+
+
 ### Characteristics to record during inspection:
 
 ### Issues which may complicate the scanning process:
