@@ -233,8 +233,6 @@ Attach enough leader to allow for two turns around a core without the film’s i
 
 ![film on core](https://github.com/user-attachments/assets/c4f8157b-611f-4f81-beab-fdbd98cfffd3)
 
-For more information, please refer to pages 23 and 26 of this film inspection guide.
-
 ## Kinetta Workflow
 
 ### Cleaning the Equipment
