@@ -187,20 +187,20 @@ The film bench in the IS Lab provides a dedicated space for film inspection, spl
 
 ### Characteristics to record during inspection:
 
-* Type of film stock: Kodachrome or Ektachrome. Visible on the edge of the film with a magnifying glass. 
+* **Type of film stock:** Kodachrome or Ektachrome. Visible on the edge of the film with a magnifying glass. 
 * Damage to the edges or perforations.
 * Presence of soundtracks along the edge of the film. 
-* Identify the base side and the emulsion side. 
-> * The base side will appear shinier than the emulsion. The surface will also look completely flat because it technically consists of a clear, plastic strip.
-> * The emulsion side consists of a pigmented, chemical coating with the image information. It is duller than the base. If examined from the right angle the base can be identified by the raised texture of the pigment on the film. 
+* Identify the **base side** and the **emulsion side**. 
+> * The **base side** will appear shinier than the emulsion. The surface will also look completely flat because it technically consists of a clear, plastic strip.
+> * The **emulsion side** consists of a pigmented, chemical coating with the image information. It is duller than the base. If examined from the right angle the base can be identified by the raised texture of the pigment on the film. 
 > * To identify which side is which on a given film, hold the film so that it catches the light. 
-> * When using the Kinetta, the film should be scanned with the emulsion side facing the camera.
+> * When using the Kinetta, the film should be **scanned with the emulsion side facing the camera.**
 > * Scratches on the emulsion side (will appear white during scan).
 > * Scratches on the base side (will appear black during scan).
 * Extreme changes in brightness or film stock changes. 
 * Weak splices. Bend and twist the splice to ensure its strength. Resplice with a fresh piece of the tape and the guillotine, as needed.
 > * For brittle, older cement splices, add a tape splice on top to prevent snapping during transfer.
-* Edge code: a combination of shapes or symbols indicating the year of the film’s production. Use the binders of Eastman-Kodak edge codes in the Lab to determine the film’s year of production.
+* **Edge code:** a combination of shapes or symbols indicating the year of the film’s production. Use the binders of Eastman-Kodak edge codes in the Lab to determine the film’s year of production.
 
 ### Issues which may complicate the scanning process:
 
