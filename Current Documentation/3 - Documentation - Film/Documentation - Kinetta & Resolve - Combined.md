@@ -162,6 +162,12 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 ## Pre-scanning inspection and film scanning prep
 
+Film must be inspected **before** scanning with the Kinetta. The condition of the film must be verified in order to consider the film safe to scan. This step prevents damage to the film and to the machine. Any necessary repairs and cleaning must also be performed before scanning the film. 
+
+Film inspection provides useful information (metadata) about a film, such as film gauge, optical soundtrack, edge code, year of production, discoloration/deterioration, and unwanted artifacts. For help identifying the different formats (or gauges) of film, [refer to Appendix A](#appendix-a-film-format-identification). For additional film inspection guidelines, refer to this PDF document.
+
+Please note that if a given film is on a reel, it must be wound onto a core for scanning.
+
 ### Film Inspection Bench
 
 ### Characteristics to record during inspection:
