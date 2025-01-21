@@ -182,7 +182,8 @@ The film bench in the IS Lab provides a dedicated space for film inspection, spl
 6. **X-Acto Knife:** For trimming or splitting a film into segments.
 7. **Tape:** For joining two segments in a splice.
 8. **Guillotine:** for taping and sealing a splice between two segments of film.
-9. **Edge code binders:** containing pages of symbols and their corresponding year(s) of production. Refer to Appendix C for more information about edge codes.
+9. **Edge code binders:** containing pages of symbols and their corresponding year(s) of production. Refer to [Appendix C](#appendix-c-identifying-edge-codes) for more information about edge codes.
+10. **Film inspection sheet:** Fill out an inspection sheet with format characteristics and condition notes as the inspection is performed. See [Appendix E](#appendix-e-film-inspection-sheet) for IS Media Lab Film Inspection Sheet.
 
 
 ### Characteristics to record during inspection:
