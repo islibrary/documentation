@@ -219,6 +219,20 @@ Attach enough leader to allow for two turns around a core without the film’s i
 
 ### Winding film onto core prior to scanning
 
+* **For examination on a rewind bench,** films must be wound onto a reel or core.
+* **For scanning,** films must be wound onto a core.
+* **For storage,** films are wound onto a core.
+* **For exhibition and projection,** films on a core must be put onto a split-reel.
+
+1. To wind a film onto a core, select the split reel (two flat discs that “split” apart) and the core that matches the film gauge. 
+2. Screw shut the split reel with the cored film and mount it on the take-up side (the side with the film core).
+3. If the leader is too short or damaged, it is necessary to add enough leader to wrap around the core three times. 
+4. In transferring a film from a reel to a core, keep the film at an even tension. Be sure that the film edges stay aligned and that none protrude beyond the flat plane of the roll.
+
+**Please note:** a correctly coiled film roll should be wound tightly enough so that it looks like a solid disc with even sides (as seen in the image below):
+
+For more information, please refer to pages 23 and 26 of this film inspection guide.
+
 ## Kinetta Workflow
 
 ### Cleaning the Equipment
