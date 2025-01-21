@@ -54,11 +54,25 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 [Pre-scanning inspection and film scanning prep](#pre-scanning-inspection-and-film-scanning-prep)
 
-[Film Inspection Bench](#film-inspection-bench)
+> [Film Inspection Bench](#film-inspection-bench)
 
-[Characteristics to record during inspection](#characteristics-to-record-during-inspection)
+> [Characteristics to record during inspection](#characteristics-to-record-during-inspection)
 
-[Issues which may complicate the scanning process](#issues-which-may-complicate-the-scanning-process)
+> [Issues which may complicate the scanning process](#issues-which-may-complicate-the-scanning-process)
+
+> [Winding film onto core prior to scanning](#winding-film-onto-core-prior-to-scanning)
+
+[Kinetta Workflow](#kinetta-workflow)
+
+> [Cleaning the Equipment](#cleaning-the-equipment)
+
+> > [Cleaning the Film Gate Path:](#cleaning-the-film-gate-path)
+
+> > [Cleaning the six blue Particle Transfer Rollers (PTRs):](#cleaning-the-six-blue-particle-transfer-rollers-ptrs)
+
+> > [Cleaning the camera](#cleaning-the-camera)
+
+> > 
 
 ## Pre-scanning inspection and film scanning prep
 
