@@ -92,9 +92,9 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 [Post-production](#post-production)
 
-> [DaVinci Resolve Overview](#davinci-resolve-overview)
+> [DaVinci Resolve Workflow](#davinci-resolve-workflow)
 
-> > [DaVinci Resolve Workflow](#davinci-resolve-workflow)
+> > [DaVinci Resolve Overview](#davinci-resolve-overview)
 
 > > [Setting up a new project](#setting-up-a-new-project)
 
@@ -111,6 +111,10 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 > > [Adding Subtitles and Intertitles](#adding-subtitles-and-intertitles)
 
 > > [Exporting access copies](#exporting-access-copies)
+
+> [AEO Light Workflow](#aeo-light-workflow)
+
+> > [
 
 ## Pre-scanning inspection and film scanning prep
 
@@ -152,9 +156,9 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 ## Post-production
 
-### DaVinci Resolve Overview
+### DaVinci Resolve Workflow
 
-#### DaVinci Resolve Workflow 
+#### DaVinci Resolve Overview 
 
 #### Setting up a new project
 
