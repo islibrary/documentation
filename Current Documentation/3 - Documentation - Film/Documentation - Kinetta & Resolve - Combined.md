@@ -72,7 +72,45 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 > > [Cleaning the camera](#cleaning-the-camera)
 
-> > 
+> [Loading the film](#loading-the-film)
+
+> [Scanning Prep](#scanning-prep)
+
+> > [Load film onto the scanner](#load-film-onto-the-scanner)
+
+> [Prep the Software and Hardware](#prep-the-software-and-hardware)
+
+> > [Calibration Process](#calibration-process)
+
+> [Record](#record)
+
+> > [Monitor recording](#monitor-recording)
+
+> > [Save the Recording](#save-the-recording)
+
+> > [Check Capture Quality](#check-capture-quality)
+
+[Post-production](#post-production)
+
+> [DaVinci Resolve Overview](#davinci-resolve-overview)
+
+> > [DaVinci Resolve Workflow](#davinci-resolve-workflow)
+
+> > [Setting up a new project](#setting-up-a-new-project)
+
+> > [Stabilize the film](#stabilize-the-film)
+
+> > [Set sizing for the image](#set-sizing-for-the-image)
+
+> > [Color correction](#color-correction)
+
+> > [Save the Corrected Film](#save-the-corrected-film)
+
+> > [Trimming and Splicing Footage (Editing Basics)](#trimming-and-splicing-footage-editing-basics)
+
+> > [Adding Subtitles and Intertitles](#adding-subtitles-and-intertitles)
+
+> > [Exporting access copies](#exporting-access-copies)
 
 ## Pre-scanning inspection and film scanning prep
 
@@ -114,9 +152,9 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 ## Post-production
 
-### DaVinci Resolve Workflow
+### DaVinci Resolve Overview
 
-#### DaVinci Resolve Overview 
+#### DaVinci Resolve Workflow 
 
 #### Setting up a new project
 
@@ -128,9 +166,9 @@ A YouTube guide to navigating the user interface of the AEO Light software (used
 
 #### Save the Corrected Film
 
-#### Trimming & Splicing Footage (Editing Basics)
+#### Trimming and Splicing Footage (Editing Basics)
 
-#### Adding Subtitles & Intertitles
+#### Adding Subtitles and Intertitles
 
 #### Exporting access copies
 
