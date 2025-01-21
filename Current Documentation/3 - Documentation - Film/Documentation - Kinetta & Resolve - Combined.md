@@ -166,7 +166,7 @@ Film must be inspected **before** scanning with the Kinetta. The condition of th
 
 Film inspection provides useful information (metadata) about a film, such as film gauge, optical soundtrack, edge code, year of production, discoloration/deterioration, and unwanted artifacts. For help identifying the different formats (or gauges) of film, [refer to Appendix A](#appendix-a-film-format-identification). For additional film inspection guidelines, [refer to this PDF document](https://drive.google.com/file/d/1UcEQHfEAcSOon16FReVxUpHngD2v-M1S/view?pli=1).
 
-Please note that if a given film is on a reel, it must be wound onto a core for scanning.
+Please note that if a given film is on a reel, **it must be wound onto a core** for scanning.
 
 ### Film Inspection Bench
 
