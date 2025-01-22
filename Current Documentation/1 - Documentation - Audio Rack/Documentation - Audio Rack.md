@@ -50,6 +50,10 @@ The IS Lab audio rack supports the following formats:
 > > [Mold and Dirt](#mold-and-dirt)
 > >
 > > [Grooved Media Deterioration](#grooved-media-deterioration)
+> >
+> [Setting the Signal Path on the Prism](#setting-the-signal-path-on-the-prism)
+> >
+> > [About the Prism ADA-8XR](#
 
 
 ## Resources
@@ -417,7 +421,7 @@ before playback. Drying is approximately 5 minutes.
 Lacquer disc displaying serious delamination of the lacquer coating. The grooves where the audio information is stored was laid in this lacquer coating. When delamination occurs the risk to the recording is severe.
 
 
-#### Setting the Signal Path on the Prism
+### Setting the Signal Path on the Prism
 This section:
 * Defines the terms ‘audio signal’ and ‘audio signal flow.’
 * Explains the relationship between the audio playback decks, the Audio Patch Bay, and the Prism, and how it facilitates the transfer process.
