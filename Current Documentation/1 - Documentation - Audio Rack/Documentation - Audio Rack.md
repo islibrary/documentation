@@ -113,6 +113,8 @@ The IS Lab audio rack supports the following formats:
 
 [Appendix G: Replacing Styluses and Balancing the Tone arm (Lab Staff Only)](#appendix-g-replacing-styluses-and-balancing-the-tone-arm-lab-staff-only)
 
+[Appendix H: Keith Monks Record Cleaning Machine Information](#appendix-h-keith-monks-record-cleaning-machine-information)
+
 ## Resources
 [UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas "UCLA Media Archival Studies Research Guide")
 
@@ -1356,16 +1358,62 @@ Official Manuals on operating the Keith Monks RCM:
 * [Keith Monks Record Cleaning Machine Manual (Part 1)](https://memory.loc.gov/master/mbrs/recording_preservation/manuals/Keith%20Monks%20Record%20Cleaning%20Machine%20(1).pdf)
 * [Keith Monks Record Cleaning Machine Manual (Part 2)](https://memory.loc.gov/master/mbrs/recording_preservation/manuals/Keith%20Monks%20Record%20Cleaning%20Machine%20(2).pdf)
 
-  
+[Keith Monks Audio Works • discOveryOne Redux Record-Cleaning Machine](https://www.theaudiobeat.com/equipment/keith_monks_discoveryone_redux.htm)
+
+[Keith Monks Spare Parts](https://www.keith-monks.com/spare-parts)
+
+### Maintenance 
+
+![AppendixH1](https://github.com/user-attachments/assets/3417556d-e47a-4e94-b082-b316d79a56e8)
+
+![AppendixH2](https://github.com/user-attachments/assets/39dc0673-54c4-4636-ab5d-b67722ddd25c)
+
+![AppendixH3](https://github.com/user-attachments/assets/c9da6fb5-3afc-4787-abf2-9432953abfc3)
+
+**KEEP THE MACHINE CLEAN**: Records need to be kept clean and free of dust. Wipe the cabinet, top deck and deck components with a damp cloth, and a little mild detergent or Windex glass cleaner if required.
+
+**CHECK THE WASTE JAR REGULARLY**:
+
+1. Open side door to reveal two cans
+> a. Left contains dirty fluid (and has two tubes inside)
+>  
+> b. Right contains cleaning solution
+
+2. Pour out liquid from the left “dirty” jar in the trash or toilet.
+3. Wipe the inside of the jar with a paper towel.
+4. Wash your hands.
+5. Fill the right fluid jar (the ones with the single tubes) with the selected cleaning fluids (“record time cleaning solution”)
+6. Refit the lids and replace the jars in the unit. 
+7. **NEVER** allow the waste jar to become more than three-quarters full, as suction may draw fluid through the outlet tube and cause very expensive damage to the vacuum pump. Any such damage will not be covered under warranty. 
+
+### Workflow (from manufacturer)
+
+#### Tips:
+* Do not apply brush pressure for longer than 5 to 10 seconds
+* Fluid should not be left on the record surface for more than two minutes, to avoid evaporation, thus re-embedding particles. It is often necessary to slide the brush block along the metal tube support arm to ensure the complete surface is covered with fluid.
+* If the discs are severely soiled, use a separate hand brush or vacuum cleaner brush wand to remove all loose debris. This is to avoid
+damaging the Monk's brush.
 
 
+#### Cleaning the Record:
 
+1. Place the record on the turntable platter.
+2. Push and swing the brush over the record until it locates into a slot in the mounting pillar, and is held in place, then loosen the hand screw on top of the brush block. 
+3. Position the brush so that it is vertical, and the edge, near the outside of the turntable, is over the run-in groove at the start of the record. Its length should cover the grooved area of the record towards the label. It is ok if the brush is overhanging on the edge of the disc. 
+4. Gently re-tighten the hand screw.
+5. Before you start the turntable, check that the brush is just slightly shifted where it contacts the record. Added pressure damages the bristles further and will reduce the cleaning capability. 
+6. Press the hand pump to dispense the appropriate liquid. 
+7. Activate the turntable motor by moving the round switch on the left of the machine to the 'wet' position. The turntable will now revolve, but the vacuum pump does not operate in this position. You should be using only enough fluid to flow evenly over the record, forming a thin mirror-like film over the surface as the turntable revolves. The brush should contact the record for 5 to 10 seconds to loosen any particles embedded in the grooves.
+8. Lift the vacuum arm, swing it to the center of the disc, and gently place the nozzle down just inside where the fluid edge is. 
+9. Move the switch to 'dry' position, and raise the brush. You can allow the brush to lightly touch the disc as you move it off in order to sweep any excess liquid on the disc as the brush travels outwards. Remove excess fluid by holding the suction arm and swinging the arm back and forth just above the surface of the record edge. 
+10. When the vacuum arm has reached the edge of the disc, switch to 'wet' position again, and replace the ann on its rest. Now use the edge of a folded paper towel slipped under the edge of the disc to catch any remaining fluid.
 
+You now have a clean, dry disc. You can stop here if you feel like your record is clean enough. For archival standards, continue to step 11.
 
-
-
-
-
+11. Lift the vacuum arm from its rest, and move it to the center of the disc just inside where the fluid line is. Move the switch to 'dry' position, and raise the brush. Again, you can allow the brush to lightly sweep across the disc as you move it off in order to keep any excess liquid on the disc for the vacuum arm to catch as it travels outwards.
+12. When the arm has traversed the disc, switch to 'wet' position again, and replace the arm on its rest. 
+13. Use the edge of a folded paper towel slipped under the edge of the disc to catch any remaining liquid at the edge of the disc. Wipe the vertical edge of the disc. 
+14. You now have an archivally clean record. Place the record in a new clean sleeve.
 
 
 
