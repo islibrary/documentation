@@ -97,7 +97,21 @@ The IS Lab audio rack supports the following formats:
 
 [Appendix C: Baking Audio Tape](#appendix-c-baking-audio-tape)
 
+[Appendix D: Reading Spectrograms in WaveLab](#appendix-d-reading-spectrograms-in-wavelab)
 
+[Appendix E: Timestep Archival Pre Amp](#appendix-e-timestep-archival-pre-amp)
+
+[Appendix F: Stylus Selection](#appendix-f-stylus-selection)
+> [Types of Styli](#types-of-styli)
+>
+> [Other Considerations](#other-considerations)
+> > [Nude and Bonded Styli](#nude-and-bonded-styli)
+> >
+> > [Round and Square Shank](#round-and-square-shank)
+> >
+> > [A Note on Cartridges](#a-note-on-cartridges)
+
+[Appendix G: Replacing Styluses and Balancing the Tone arm (Lab Staff Only)](#appendix-g-replacing-styluses-and-balancing-the-tone-arm-lab-staff-only)
 
 ## Resources
 [UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas "UCLA Media Archival Studies Research Guide")
@@ -1122,17 +1136,227 @@ A spectrogram is an audio viewing tool that depicts time frequency and amplitude
 2. It can be helpful to view the recordings as spectrograms to note any noise or unwanted pops/cracks. Some problems may be easier to diagnose on a spectrogram or wavelet than in a waveform view, and some restoration tools are easier to apply at lower or higher levels of magnification. Use the smaller, upper timeline window for quicker navigation across the length of the recording, then use the lower timeline for analyzing and addressing any problem areas.
 3. In order to do this, select “Spectrogram” in the bottom right part of the window to change the view of the recording.  
 
+![AppendixD1](https://github.com/user-attachments/assets/46fbc20e-a76a-42c4-b833-dc66e7887be8)
 
+4. To change the color or contrast of the spectrogram, click the check mark icon  to the right of the “spectrogram” button used to change the view.
+	* Slide the markers on the “magnitude range” spectrum to affect the contrast. 
+	* Slide the opacity controls and color scheme to get a better view of the recording. 
+	* Do not touch any of the controls on the right side of the window. 
 
+![AppendixD2](https://github.com/user-attachments/assets/35e61fd5-81e8-4c71-abdb-ef2ac0c42018)
 
+* Change the color of the spectrogram by clicking on the icon on the right side of the “untitled” bar, as shown in the image above. 	Then go to the “Factory Presets'' menu to change the color.
 
+## Appendix E: Timestep Archival Pre-Amp
 
+In sound recording and reproduction, equalization (EQ) is the process of adjusting the volume of different frequency bands within an audio signal. A recording of music or spoken word can pick up a variety of tones, some of which are unpleasant. A graphic equalizer (EQ) boosts or cuts (amplifies or softens) a specific range of frequencies to improve sound quality. Archivists recreate EQ curves when transferring media that reflecting the EQ applied to the recordings originally. Typically preamps boost the signal and apply an EQ curve. After 1954, EQ curves in the U.S. were standardized across commercial record companies when the Recording Industry Association of America (RIAA) EQ curve was adopted. Every U.S. commercially produced record made after 1954 uses this EQ setting. This is the same EQ curve applied by most modern turntables and preamps because it is assumed that most people are playing back records made in this time period. 
 
+Before 1954, each record company applied its own levels of EQ. Often each company had its own proprietary mix of materials to make shellac records so surface noise differed slightly between labels.
 
+![AppendixE1](https://github.com/user-attachments/assets/52d7d111-a685-405f-a0c5-e79a2ba70d4f)
 
+*Front control panel of the TimeStep*
 
+**EQ Presets:** The Timestep Pre-Amp has built in EQ presets that apply differently EQ curves based on the record label/ era the disc was manufactured based on historical documentation. To change these presets, set the “Flat-EQ-Preset” knob to Preset (shown on display screen) and flip the “Preset” know to the right to find the desired preset. Refer to the TimeStep manual page to see a list of EQ presets (shown below). 
 
+![AppendixE2](https://github.com/user-attachments/assets/077c0a48-ff31-4fa7-a400-aa5b59b9d4c4)
 
+*TimeStep manual showing list of built-in EQ presets.*
+
+**Manual EQ:** The timestep also allows the high frequency rolloff and low freq. turnover to custom levels. Set the “Flat-EQ-Preset” knob to “EQ” and us the “turnover LF” and “Rolloff RF” knobs to the left to set desired level. Note that the “TSEQ” or TimeStep EQ Prism input must be used for captures to apply the EQ settings. 
+
+**TSFL Vs TSEQ**: On the Prism and WaveLab there are two sets of stereo input corresponding to the TimeStep Archival Preamp. That’s because it always outputs a signal with EQ curve applied and one without EQ otherwise known as “Flat” signal. This can be helpful as it may not be ascertainable which EQ was used in the original recording process because the recording is homemade or rare. In that case it’s best to use perform a “Flat Transfer” without any EQ using the “TSFL” input on the Prism and WaveLab. With a flat transfer, another archivist in the future, who may have access to documentation about the proper EQ adjustments made to the recording can easily add them in without having to work with a recording where an EQ curve has already been applied. The TimeStep constantly outputs both of these signals so it is possible to capture both at once. 
+
+## Appendix F: Stylus Selection
+
+*With the touch of a stylus picking up vibrations, a record player converts and amplifies subtle movements into pure, crystal clear sound. A record player’s stylus plays a vital role in this process, determining how the needle runs along the groove of the record and captures movement. Due to its impact on recording quality and grooved media longevity, it is important to select the stylus carefully. Stylus selection can be one of the most important parts of transferring grooved media. It’s important to choose a stylus that wouldn’t cause damage to the grooves or the stylus itself during playback. Certain types of disc are designed for playback with a stylus with a specific tip shape. Listed below are the five major types of styli.*
+
+### Types of Styli
+
+**Conical:** A reliable baseline model. Its head is rounded with a radius of around 0.6 mil which touches the center of the record groove walls, though 78 RPM records will need a much larger needle. Conical styli are often more budget friendly, producing a rich, solid sound. Older styli were typically conical styli so it’s safe to assume that most 78 rpm records will require this shape
+
+**Elliptical**: The front part of the needle rides in the center of the record groove, while the smaller side makes more contact with the groove walls. This helps produce a more enveloping sound, as an Elliptical stylus tracks the grooves with greater precision. These needles are ideal for modern, stereo records.
+
+**Microlinear**: These styli closely match the head used in the production of the master disc, producing an incredibly authentic sound thanks to extremely accurate tracking. The unique shape of the tip wears more evenly too, which extends the life of both the record and the stylus. 
+
+**Shibata**: The Shibata stylus was originally designed for records with four channels of sound. These greatly reduce vinyl wear and tear compared to other needles whilst also producing a well-balanced sound.
+
+**Special Line Contact**: This premium cartridge styli offers high frequency response, low distortion and low record wear thanks to its long vertical contact area and optimum tip design. Special Line Contact needles are not a budget option, though keen audiophiles will relish the difference in range and clarity.
+
+Table of Styli at the IS Media lab
+Size (in mm) | Shape | Ideal for 
+:--- | :--- | :---
+.7 | Elliptical (stereo) | Stereo, commercial vinyl 45 or 33 rpm discs.
+.7 | Conical (stereo) | Stereo, commercial vinyl 45 or 33 rpm discs that are worn or in bad condition. 
+1.1 | Conical | Mono 45 or 33 vinyl discs in poor condition.
+1.1 | Mono elliptical (labeled MEXT/C) | Mono 45 or 33 vinyl discs.
+2 | Conical | 78 rpm shellac records in good condition. 
+2 | Elliptical | Mono 45 or 33 vinyl discs in poor condition (not advised for use)
+2.3 | Conical | 78 rpm shellac records in good condition.
+2.5 | Conical | 78 rpm shellac records in fair condition.
+2.8 | Conical | 78 rpm shellac records in fair condition.
+3 | Conical | 78 rpm shellac records in fair condition.
+3.2 | Conical | 78 rpm shellac records in fair condition. 
+3.5 | Conical | 78 rpm shellac records in fair/poor condition.
+4 | Conical | 78 rpm shellac records in fair/poor condition.
+2.3 | Elliptical | Wider and coarse groove historical record formats
+2.5 | Elliptical | Wider and coarse groove historical record formats
+3.2 | Elliptical | Wider and coarse groove historical record formats
+3.5 | Elliptical | Wider and coarse groove historical record formats
+4.0 | Elliptical | Wider and coarse groove historical record formats
+4.5 | Elliptical | Wider and coarse groove historical record formats
+5.0 | Elliptical | Wider and coarse groove historical record formats
+
+Explore the charts in the TimeStep Archival preamp manual (shown below). They list a specific stylus recommendation for different record companies or date ranges. They are just meant to be starting points. Stylus selection is often fairly subjective. Generally, with worn records, it’s better to have a larger stylus which won’t be as sensitive to the damage as a thinner needle. A lot of this has to come with multiple plays of the same record using different styli. Questions to consider when you are listening: Is the surface noise taking over the recording? Then try a thicker needle. Does the high frequency response of the record feel like it could be better? Then try a thinner needle. 
+
+![AppendixF1](https://github.com/user-attachments/assets/4b33551f-c5f9-4b86-9c40-3d4c025af5b3)
+
+![AppendixF2](https://github.com/user-attachments/assets/294de3aa-7341-4975-931f-e2f7f7cb618b)
+
+![AppendixF3](https://github.com/user-attachments/assets/8e61b188-dc02-4d05-8b3e-ca566202bc41)
+
+![AppendixF4](https://github.com/user-attachments/assets/68925353-5ea1-4dda-aca7-c7b8988ff076)
+
+![AppendixF5](https://github.com/user-attachments/assets/e959f114-79cb-43a3-8246-c1034e125c65)
+
+### Other Considerations
+
+#### Nude and Bonded Styli
+The ‘nude’ stylus is solid diamond from top to bottom. Because of their lower mass, nude styli track vinyl records more accurately. Enhanced pickup from the vinyl to the cartridge head produces a better sound, helping you get lost in the music.
+
+The bonded stylus is metal with a diamond material industrially adhered to the tip. Generally speaking, bonded styli are heavier and that increase in mass can inhibit the frequency from the stylus to the cartridge, ultimately producing a lower quality sound.
+
+#### Round and Square Shank
+There are two types of stylus shank: round and square. A stylus shank connects the tip to the cantilever, positioning the stylus tip in the record groove. A square shank stays in place firmly as it is mounted in a laser-cut square hole in the cantilever, locking the stylus in precise alignment with the record groove. Round shank styli may be more affordable, though round shanks can be more difficult to align when affixed to the cantilever. High quality styli are usually square shanks, as their shape enables a more precise alignment with the groove.
+
+#### A Note on Cartridges
+Moving Coil cartridges do not allow replacement of the stylus, which is bonded to the cartridge itself. Moving Coil cartridges are highly regarded, as they produce superior sound clarity with lower distortion. By contrast, Moving Magnet cartridges do allow replacement of the stylus, ensuring consistent quality without the need to replace the cartridge when its needle wears out. 
+To deliver premium performance, the needle must accompany a quality cartridge. For optimum sound quality (particularly for discerning audiophiles), select a high quality Dual Moving Coil cartridge complete with a Special Line Contact nude stylus. 
+To enjoy superior sound on a budget, consider a Moving Magnet, Elliptical, bonded cartridge. 
+
+**The IS Media Lab is currently fitted with a Shure M44-G Cartridge**
+
+## Appendix G: Replacing Styluses and Balancing the Tone arm (Lab Staff Only)
+
+The tonearm should be balanced at least once a month and every time the stylus is changed. The tonearm should be balanced more frequently especially when the turntable is getting more use. Each stylus weighs slightly differently and thus the tonearm needs to be balanced whenever switching out stylii to ensure the tracking force doesn’t get out of whack. The record player does not need to be turned on to replace the stylus. Handle the tone arm, cartridge, and stylus with great care. During this process, flip the plastic stylus guard down to protect the stylus from hitting anything. The stylus guard for this stylus will flip down IN FRONT of the needle. 
+
+Check out these videos for a more visual explanation of balancing the tone arm:
+[Very Detailed Turntable Setup for Beginners](https://www.youtube.com/watch?v=WM-aIDwfrhc "Very Detailed Turntable Setup for Beginners")
+
+[How to Set Up the Fluance RT80 & RT81 Turntable - Properly Balance the Tonearm](https://www.youtube.com/watch?v=01IZfGKfs5E "How to Set Up the Fluance RT80 & RT81 Turntable - Properly Balance the Tonearm")
+
+And also this one which explains tracking force and anti-skate:
+[What is Tracking Force and Anti-Skate on a Turntable? (And where to make adjustments to both)](https://www.youtube.com/watch?v=PEN2ROEdjhk "What is Tracking Force and Anti-Skate on a Turntable? (And where to make adjustments to both)")
+
+Tracking force is the weight that the stylus applies to the record to be able to track the grooves properly. Each stylus should have a manufacturer recommended tracking force which must be set manually by the user. The force is set by the counterweight which sits on the back side of the tonearm. If the tracking weight is too low, the stylus won’t seat in the groove properly and may bounce around as the record spins. If the tracking force is set too high, it can cause damage to the record and the stylus. 
+
+Anti-skate refers to a force applied to the tone arm by the turntable which counters the natural physical force that pulls the tonearm toward the center of the record when it spins. Without anti- skate the grooves would not be tracked properly by the stylus favoring one side Appendix H: Cleaning Tape Paths of the groove over the other. It’s important that it is set properly and applied at all times. 
+
+### Regular Tonearm Balancing without Changing the Stylus
+1. If not changing the stylus, the tracking weight of the tonearm can be checked simply by using the Pro-Ject Measure It-S2 High Precision Stylus Balance.
+   > a. This is an extremely precise electronic scale made for measuring tracking weight.
+
+![AppendixG1](https://github.com/user-attachments/assets/e7b871e4-026c-41ec-8906-d9f292f370dc)
+
+*Box of the stylus balance scale.*
+
+![AppendixG2](https://github.com/user-attachments/assets/6d626f78-984c-4ea3-ac21-1adc8526ff4e)
+
+*Reference image of the device.*
+
+2. Place the stylus carefully, without the guard directly on the black dot of the scale. The weight shown on the digital display should match the number shown by the counterweight. Within .2 grams of the correct tracking weight is acceptable. 
+3. If the weight on the scale does not match the tracking weight, adjust the counter weight by twisting the counterweight clockwise to add more tracking weight and counter clockwise to take tracking weight away. If it needs to be adjusted majorly. Twist the number ring to set the weight shown on the scale on the tonearm. 
+4. Put the High Precision Stylus Balance scale back in the way it was already package. Place the foam cube on top of the scale sensor before putting the metal cover. Then put the faux-leather sheath around the scale and place the scale in its plastic holder before sliding it into the box. 
+
+![AppendixG3](https://github.com/user-attachments/assets/7dbe44ab-aa24-4c9d-95d5-a1b3eba723d2)
+
+*Foam cube is placed on top of the scale before the metal cover goes on.*
+
+### Changing Stylii
+1. Flip plastic stylus guard down (if there is one) and remove the stylus from the cartridge. Put two fingers on either side of the stylus and pull it straight out of the cartridge away from the tone arm. 
+
+![AppendixG4](https://github.com/user-attachments/assets/12188c60-347a-43d8-bb0b-0b83b6f655cf)
+
+*Flip the stylus guard in front of the stylus to cover it.*
+
+2. Put the stylus into its hole in one of the stylus cases. 
+
+![AppendixG5](https://github.com/user-attachments/assets/7c57328f-37f5-46c1-b31e-de25abfe2880)
+
+3. Pick the desired stylus and put it in the cartridge. Push the stylus straight into the hole. There should be a little resistance when pushing but do not force it in. Flip down the stylus guard if there is one. It should go into the cartridge naturally. 
+
+![AppendixG6](https://github.com/user-attachments/assets/5fb68929-273e-493e-be6b-0d73e8239072)
+
+*Gently, pull the stylus straight out of the cartridge.*
+
+![AppendixG7](https://github.com/user-attachments/assets/7f7fd418-e6f8-4671-b587-74f48c2fd0f3)
+
+*Check the location of the socket on the moving magnet cartridge before replacing the new stylus.*
+
+![AppendixG8](https://github.com/user-attachments/assets/3c4965cd-2f65-41bf-b503-110484494622)
+
+*Grasp the cartridge on either side with two fingers and carefully place it into the sock. There should be just a little resistance.*
+
+4. Set the counterweight and anti-skate to zero to balance the tone arm. 
+> a. Turn the counterweight clockwise to go to zero.
+
+![AppendixG9](https://github.com/user-attachments/assets/5c2083f6-9d39-4c80-bfbc-ef1a4840a72d)
+
+*Set the counterweight at and anti-skate to zero before balancing. Twist counterweight clockwise and anti-skate counterclockwise.*
+
+5. Remove the tone arm from plastic holster and let it fall. If there is no stylus guard **MAKE SURE IT DOESN’T ACTUALLY HIT THE TURNTABLE**.
+
+![AppendixG10](https://github.com/user-attachments/assets/a09e29bc-081f-4d77-ad3d-7390a4a92f6e)
+
+*Tone arm is not resting on anything in the photo. The arm is also level. This is balanced.*
+
+![AppendixG11](https://github.com/user-attachments/assets/74387102-ffb0-40c2-be65-f7d0807814a3)
+
+*In the circled region its clear that the tone arm is not resting on anything and is floating evenly.*
+
+6. If the stylus end of the tone arm wants to fall on the turntable the stylus is too heavy. If the counterweight brings the stylus up in the air at an angle there is too much weight on the back end of the tone arm.
+> a. The idea is to completely balance the tone arm without it hitting or falling onto anything.
+>
+> b. It may be tricky to tell when it is actually balanced. The tone arm should hang unfettered and be level above the surface of the turntable
+
+7. Once the tonearm has been balanced to the new stylus, set the balance point to zero by moving the number ring in front of the counter weight and bringing the 0 next to the line in the tone arm. Only turn the ring, not the entire counter weight. 
+
+![AppendixG12](https://github.com/user-attachments/assets/8bf25a9c-8ac7-4d85-882c-cc54b0fd8f1f)
+
+*Set the new balance as zero by aligning the white line on the tone arm with the “0” on the plastic ring attached to the counter weight. Only move the ring, not the whole weight. The object is to set the balance point for that stylus as “0”*
+
+8. Look at the box where the stylus was to find the recommended tracking force. 
+9. Set the tracking force by twisting the counter weight to the number indicated to apply that weight to the stylus. 
+10. Set the anti-skate to equal the number of the tracking force. For instance if the tracking weight is 2 grams, set the anti-skate to 2. 
+11. Sit back and listen to the joy of analog audio.
+
+Tape paths should be cleaned before transfer to prevent interference from dust and debris during the transfer process. Please refer to the following instructions:
+
+1. Cut or rip a strip of **printer paper** and **soak it with 99% isopropyl alcohol only**. Any amount of alcohol lesser than 99% risks damage to the machine.
+2. Press the paper onto the roller at a 90-degree angle, applying moderate pressure. 
+3. At the same time, use another figure to manually rotate the roller and collect dust or dirt on the piece of paper. 
+4. Repeat this process multiple times, with several strips of soaked paper, until dust and dirt is no longer collecting on the paper. 
+
+## Appendix H: Keith Monks Record Cleaning Machine Information
+
+### Overview
+
+In the late 1960s, the world’s first commercially produced record cleaner was designed and developed by Keith Monks Audio with BBC Radio engineers at Broadcasting House in London. The Keith Monks Record Cleaning Machine (RCM) is a precision instrument designed for the thorough cleaning and restoration of vinyl records. The Keith Monks RCM ensures optimal sound quality by removing dust, debris, and contaminants from the grooves of vinyl records. 
+
+**discOvery miniOne Sapphire 45th Anniversary Limited Edition**
+![KeithMonksMachine](https://github.com/user-attachments/assets/4c2373e7-7f7f-4334-97e4-8f26965831f0)
+
+The discOvery mini One Sapphire is the smallest Keith Monks vinyl record washing machine and one of only 45 copies in the world. The device has a vacuum pump and an articulated arm with brush to carry out precision cleaning of microgrooves. On the left side of the top is the brush and fluid dispenser arm. In the middle of the top plinth is a slightly undersized platter topped with the proprietary Pyr/\Mat, and on the right side is the vacuum and thread arm with the spool of thread mounted near the pivot.
+
+### Resources 
+
+Official Website: [Keith Monks RCM](http://www.keithmonks-rcm.co.uk/range.html)
+
+Official Manuals on operating the Keith Monks RCM:
+* [Keith Monks Record Cleaning Machine Manual (Part 1)](https://memory.loc.gov/master/mbrs/recording_preservation/manuals/Keith%20Monks%20Record%20Cleaning%20Machine%20(1).pdf)
+* [Keith Monks Record Cleaning Machine Manual (Part 2)](https://memory.loc.gov/master/mbrs/recording_preservation/manuals/Keith%20Monks%20Record%20Cleaning%20Machine%20(2).pdf)
+
+  
 
 
 
