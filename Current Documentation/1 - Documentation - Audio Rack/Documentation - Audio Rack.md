@@ -63,9 +63,9 @@ The IS Lab audio rack supports the following formats:
 > [Configuring the Audio Patch Bay](#configuring-the-audio-patch-bay)
 
 [Digitization](#digitization)
-> [Wavelab 11 Recording Workflow](#wavelab-11-recording-workflow)
+> [Wavelab 11 Recording Workflow](#wavelab-11-pro-workflow)
 > 
-> [Opening Wavelab](#opening-wavelab)
+> [Opening Wavelab](#opening-wavelab-11)
 >
 > [Perform a 10-second test capture](#perform-a-10-second-test-capture)
 >
