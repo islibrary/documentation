@@ -1346,6 +1346,7 @@ Tape paths should be cleaned before transfer to prevent interference from dust a
 In the late 1960s, the world’s first commercially produced record cleaner was designed and developed by Keith Monks Audio with BBC Radio engineers at Broadcasting House in London. The Keith Monks Record Cleaning Machine (RCM) is a precision instrument designed for the thorough cleaning and restoration of vinyl records. The Keith Monks RCM ensures optimal sound quality by removing dust, debris, and contaminants from the grooves of vinyl records. 
 
 **discOvery miniOne Sapphire 45th Anniversary Limited Edition**
+
 ![KeithMonksMachine](https://github.com/user-attachments/assets/4c2373e7-7f7f-4334-97e4-8f26965831f0)
 
 The discOvery mini One Sapphire is the smallest Keith Monks vinyl record washing machine and one of only 45 copies in the world. The device has a vacuum pump and an articulated arm with brush to carry out precision cleaning of microgrooves. On the left side of the top is the brush and fluid dispenser arm. In the middle of the top plinth is a slightly undersized platter topped with the proprietary Pyr/\Mat, and on the right side is the vacuum and thread arm with the spool of thread mounted near the pivot.
