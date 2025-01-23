@@ -573,12 +573,96 @@ This device transforms an analog audio signal into a digital signal. It also ena
 3. Refer to the Menu Panel located on the far right side of the Prism. Press the small square button labeled “Bank,” then the button for “1” or “2,” depending on the desired path. The display will read  “Path 1/2 Template [Store4.1] Load?” Press the circular button labeled “Enter/Accept.” The Prism will respond with an audible click to confirm the selected path has been set.
 	*As shown in the images below, the Meter and Mimic Panels will display the path for which they are set. Pay attention to this 		information when setting levels and cueing a particular channel.
 
+![MonitorPanel](https://github.com/user-attachments/assets/881146fb-d684-4b20-992e-527d2042b4fd)
+
+*The Monitor Panel. 
+Circled are the options for Path 1 and 2.*
+
+![MimicPanel](https://github.com/user-attachments/assets/b68773b7-0430-45c0-9e45-d1be91b297f8)
+
+*The Mimic Panel. 
+Circled are two signal pathways.*
+
+![AudioPatchBay](https://github.com/user-attachments/assets/f55ddbcf-e9ca-47c4-87a4-376227b0f2ae)
+
+*The two circled configurations on the Audio Patch Bay remain fixed for all circumstances.*
+
+
 ## Digitization
 
 ### WaveLab Overview
 WaveLab Pro 11 is a professional-level digital audio workstation (DAW) used for audio transfers. It can be accessed via the desktop computers at the Audio Transfer Station and the Audio Editing Station. This software interfaces with the Audio Transfer Station Computer’s sound cards and the Prism converter, to capture recordings being played on the audio decks. Once captured, the audio recording can be digitized, edited, and remastered with a robust suite of functions. Due to the program’s complexity and sophistication, it can be difficult to learn and navigate, and thus requires patience. For first-time users, please refer to WaveLab’s [YouTube playlist of tutorial videos](https://www.youtube.com/watch?v=bC0MYgNXXjE&list=PLKgGKF-FSsJ_OAlNnzTLMKK_CWAM1cXhb&pp=iAQB "Wavelab Tutorials") as a technical companion while learning to use the software.
 
 ### WaveLab 11 Pro Workflow
+
+
+#### Opening WaveLab 11
+1. Open WaveLab Pro 11 on the desktop at the Audio Transfer Station. 
+2. In the first window that pops up, click “Audio File” and then “Create Empty”.  
+3. The main window will open. Create an empty document using the icon on the lower third of the page on the right side of the window.
+
+![WaveLabMainWindow](https://github.com/user-attachments/assets/9e8fafb2-782e-44db-8263-23fe668a32ee)
+
+The main window of WaveLab will appear once the application is opened.
+
+![WaveLab2](https://github.com/user-attachments/assets/6b578167-8d82-451d-a90a-13af3ecf405b)
+
+Click the Square-Plus icon to create a new project.
+
+4. In the Properties window (seen on next page), set the empty document with the following specifications: 
+> a. Stereo track configuration
+> 
+> b. 96kHz
+> 
+> c. 24 bit depth
+
+5. Once these settings have been selected, click “create.”
+
+![WaveLab3](https://github.com/user-attachments/assets/1458f4da-4e31-4917-8b6a-c86f33f104c4)
+
+*Properties should be set to match the Prism settings (96kHz; 24 bit).*
+
+![WaveLab4](https://github.com/user-attachments/assets/15e90c40-1012-4cb9-974c-5117f8ed2630)
+
+*Monitoring microphone icon highlighted in red.*
+
+6. Click the arrow next to the monitoring microphone icon. Set the input and sample rate to 96000Hz (the same sample rate set on the Prism). This enables the program to monitor the audio signal. **Please note**: WaveLab defaults to 44100 Hz, so **double check** that the program is set to **96000 Hz**.
+
+![WaveLab5](https://github.com/user-attachments/assets/cc3aa961-ff04-4743-836d-2743e468a1dd)
+
+7. **Set monitoring input**: In the menu under the little microphone, set the input that is being used. In the above photo WaveLab is set to monitor PB or Audio Patchbay.
+
+8. **Turn monitoring on**: click the red microphone button to illuminate it.  
+
+	* Sound should be heard from the speakers if the speakers and the PreSonus monitoring station are on.
+	* If audio is still not heard, WaveLab may need to be restarted and steps 1,2, and 3 need to be repeated in that exact order. **Do 	not click the microphone** until the sample rate and input have been set.
+
+![WaveLab6](https://github.com/user-attachments/assets/5083a364-64bd-4c29-98da-78652d83c5e4)
+
+*The monitoring station and speakers are powered by the red switches in the rack. The volume knob is illuminated in blue when the speakers are on. Power switch for the speakers is located on the back.*
+
+![WaveLab7](https://github.com/user-attachments/assets/e7a81d77-7309-42a5-a40b-7f6ee754cd10)
+
+*Ensure that the following buttons on the Presonus monitoring station are illuminated: ST1 (Hdphs.); ST1 (Spkrs.); ST2; and AUX.*
+
+9. **Set audio levels**: Observe the level meter in WaveLab. Look at the numerical values at the right end of the bars. These peaks should average between -6 and -3dB. If not, the levels need to be adjusted using the Prism. While the levels do not always have to fall exactly within the range of -6dB and -3dB, as a general guideline, **the peaks should never surpass 0dB in WaveLab**. This is to prevent clipping, or the loss of audio information when the signal is too high.
+> b. To change levels on the Prism, press “source” on the prism (far left bottom corner). Press source until the following is visible: **“AI1 Lin: +(xx).0dBu.”**
+
+![WaveLab8](https://github.com/user-attachments/assets/65b3dc7b-270a-4c8a-af04-9709b889ebdd)
+
+*The source button is circled in yellow.*
+
+![WaveLab9](https://github.com/user-attachments/assets/97e95b6c-e467-47de-9d98-41a93c637e0c)
+
+*The screen where channel levels can be adjusted. The number in the top right corner represents the setting adjusted with the “select/change” button. The number in the lower left corner represents the live peaks of the signal.*
+
+> c. If the signal is passing through the Prism, it will be visible on the Meter Panel (refer to [Setting the Signal Path on the Prism](#setting-the-signal-path-on-the-prism). The two illuminated bars on the Meter Panel illustrate the peaks of the left and right channels, respectively.
+
+10. Select one of the channels and use the “Select/Change” buttons to set the volume. Ideally, peaks will fall between -6 to -3dB range. To avoid clipping, **avoid going above -3dB and do not surpass 0dB**. This is to prevent the loss of audio information from the signal being too high. Observe the signal in WaveLab while making adjustments to the levels, as its interface is the easiest to read. **Please note** that the Prism is limiting the signal for digitization, which means that **the lower the number, the louder the signal, and the higher the number, the lower the volume level**.
+
+11. Once the correct level has been set for one side of the channel, select the second channel, then use the “Select/Change” arrows to match the dBu (decibel unit) for the two channels. The dBu needs to match with both channels to accurately reflect how the recording was made.
+
+
 
 
 
