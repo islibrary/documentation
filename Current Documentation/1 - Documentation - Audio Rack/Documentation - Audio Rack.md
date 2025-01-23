@@ -60,6 +60,15 @@ The IS Lab audio rack supports the following formats:
 > 
 > [About the Prism ADA-8XR](#about-the-prism-ada-x8r)
 > 
+> [Configuring the Audio Patch Bay](#configuring-the-audio-patch-bay)
+
+[Digitization](#digitization)
+> [Wavelab 11 Recording Workflow](#wavelab-11-recording-workflow)
+> 
+> [Opening Wavelab](#opening-wavelab)
+>
+> [Perform a 10-second test capture](#perform-a-10-second-test-capture)
+>
 > 
 
 
@@ -661,6 +670,33 @@ Click the Square-Plus icon to create a new project.
 10. Select one of the channels and use the “Select/Change” buttons to set the volume. Ideally, peaks will fall between -6 to -3dB range. To avoid clipping, **avoid going above -3dB and do not surpass 0dB**. This is to prevent the loss of audio information from the signal being too high. Observe the signal in WaveLab while making adjustments to the levels, as its interface is the easiest to read. **Please note** that the Prism is limiting the signal for digitization, which means that **the lower the number, the louder the signal, and the higher the number, the lower the volume level**.
 
 11. Once the correct level has been set for one side of the channel, select the second channel, then use the “Select/Change” arrows to match the dBu (decibel unit) for the two channels. The dBu needs to match with both channels to accurately reflect how the recording was made.
+
+![Wavelab11](https://github.com/user-attachments/assets/5258a67d-6e7a-48e5-8ed3-0cd67a6332f1)
+
+*On the Menu Panel, two bars of light represent the two channels receiving the signal from the playback deck. Channel 5 is the left channel; Channel 6 is the right. Limiter is set to +14.0dBu.*
+
+![Wavelab10](https://github.com/user-attachments/assets/007ec23c-046a-48d5-891b-cf43bb0638dd)
+
+*Level should also be set to +14.0dBu in channel 6, the right side of the channel pair.*
+
+> d. Monitor a substantial enough portion of the recording to ensure that the volume does not change dramatically over its course.
+> 
+> e. If the levels have remained well-balanced over the course of the monitoring, it is time to begin the digitization process. **Please ensure that the tape is running before commencing the digitization instructions that follow.**
+
+#### Perform a 10-second test capture
+
+1. By this point, the audio levels should have been accurately set on the Prism. **Please note: the tape should be actively playing on the chosen deck prior to opening the application.** This step ensures that the program will be able detect the audio recording as soon as it is opened.
+2. At the bottom of the program, select the ‘Record’ button (circled below).
+
+![Wavelab12](https://github.com/user-attachments/assets/2ec24a86-2f83-4103-930b-4341a7d6abcc)
+
+*The record button in WaveLab.*
+
+3. A new window labeled ‘Recording’ will appear. Ensure that the input selected is correct (the input may need to be changed, as it does not automatically match the input used to monitor the sound earlier).
+
+4. 
+
+
 
 
 
