@@ -88,6 +88,15 @@ The IS Lab audio rack supports the following formats:
 >
 > [Dublin Core](#dublin-core)
 
+[Appendix A: Supported Formats and Identification Guide](#appendix-a-supported-formats-and-identification-guide)
+> [Supported format and Identification Chart](#supported-format-and-identification-chart)
+> 
+> [Timeline of Audio Formats](#timeline-of-audio-formats)
+
+[Appendix B: Identifying Vinegar Syndrome & Sticky-Shed Syndrome](#appendix-b-identifying-vinegar-syndrome--sticky-shed-syndrome)
+
+[Appendix C: Baking Audio Tape](#appendix-c-baking-audio-tape)
+
 
 
 ## Resources
@@ -166,9 +175,9 @@ Please contact an IS Lab Staff team member for any and all questions about the g
 2. **Do not clean any deck’s audio heads. Please ask a staff member for assistance.**
 3. If any equipment or software stops working or breaks during transfer, **immediately contact an IS Lab staff team member** for assistance.
 4. **All tapes need to be inspected before using any deck** to ensure the tape is safe to transfer. For any questions about the quality of a tape, ask an IS Lab staff member. 
-> a. If the magnetic material on the tape looks broken or cracked, it is very possible that the tape has been affected by **Sticky-shed syndrome**. Refer to [Appendix B]() for more information on sticky-shed syndrome.
+> a. If the magnetic material on the tape looks broken or cracked, it is very possible that the tape has been affected by **Sticky-shed syndrome**. Refer to [Appendix B](#appendix-b-identifying-vinegar-syndrome--sticky-shed-syndrome) for more information on sticky-shed syndrome.
 5. Keeping audiotape away from humid temperatures is highly recommended. Whenever possible, store in air-tight containers. 
-6. For certain tapes, baking is a requirement in the IS Lab in order to ensure the preservation of our vintage equipment. For guidelines on baking, please visit [Appendix C: Baking](). 
+6. For certain tapes, baking is a requirement in the IS Lab in order to ensure the preservation of our vintage equipment. For guidelines on baking, please visit [Appendix C: Baking](#appendix-c-baking-audio-tape). 
 7. For first-time use of decks and first-time audio transfers, please reach out to a member of the IS Lab Staff for assistance.
 8. If materials needed to complete a project are lacking or out of stock (e.g. gloves, alcohol, etc.), please inform a member of the IS Lab Staff so that they may place an inventory request. 
 9. Copy files to the appropriate IS Lab server folder or to a personal storage device after transferring. **Do not leave files on the transfer computer’s hard drive or desktop**—all files are deleted from the computer at the end of each week.
@@ -180,7 +189,7 @@ Please contact an IS Lab Staff team member for any and all questions about the g
 ### Audio rack workflow
 
 #### Identifying audio formats and choosing the correct deck 
-Prior to digitization, it is necessary to identify the correct deck and format for media transfers. Refer to [Appendix A]() and the [list of audio formats in the overview section]() to identify the format of a selected tape, choose the correct deck for playback, prepare the media prior to transfer, and ensure the protection of equipment while working with the audio rack transfer station.
+Prior to digitization, it is necessary to identify the correct deck and format for media transfers. Refer to [Appendix A](#appendix-a-supported-formats-and-identification-guide) and the [list of audio formats in the overview section](#supported-format-and-identification-chart) to identify the format of a selected tape, choose the correct deck for playback, prepare the media prior to transfer, and ensure the protection of equipment while working with the audio rack transfer station.
 
 After identifying formats and decks for digitization, contact a lab staff team member to ensure all heads are clean prior to proceeding with the transfer. This step ensures that the transfer of information will be smooth and accurate.
 
@@ -1060,6 +1069,88 @@ DC Element | DC Definition | Audiovisual Interpretation
 
 Format Type | Image/Visual | Decks Supported | Description
 :---: | :---: | :---: | :---: 
+**Audio Cassette** | ![AppendixA1](https://github.com/user-attachments/assets/b5d36d55-33c7-4bd6-94c0-c6af1c7a1483) | Nakamichi DRAGON (CAS 1), TEAC W-600R (CAS 2), Nakamichi DRAGON (CAS 3) | The most popular varieties of cassette tape are C60 (30 minutes per side), C90 (45 minutes per side), and C120 (60 minutes per side). Cassette tape information is magnetic.
+**Minidisc** | ![AppendixA2](https://github.com/user-attachments/assets/1c643852-3308-4a97-9de9-cf626089156a) | Sony Minidisc Deck MDS-JE330 (MDS) | The most popular varieties of Minidisc have capacities of 60, 74, and 80 minutes of audio. Minidisc information is magnetic.
+**Microcassette** | ![AppendixA3](https://github.com/user-attachments/assets/af9a55f6-a2cd-4a58-8e94-30899f45d08b) | Nakamichi DRAGON
+(CAS 1), TEAC W-600R(CAS 2), Nakamichi DRAGON (CAS 3) | Because the recording speed is slower and the tape is thinner than an audio cassette, a tiny microcassette can hold 30 minutes per side. Microcassette information is magnetic.
+**DAT (Digital audio tape)** | ![AppendixA4](https://github.com/user-attachments/assets/a57930d7-0ca8-499b-a0f9-2c66a1962ac3) | Sony PCM-R500 (DAT 1), Panasonic SV-3800 (DAT 2) | DATs are between 15 and 180 minutes in length, a 120-minute tape being 60 meters in length. DATs longer than 60 meters tend to be problematic in DAT recorders due to the thinner media. DAT information is magnetic.
+**¼” open reel tape** | ![AppendixA5](https://github.com/user-attachments/assets/a9636180-1fbf-4ae7-a56f-359e669ea404) | Otari MX-5050 (R2R 1), Otari MX-50 (R2R 2) | The duration of audio tape depends on the reel. Generally, a 5-inch reel is 30 minutes, a 7-inch reel 60 minutes, and a 10.5-inch reel is 90-120 minutes, depending on the speed of the tape. ¼’’ open reel tape information is magnetic.
+**Vinyl record** | ![AppendixA6](https://github.com/user-attachments/assets/6db3ca49-2ff9-4589-ad84-1c628271a396) | Technics Quartz SL-1210MK2 (PHONO) | A 12-inch vinyl LP originally stored 23 minutes per side, with later iterations increasing this capacity by several minutes. 7 inch records can hold between 4-6 minutes of music on each side. Vinyl record information is grooved. 
+**78 Shellac** | ![AppendixA7](https://github.com/user-attachments/assets/9932b14c-4247-4187-ad38-f1f1bcf93dd9) | Technics Quartz SL-1210MK2 (PHONO) | The first records were made from acetate/shellac. Since 78s were typically 10- to 12-inch records, they only had the ability to record about three to five minutes of music per side. This limited the number of songs that could be recorded per side to one or two.78 shellac information is grooved.
+**Transcription Disk** | ![AppendixA8](https://github.com/user-attachments/assets/c56c9fd7-a641-4660-a8f9-9832b798e8c2) | Technics Quartz SL-1210MK2 (PHONO) | 15 minutes of recorded information per side. Transcription disc information is grooved. Often groove can be vertical cut unlike other grooved disc formats. 
+**Lacquer/acetate disc** | ![AppendixA9](https://github.com/user-attachments/assets/978c25c7-688e-44ec-a035-f9519c59c1db) | Technics Quartz SL-1210MK2 (PHONO) | A 12-inch lacquer LP can hold 22 minutes of audio per side. Lacquer/acetate disc information is grooved. 
+
+### Timeline of Audio Formats
+
+Format Type | Year Invented | Commercially Available | Obsolescence
+:--- | :--- | :--- | :---
+Cassette | 1963 | 1966 | Early 2000s 
+Minidisc | 1992 | 1992 | 2013
+Microcassette | 1969 | 1969 | Early 2000s 
+DAT | 1987 | 1987 | 2005
+¼” open reel tape | 1928 | 1958 | 1980s
+Vinyl Record | 1880s | 1940s | n/a 
+78 Shellac Record | 1894 | 1912 | 2010s
+Transcription disc | 1920s | n/a | 
+
+## Appendix B: Identifying Vinegar Syndrome & Sticky-Shed Syndrome
+
+**Vinegar syndrome** is a condition created by the deterioration of acetate-based audio tape. The tape will release acetic acid, resulting in the infamous vinegar odor. In more advanced cases, hydrolysis causes the plastic base to shrink, resulting in a difference in width between the base and the magnetic binder. This creates cupping. In extreme cases this will cause tapes to become very brittle and break easily. In the latter case, the tape cannot be spliced without loss of information. While AD test strips can be used to diagnose the level breakdown due to vinegar syndrome in acetate based film, **strips cannot be used in this way on acetate audio tape** because of the relatively lower amount of cellulose acetate used in audio tape. **Please contact IS Lab Staff for help determining if a tape affected by vinegar syndrome may be used in the Lab.**
+
+**Sticky-shed syndrome** is a condition created by the deterioration of the binders in a magnetic tape, which hold the ferric oxide magnetizable coating to its plastic carrier, or which hold the thinner back-coating on the outside of the tape. This deterioration renders the tape unusable. Visible signs include dust in the audio tape’s canister and patches of magnetic material that have flaked off the tape, creating a broken or cracked appearance on the surface. Auditory signs include loud screeching during playback, fast-forward, or rewinding, in which case playback must be stopped. **Tapes affected by sticky-shed syndrome cannot be transferred nor played in the Lab.**
+
+“Audio engineers and sound archivists have over twenty years of experience identifying SSS tapes and treating them through baking. There are a small number of tape brands that are known to be afflicted with SSS in almost all cases. It is not only safe, but prudent, to assume that these brands have SSS as playback of sticky shed tapes will usually damage them.” See list of affected tapes in [Required Inspection](#required-inspection) section.
+
+The following images depict the visual indications of sticky-shed syndrome:
+
+![AppendixB1](https://github.com/user-attachments/assets/f76091e7-072d-47f4-b518-c0bde9f80278)
+
+![AppendixB2](https://github.com/user-attachments/assets/66787d3a-1fd0-45a2-b49c-3005e06bf38c)
+
+![AppendixB3](https://github.com/user-attachments/assets/d821f6ec-3cb4-46ca-8aca-285a393c6771)
+
+*Example of Sticky Shed Syndrome*
+
+## Appendix C: Baking Audio Tape
+
+**Assistance by an IS Lab Staff member is required** in order to bake audiotape in the ThermoCenter tape oven. Please see [Thermocenter oven documentation - combined](https://docs.google.com/document/u/0/d/1PUGxgF3gJMQ374QfshrFgLr5_3rAtVtNAeZRWoPlrJE/edit "Thermocenter Documentation") for more information about tape baking.
+
+## Appendix D: Reading Spectrograms in WaveLab
+
+A spectrogram is an audio viewing tool that depicts time frequency and amplitude all in one graph. Spectrograms can be helpful in visualizing noise in a digital audio file. Izotope has a very [useful article](https://www.izotope.com/en/learn/understanding-spectrograms.html "Understanding Spectrograms") that explains what spectrograms.
+1. Some problems may be easier to diagnose on a spectrogram or wavelet than in a waveform view, and some restoration tools are easier to apply at lower or higher levels of magnification. Use the smaller, upper timeline window for quicker navigation across the length of the recording, then use the lower timeline for analyzing and addressing any problem areas.
+2. It can be helpful to view the recordings as spectrograms to note any noise or unwanted pops/cracks. Some problems may be easier to diagnose on a spectrogram or wavelet than in a waveform view, and some restoration tools are easier to apply at lower or higher levels of magnification. Use the smaller, upper timeline window for quicker navigation across the length of the recording, then use the lower timeline for analyzing and addressing any problem areas.
+3. In order to do this, select “Spectrogram” in the bottom right part of the window to change the view of the recording.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
