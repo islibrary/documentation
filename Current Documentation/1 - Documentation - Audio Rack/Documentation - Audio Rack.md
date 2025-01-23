@@ -51,9 +51,16 @@ The IS Lab audio rack supports the following formats:
 > >
 > > [Grooved Media Deterioration](#grooved-media-deterioration)
 > >
-> [Setting the Signal Path on the Prism](#setting-the-signal-path-on-the-prism)
-> >
-> > [About the Prism ADA-8XR](#
+
+[Audio Rack Equipment](#audio-rack-equipment)
+
+[Turning on the Equipment](#turning-on-the-equipment)
+
+[Setting the Signal Path on the Prism](#setting-the-signal-path-on-the-prism)
+> 
+> [About the Prism ADA-8XR](#about-the-prism-ada-x8r)
+> 
+> 
 
 
 ## Resources
@@ -180,11 +187,19 @@ Type I ("normal bias") | ^ | 120 μs
 11. Type III vs. Type I tapes. These two varieties have the same notch positioning and different EQ curves; distinguishing between the two is difficult and necessary. Type III tapes are made with a ferro chromium magnetic formulation: look for FeCr or “ferro chromium” on the tape’s packaging.
 12. Select the appropriate EQ curve to be applied by the Nakamichi dragon (refer to the chart on the previous page). Labels have been adhered next to the EQ buttons on the Gray Nakamichi Dragon CAS 1 for assistance.
 
-(need to insert image of Nakamichi EQ buttons)
+
+![NakamichiEQButtons](https://github.com/user-attachments/assets/6261cc58-15c0-4651-af11-f96b88785894)
+
+*If the “Eq (μsec)” button is out, that means the deck is applying the 120 μs suitable for type I cassettes. For other tape types, press the “Eq (μsec)” in.*
 
 13. **Dolby NR**: Determine if the tape was recorded with Dolby NR, and if so, select the appropriate form on the Dragon. Dolby NR identification is usually indicated on the tape itself, either in notes accompanying the tape or a logo on the cassette shell with Dolby NR logo. In the case of uncertainty about whether or not a tape was recorded with Dolby NR, **leave this setting turned off** on the Nakamichi Dragon.
 
-(need to insert image of Correct positions of the Dolby NR B-Type and C-Type buttons for each formulation of Dolby on the Nakamichi Dragon Tape Decks. Source: Nakamichi Dragon 3 Head Tape Deck manual.)
+
+![DolbyNRButtons](https://github.com/user-attachments/assets/0bac77d5-5a8b-4ac9-b0ff-01f4568f3010)
+
+*Correct positions of the Dolby NR B-Type and C-Type buttons for each formulation of Dolby on the Nakamichi Dragon Tape Decks. 
+Source: Nakamichi Dragon 3 Head Tape Deck manual.*
+
 
 #### Quarter-inch Tapes
 1. Identify tape type (acetate or polyester-based stock). 
@@ -207,9 +222,9 @@ Type I ("normal bias") | ^ | 120 μs
 > **b. Polyester**: Polyester is one of the most commonly found tape bases. It was first developed in the 1950s and came into wide use in the 1970s and 1980s. It can be identified by its opaqueness under light, in contrast to the transparency of acetate-based tape. If the tape is opaque and light does not pass through, it is most likely Polyester, unless it is one of the named PVC brands [mentioned in the PSAP guide](https://psap.library.illinois.edu/collection-id-guide/audiotape "mentioned in the PSAP guide"). Polyester stretches when pulled by hand, as opposed to acetate-based tape, which breaks cleanly. 
 
 
+![PolyesterOrAcetate](https://github.com/user-attachments/assets/ed966c81-b16b-4296-b493-f8a1e0544579)
 
-(need to insert image here)
-Polyester vs acetate. From ARSC Guide to Audio Preservation pg. 26. 
+*Polyester vs acetate. From ARSC Guide to Audio Preservation pg. 26.* 
 
 > **c. Paper**: It is unlikely that a tape would be paper-based, due to the limited adoption of the format. Paper was used as a base for magnetic audio tape from ca. 1935-1950, but was eventually phased out, as it was seen as inferior to acetate-based tape.
 >
@@ -244,8 +259,9 @@ Polyester vs acetate. From ARSC Guide to Audio Preservation pg. 26.
 
 #### Cleaning ¼” Audio Tape Decks
 
-(need to insert image of our tape deck)
-¼” Audio Tape Deck
+![AudioTapeDeck](https://github.com/user-attachments/assets/fbf1bc7d-e6c8-49b7-8255-ec272dece970)
+
+*¼” Audio Tape Deck*
 
 ¼” Audio Tape Decks need to be cleaned before and after each transfer. 
 
@@ -254,14 +270,25 @@ Polyester vs acetate. From ARSC Guide to Audio Preservation pg. 26.
 
 (images/gifs will need to be added for the following, unsure if GitHub supports GIFS) 
 
+![AudioTapeDeckHeads](https://github.com/user-attachments/assets/70925c02-ee65-43f2-a6e6-704b6f60bbf6)
+
+*¼” Audio Tape Deck Heads*	
+
+![CleaningTapeHeads](https://github.com/user-attachments/assets/c0656c46-b86f-48de-8cbd-03ef1d026696)
+
+*Cleaning a Rubber Roller*
 	
-        ¼” Audio Tape Deck Heads			        Cleaning a Rubber Roller
+![FoamCleaningSwabs](https://www.printomizeamerica.com/cdn/shop/files/foam-tip-cleaning-swabs-50-pack-dtf-supplies-347.jpg?v=1687657266&width=1024)
 
-				
-    	          Foam Cleaning Swabs		       Isopropyl Alcohol		   Distilled Water		
+*Foam Cleaning Swabs*
 
+![Isopropyl](https://github.com/user-attachments/assets/6330fb71-4402-4238-99dc-7bbfccd163da)
 
-	
+*Isopropyl Alcohol*
+
+![DistilledWater](https://github.com/user-attachments/assets/966a2506-6d3a-411c-a598-e0a82247845a)
+
+*Distilled Water*
 
 Tape wind issues (for ¼” open reel audio tape)
 Poor tape winds can cause mechanical issues to the tape and playback deck. It’s important to identify tape pack issues and the damages they pose to equipment.
@@ -316,12 +343,13 @@ Proceed once it is confirmed that tape does not have the following issues:
 * Use below flowchart and diagram to figure out the track configuration of the tape.
 
 
-(need to insert image)
- From the FACET Field Guide Preservation Tool. Use the left column to identify the sound of a particular configuration. Use the center column to identify the corresponding configuration. Use the right column to make appropriate adjustments to the audio.
+![FACET](https://github.com/user-attachments/assets/d70ea42e-8db2-446f-9731-14fcfa50ef2a)
 
+*From the FACET Field Guide Preservation Tool. Use the left column to identify the sound of a particular configuration. Use the center column to identify the corresponding configuration. Use the right column to make appropriate adjustments to the audio.*
 
-(need to insert image)
-Variety of the most common track configurations.
+![Track](https://github.com/user-attachments/assets/bf982014-387b-4256-8346-4829a1c363af)
+
+*Variety of the most common track configurations.*
 
 #### Playback Considerations
 **For cassette Tapes**:
@@ -344,10 +372,13 @@ Variety of the most common track configurations.
 Many formats are susceptible to fungal growth.
 **Moldy tapes cannot be played back in the IS Media Lab**. Refer to images of moldy tape below:
 
+![MoldyTape](https://github.com/user-attachments/assets/f118a809-9059-4fef-bce5-2db48ebd9911)
+![MoldyTape2](https://github.com/user-attachments/assets/7ecbcf3d-b182-4f50-8cc0-4ef74534abb7)
+![MoldyCassette2](https://github.com/user-attachments/assets/211add6c-2367-44dc-a28c-4467e76f45b5)
+![MoldyCassette](https://github.com/user-attachments/assets/7066ee84-9839-46e3-8eae-1a43fceef2a3)
 
-(need to insert images)
-Images of moldy audiotapes and moldy cassettes. 
-Mold is visible as white, cloudy coagulations.
+*Images of moldy audiotapes and moldy cassettes. 
+Mold is visible as white, cloudy coagulations.*
 
 If a tape is discovered to have mold after bringing into the IS Media Lab. Wipe down any surfaces the tape touched during the inspection and alert Lab staff. Moldy tapes should be cleaned professionally or away from the IS Media Lab where there is little chance for contamination of other media. 
 
@@ -371,8 +402,9 @@ Shellac discs are a robust and relatively stable format. However, because of the
 * Use a magnifying glass or film loupe to inspect the surface of the disc. 
 * If no cracks can be found in the shellac coating of the discs, it is possible to spot clean dirty areas of the discs with distilled water only (seen in image to the right). Spray water onto the cloth and gently rub the surface of the disc in the direction of the grooves. 
 
-(need to insert image)
-Distilled Water
+![DistilledWater](https://github.com/user-attachments/assets/06d29875-f7c2-4460-b7be-dad70ca1b7e5)
+
+*Distilled Water*
 
 **Vinyl (45 and 33 1/3 rpm)**:
 Vinyl discs are the most stable physical sound recording format developed to date; they can last 100 years in a controlled environment. However, heat and ultraviolet radiation both degrade the polymer. Vinyl softens and flows when exposed to excessive heat, which deforms the grooves. Polyvinyl chloride (PVC) releases hydrogen chloride as it thermodegrades. Stabilizers added to the compound during production arrest this process, but excessive heat, ultraviolet radiation, and humidity accelerate the degradation and deplete the available stabilizers. Dust and foreign matter, such as oils from fingers, can cause distortion and surface noise in playback; these deposits can promote fungal growth and damage the playback surface. Water can combine with the “off-gassing” of hydrogen chloride to form hydrochloric acid in excessively hot conditions (St. Laurent 1997). Heat and pressure can also cause the discs to warp, which can adversely affect playback. Vinyl discs are relatively soft compared with shellac discs, and they are susceptible to mechanical damage, such as scratches. Consequently, they require much lighter downforce from the tonearm on a playback device than do shellac discs.
@@ -383,19 +415,24 @@ Vinyl discs are the most stable physical sound recording format developed to dat
 2. Turn on the Keith Monks record cleaner via the blue power button and place the record on the turntable (machine is located to the right of the Audio Transfer Station).      
 * Use the 45 adapter ring as necessary
 
-(need to insert image)
-Vinyl Record 45 Adapter Ring
+
+![45AdapterRing](https://github.com/user-attachments/assets/b8954c54-665a-457f-98f5-be81d9cb7f6d)
+
+*Vinyl Record 45 Adapter Ring*
 
 * Please refer to the Keith Monks record cleaning machine documentation for further information.
 3. **Apply cleaning solution**: Push down on the brush and slide it over the record. Ensure that the brush makes contact with the record. The brush should be fairly saturated, as shown in the image below.
 4. Turn the record knob to the “ON” setting to start rotating the record, press down on the cleaner dispenser button and let the cleaning solution cover the record with the brush. Take the brush off the record.
 
-(need to insert image)
+![KeithMonksBrush](https://github.com/user-attachments/assets/ad8d18c3-f8fe-4ba3-99ca-e73cf1b953b1)
+
 *The attached brush sometimes doesn’t cover the entire record that well. If this is happening, 
 loosen the knob on top of the brush (turn counterclockwise) to free it, and slide it on the metal rod 
 toward the center of the record or out toward the edge. 
 
-(need to insert image)
+
+![KeithMonksControls](https://github.com/user-attachments/assets/78be73fc-0b9e-4b79-b2a0-f888df9e7803)
+
 Controls for the Keith Monks Record Cleaner 
 located on top in the front left corner of the device.
 
@@ -404,11 +441,14 @@ located on top in the front left corner of the device.
 6. **Vacuum the record** by picking up the tone arm. **move it to the middle of the record**. Once the arm is lifted, the vacuum will automatically turn on. Let the vacuum catch on the grooves and let the record run until the tone arm has reached the end of the disc.
 7. Repeat for the second side if needed and let dry for a few minutes in the drying rack before playing. 
 
-(need to insert image)
+![KeithMonksVacuum](https://github.com/user-attachments/assets/761cd47b-b09e-4d84-a76a-335aa0d4c5fd)
+
 Start the vacuum “tone arm” in the middle grooves of the record and it will 
 track the grooves backwards toward the outer edge of the record. 
 
-(need to insert image) 
+
+![RecordDrying](https://github.com/user-attachments/assets/0e69f34d-7dcc-456c-97ad-43e757446a99)
+
 Dry the record vertically on the light green drying rack 
 before playback. Drying is approximately 5 minutes. 
 
@@ -419,6 +459,66 @@ before playback. Drying is approximately 5 minutes.
 
 ![Lacquer Disc Delamination](https://www.nedcc.org/assets/media/images/IRENE/DelaminatingDiscWeb.jpg)
 Lacquer disc displaying serious delamination of the lacquer coating. The grooves where the audio information is stored was laid in this lacquer coating. When delamination occurs the risk to the recording is severe.
+
+
+## Audio Rack Equipment
+
+![Audio Rack Equipment](https://github.com/user-attachments/assets/11693e25-bf1b-4b61-b975-67117d83b3c8)
+![AudioRackEquipment2](https://github.com/user-attachments/assets/73ad46ff-6dcd-40aa-87fe-64b702e723cb)
+![AudioRackEquipment3](https://github.com/user-attachments/assets/84f184fc-35b1-4c26-ac01-d09949909832)
+![AudioRackEquipment4](https://github.com/user-attachments/assets/c782e136-cb1f-43fc-a499-142c9eb211dd)
+
+*In order from top to bottom*
+
+Number | Deck Shorthand | Deck Make/Model | Supported Media Formats
+:--- | :--- | :--- | :--- 
+1 | CAS 1 **(NO rewinds)** | Nakamichi DRAGON 3 Head/Auto Reverse | Audio cassette
+1 | CAS 2 (rewinds) | Teac W600-R | Audio cassette 
+1 | CAS 3 **(NO rewinds)** | Nakamichi DRAGON 3 Head/Auto Reverse | Audio cassette
+2 | MDS | Sony MDS-J330 | Minidisc
+3 | PB | Audio Patch Bay | n/a
+4 | RAD 1 | Radial Engineering J-RAK 4 4-Space Rack Adapter | n/a
+5 | RAD 2 | Radial Engineering J-RAK 4 4-Space Rack Adapter | n/a
+6 | PRS | PrismSound Dream ADA-8XR | n/a
+7 | DBR | Dolby A-Type Model 361 | n/a
+8 | DBL | Dolby A-Type Model 362 | n/a
+9 | MCAS | Olympus Optical T100 | Microcassette
+10 | OCS | Yeapook ADS1014D | n/a
+11 | DAT 1 | Sony PCM-R500 | DAT / Digital audio tape
+12 | DAT 2 | Panasonic SV-3800 | DAT / Digital audio tape
+13 | R2R 1 | Otari MX-5050 | Open reel audio tape
+14 | R2R 2 | Otari MX-50 | Open reel audio tape
+15 | PHONO | Technics SL-1210MK2 | Vinyl record; 78 shellac; transcription disc; acetate disc
+16 | TS^2 Dual Outputs Abrev. as TSFL and TSEQ. Refer to [Appendix E]() for more info. | Time Step T-03EQ A+ |
+
+
+
+## Turning on the Equipment
+
+Turning on the Equipment
+**Tip:** When transferring audio using this rack, it can be beneficial to have the audio (cassette or vinyl) playing before turning on WaveLab. Sometimes the signal will not go through to WaveLab if there is not something already playing.
+
+![TurningOnEquipment](https://github.com/user-attachments/assets/b1df44ec-250c-4e74-8713-29b599ab861d)
+![TurningOnEquipment2](https://github.com/user-attachments/assets/b1d81044-f9c9-4007-99c8-44fcdc615385)
+
+1. Turn on the **Audio Transfer Station Computer** by pressing the power button on the tower.
+2. **Turn on the power supply** for the Audio Rack and Speakers. Find the little red buttons within a plastic flap, located on the left of the CyberPower deck, and on the right of the Tripp-Lite deck.
+3. **Turn on the Prism**, located above the power supply, which transforms the analog audio signal into a digital signal. Power button is located on the upper left.
+4. Select the appropriate deck and turn it on:
+   > a. **Cassette:**
+	Power buttons for the Dragons are in the upper left corners; Power button for the Teac is on the lower left.
+   >
+   > b. **Microcassette:**
+	Power button for the Olympus is located on the bottom left corner of the machine.
+   >
+   > c. **Minidisc:**
+	Power button for the Sony is located on the upper left corner of the machine.
+   >
+   > d. **DAT:** Power buttons for the Sony and the Panasonic are located on the upper left corners of both machines.
+   >
+   > e. **Vinyl:** To turn on the record player, locate the power button at the top of the GE power strip on the floor, underneath and to 	the left of the record player table. Make sure the strip is turned on (the button will glow blue).
+5. Once the audio rack and desktop are powered, please refer to [WaveLab 11 workflow](#wavelab-11-pro-workflow).
+
 
 
 ### Setting the Signal Path on the Prism
@@ -440,10 +540,18 @@ The audio signal flow is the path an audio signal travels, from its source to a 
 * The green rectangle represents the **Audio Patch Bay**, the central hub that connects the sound source to hardware and software programs which monitor, transform, edit, and save audio signals.
 * The red rectangle represents the **Prism**, which converts the analog signal into a digital signal.
 
+![IS Library Audio Rack Signal Flow Chart](https://github.com/user-attachments/assets/1b8ccdbc-71bf-4a8e-b89a-bb3951c4426a)
+
+*Audio Rack signal flow chart*
+
+
 #### About the Prism ADA-8XR
 This device transforms an analog audio signal into a digital signal. It also enables the creation of large systems with multiple audio channels. Due to its sophistication and complexity, learning to use the Prism can be challenging, and requires patience. Please follow the steps in this section carefully and treat it as a technical companion to the Prism.
 
-**The front panel of the Prism ADA-8XR contains four divided panels, which are responsible for the following functions (see next page):**
+**The front panel of the Prism ADA-8XR contains four divided panels, which are responsible for the following functions:**
+
+![AudioRackPrism](https://github.com/user-attachments/assets/3fd49c7d-ba1a-4331-9b61-6b5fa79f7be7)
+
 * **Montior Panel:** Controls and displays all parameters of the two-channel Monitor.
 * **Mimic Panel:** Displays the flow of signals through the Prism.
 * **Meter Panel:** Contains eight LED bar graphs used to control selected channels.
@@ -451,11 +559,26 @@ This device transforms an analog audio signal into a digital signal. It also ena
 
 #### Configuring the Audio Patch Bay
 1. For DAT, reel to reel, and minicasette decks, the signal runs to the Prism via the audio patchbay (PB). To route the signal to the Prism, the ¼” cables should be plugged into the output 24 labeled “To PRS.” Ensure the signal is routed properly by using both ¼” cables, one for each channel on the patchbay. The table below is a key that shows how the left and right channels of different decks in the audio rack are assigned to corresponding channels in the prism. It distinguishes between Path 1 inputs and Path 2 inputs.
+
+***Path 1 Inputs*** | 1: Patchbay (Left) | 2: Patchbay (Right) | 3: CAS 1 (L) | 4: CAS 1 (R) | 5: CAS 2 (L) | 6: CAS 2 (R) | 7: CAS 3 (L) | 8: CAS 3 (R) 
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+***Path 2 Inputs*** | **1: TSFL (Left)** | **2: TSFL (Right)** | **3: TSEQ (L)** | **4: TSEQ (R)** | **5: MDS (L)** | **6: MDS (R)** | **7: Empty** | **8: Empty** 
+
+
 2. Please ensure that the media is actively playing back in the selected deck PRIOR to opening the WaveLab application. This step will ensure that WaveLab recognizes the audio signal upon opening the application.
+
+![Path1](https://github.com/user-attachments/assets/f77314cb-83f0-455a-a492-05d5fd546d15)
+
+
 3. Refer to the Menu Panel located on the far right side of the Prism. Press the small square button labeled “Bank,” then the button for “1” or “2,” depending on the desired path. The display will read  “Path 1/2 Template [Store4.1] Load?” Press the circular button labeled “Enter/Accept.” The Prism will respond with an audible click to confirm the selected path has been set.
 	*As shown in the images below, the Meter and Mimic Panels will display the path for which they are set. Pay attention to this 		information when setting levels and cueing a particular channel.
 
 ## Digitization
+
+### WaveLab Overview
+WaveLab Pro 11 is a professional-level digital audio workstation (DAW) used for audio transfers. It can be accessed via the desktop computers at the Audio Transfer Station and the Audio Editing Station. This software interfaces with the Audio Transfer Station Computer’s sound cards and the Prism converter, to capture recordings being played on the audio decks. Once captured, the audio recording can be digitized, edited, and remastered with a robust suite of functions. Due to the program’s complexity and sophistication, it can be difficult to learn and navigate, and thus requires patience. For first-time users, please refer to WaveLab’s [YouTube playlist of tutorial videos](https://www.youtube.com/watch?v=bC0MYgNXXjE&list=PLKgGKF-FSsJ_OAlNnzTLMKK_CWAM1cXhb&pp=iAQB "Wavelab Tutorials") as a technical companion while learning to use the software.
+
+### WaveLab 11 Pro Workflow
 
 
 
