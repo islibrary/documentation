@@ -58,18 +58,36 @@ The IS Lab audio rack supports the following formats:
 
 [Setting the Signal Path on the Prism](#setting-the-signal-path-on-the-prism)
 > 
-> [About the Prism ADA-8XR](#about-the-prism-ada-x8r)
+> [About the Prism ADA-8XR](#about-the-prism-ada-8xr)
 > 
 > [Configuring the Audio Patch Bay](#configuring-the-audio-patch-bay)
 
 [Digitization](#digitization)
 > [Wavelab 11 Recording Workflow](#wavelab-11-pro-workflow)
 > 
-> [Opening Wavelab](#opening-wavelab-11)
+> > [Opening Wavelab](#opening-wavelab-11)
+> > 
+> > [Perform a 10-second test capture](#perform-a-10-second-test-capture)
+> > 
+> > [Record](#record)
 >
-> [Perform a 10-second test capture](#perform-a-10-second-test-capture)
+> [Exporting Derivative Files in WaveLab Pro 11](#exporting-derivative-files-in-wavelab-pro-11)
+> > 
+> > [Export Preservation Master](#export-preservation-master)
+> >
+> > [Export Access Master](#export-access-master)
+> >
+> > [WaveLab RestoreRig (restoration tools) workflow](#wavelab-restorerig-restoration-tools-workflow)
 >
+> [Powering down audio rack](#powering-down-the-audio-rack)
+
+[Metadata Capture](#metadata-capture)
+> > [A Note on Metadata Entry](#a-note-on-metadata-entry)
 > 
+> [PBCore](#pb-core)
+>
+> [Dublin Core](#dublin-core)
+
 
 
 ## Resources
@@ -287,7 +305,7 @@ Source: Nakamichi Dragon 3 Head Tape Deck manual.*
 
 *Cleaning a Rubber Roller*
 	
-![FoamCleaningSwabs](https://www.printomizeamerica.com/cdn/shop/files/foam-tip-cleaning-swabs-50-pack-dtf-supplies-347.jpg?v=1687657266&width=1024)
+![Foam Cleaning Swabs](https://github.com/user-attachments/assets/c90c89dd-c059-4af1-95a8-4ecc73cefb0f)
 
 *Foam Cleaning Swabs*
 
@@ -420,7 +438,7 @@ Vinyl discs are the most stable physical sound recording format developed to dat
 
 1. Cleaning vinyl at the IS Media Preservation Lab 
 
-![Keith Monks Record Cleaner](https://audiolifestyle.pl/wp-content/uploads/2015/01/Square_Low_322137v2white.jpg)
+![KeithMonksMachine](https://github.com/user-attachments/assets/4c2373e7-7f7f-4334-97e4-8f26965831f0)
 2. Turn on the Keith Monks record cleaner via the blue power button and place the record on the turntable (machine is located to the right of the Audio Transfer Station).      
 * Use the 45 adapter ring as necessary
 
@@ -466,7 +484,8 @@ before playback. Drying is approximately 5 minutes.
 * Lacquer discs that are not flaking or de-plasticized may in certain cases be played back in the IS Media Preservation lab. Doing so will require research on what eq to apply on the preamp and correct stylus selection. **Talk to Lab Staff before attempting Lacquer or transcription disc playback in the IS Lab**.
 > * Lacquer discs should be dry cleaned with microfiber cloth only. Do not clean if there is any sign of delamination. 
 
-![Lacquer Disc Delamination](https://www.nedcc.org/assets/media/images/IRENE/DelaminatingDiscWeb.jpg)
+![Delamination](https://github.com/user-attachments/assets/ed357321-7162-47c7-b956-4174d8a37912)
+
 Lacquer disc displaying serious delamination of the lacquer coating. The grooves where the audio information is stored was laid in this lacquer coating. When delamination occurs the risk to the recording is severe.
 
 
@@ -694,7 +713,386 @@ Click the Square-Plus icon to create a new project.
 
 3. A new window labeled ‘Recording’ will appear. Ensure that the input selected is correct (the input may need to be changed, as it does not automatically match the input used to monitor the sound earlier).
 
-4. 
+![Wavelab13](https://github.com/user-attachments/assets/6b6e90db-6ae1-4489-8158-759c683e6ef3)
+
+*Select Audio Monitoring to observe the levels in real time.*
+
+
+4. **Check the box for “audio monitoring.” Uncheck the red microphone icon, which was used for monitoring earlier.** This step prevents the sound from echoing as it is played back.
+
+![Wavelab14](https://github.com/user-attachments/assets/2643f222-32a7-4560-b26b-b8c7513e9944)
+
+*Microphone icon in the “off” position.*
+
+5. Press ‘Record’ to perform a 10-second capture. The window will change to a red color while recording. Press the ‘Stop’ button or ‘Record’ button when finished recording. 
+
+![WaveLab15](https://github.com/user-attachments/assets/8a90edf0-8132-4a1a-89a7-f96fa6a6d29c)
+
+*View of recording window when recording is in progress. Audio monitoring is checked.*
+
+6. A waveform should appear in the window. Play it back by pressing the play button (the green, rectangular button shown below).
+
+![WaveLab16](https://github.com/user-attachments/assets/91a15217-8a9b-403f-b657-ff2104341d3a)
+
+*Playback button in WaveLab*
+
+7. Ensure the quality of the playback audio is satisfactory. Once the quality of the audio has been verified, it is time to begin the capture.
+8. Rewind on the playback deck. If using cassette, rewind in CAS 2. 
+
+#### Record
+
+1. At the bottom of the project window, press the square ‘Record’ icon.
+2. In the recording window that comes up, **confirm the input is correct** and check the audio monitoring box. Likewise, **confirm the file location is set to the project folder, then choose a name for the file.**
+3. To start the recording, cue the media, then press ‘Record’ in the WaveLab window. Start playing the media on the appropriate deck. Monitor the recording levels during playback.
+4. Once the playback has finished and to end the recording, press “Stop” or “Record.” **Playback the recording in WaveLab to confirm it sounds correct. It is recommended to export a Preservation Master, an Access Master, and a Listening Copy at this time.**
+
+### Post-Digitization
+
+*This section will cover actions undertaken with digitized files. This includes exporting of derivative files from the preservation master in WaveLab. It will also cover light editing tools needed to trim silence at the beginning or end of recording for listening copies. It will also detail how to use Wavelab to duplicate and route recording to different channels to aid the intelligibility of listening copies. It will also explain how to use Audacity to speed up or slow down recordings to a desired speed. This may be helpful for discs recorded at unconventional speeds or for ¼ open reel recordings recorded at speeds not supported by lab equipment (i.e. 1 ⅞ ips). Finally, this section will also give instructions on how to perform some light restorations to aid intelligibility of listening copies using WaveLab’s RestoreRig tools. As a general rule its important to understand that your raw transfer is a preservation master that should not be touched. None of these post-digitization actions should be taken on the preservation master. Even trimming of silence at the beginning or end of the recording should not be done to the preservation master. The first section describes how to export derivative copies and access master and listening copies should be used for, channel reconfigurations, speed changes and light restoration work.*
+
+#### Exporting Derivative Files in WaveLab Pro 11
+
+##### Export Preservation Master
+
+1. Once the source has been captured, export the Preservation Master and the Access Master to the scratch folder. **Please note: there should be no editing or restoration done to the Preservation Master.**
+2. Export the file with the bit rate and sample rate set to the archival standard: 96 kHz + 24 bit.
+3. Go to **File>Export** and give the project a name. e.g. Artist_Track tile_96kHz24bit_PreservationMaster.wav (this must match the file name entered in the recording window)
+4. **Confirm the location** is set to the project folder in the server created in Step 7.3. 
+5. Click the Format presets button, circled in the image below, and select the following option: Wav_PreservationMaster_24bit96hz.
+
+![PostDig1](https://github.com/user-attachments/assets/6f345601-2e6e-4933-bd3d-a5f2a2f68670)
+
+*Format presets button circled in yellow.*
+
+![PostDig2](https://github.com/user-attachments/assets/1e4abdc5-ecaf-4455-9250-878d7f9ae8c1)
+
+*Dropdown menu of options for Format presets.*
+
+6. Press “Start.” The export should occur within a few seconds.
+
+#### Export Access Master 
+
+1. After the 96kHz24bit Preservation Master has been exported, export the Access Master at the same 96kHz 24bit archival settings.  
+Follow the instructions below, please do not export through the render tab. 
+2. Go to File, then Export, and give the file a name that differentiates it as an Access Master. E.g. Artist_Track tile_96kHz24bit_AccessMaster.wav
+
+![AccessMaster1](https://github.com/user-attachments/assets/650b0efc-ef5a-4df9-bc48-de1dd2ac9b4e)
+
+*For Access Master files, 24 bit 96 Hz is the recommended preset.*
+
+3. Set sample rate to 96 kHz and the bit rate to 24 bit (or select the Access Master Template).
+4. Press Start.
+5. Open the Scratch Files folder and confirm the Preservation Master and the Access Master are both present. 
+6. Open them in a separate application, such as VLC Media Player, to confirm that the audio plays back.
+7. Close WaveLab. For further edits and applying restoration tools to a listening copy, close WaveLab, navigate to the project folder, and perform edits on the access master copy exported.
+
+#### Adjusting Channel Configurations (Creating Dual Mono Outputs)
+
+For quarter-inch open reel recordings, recordings may be transferred with single channel  mono tracks that may be duplicated to create a stereo-sounding dual mono recordings. 
+
+1. Open an Access Master Copy of a recording or create an empty project in Wavelab. In the file group options create an “audio montage”. This allows multiple “tracks” of audio to be manipulated simultaneously.
+
+![Channel1](https://github.com/user-attachments/assets/80a64a8b-abee-47da-bbdf-e95f59db5c23)
+
+*Audio montage selection NOT “Audio File” as would be selected normally.*
+
+2. This will create an empty audio montage. Right-click and use the Insert File command to browse for the wav file you want to import, or copy and paste from the access master file in the other tab. (If you have a file open in an Audio File tab, you can also simply Select All in your Audio File timeline then copy and paste that file into your open Audio Montage tab.)
+
+![Channel2](https://github.com/user-attachments/assets/c5336253-40e6-46f1-9fc0-fd7d67462d8d)
+
+*Can select “Insert Audio Files” and open access master file or can copy and paste or simply drag from another file “tab” open in wavelab.*
+
+3. With the recording displayed in the timeline, right-click in the Control Track area to the left of the timeline, then select the option to “Split Channels into L/R Mono.”
+
+![Channel3](https://github.com/user-attachments/assets/da5a0533-f7d7-4109-abb6-37be5d609b33)
+
+*Right-clicking in the Control Track area produces this menu.*
+
+![Channel4](https://github.com/user-attachments/assets/f77106b5-e038-4f91-a34a-195e9a9a4245)
+
+*Zoomed screenshot of the “split channels” button.*
+
+4. From here, delete any blank channels and replace it with the “Duplicate Track” function, located above “Split Channels” when right-clicked.
+
+![Channel5](https://github.com/user-attachments/assets/faee149e-9606-42a9-970f-5fe7672b0827)
+
+*Two “tracks” which will be treated as separate channels for the dual mono listening copy.*
+
+5. Finally, assign the new track to a separate stereo channel. Right click again in the Control Track area previously to select “Duplicate Track”, and after selecting Input Bus (see photo), then click “Track Routing.” If the original transfer was left channel only, keep that assigned to the left channel, then assign the duplicate track to the right channel.
+
+![Channel6](https://github.com/user-attachments/assets/343f6f22-330b-488a-8d57-9f01663224de)
+
+*Select “Track Routing” in the “Input Bus” menu.*
+
+![Channel7](https://github.com/user-attachments/assets/782c2f41-02d7-4319-a427-e76146c2523d)
+
+*The “track routing options”. Ensure one of the channels is routed to right and the other to left.*
+
+6. Playback the file to ensure that the mono tracks are playing simultaneously in each channel.
+
+#### Modifying the Speed of an Audio Recording
+
+*This section describes the use of Audacity, a free, open-source digital audio workstation (DAW) that may be used to change the speed of a recording.  Audacity is installed on the Audio Transfer Station and Audio Editing Station.*
+
+##### Setting up Audacity
+1. Navigate to the location of the access file with an improper speed and right click. Select “Open With” and  “Audacity.”
+
+![Audacity1](https://github.com/user-attachments/assets/70f272a8-7ea9-4cc1-a1a9-cc225f147486)
+
+*“Open with”< “Audacity”*
+
+2. The file should open in Audacity and the waveform of the recording will be visible in the main window.
+
+![Audacity2](https://github.com/user-attachments/assets/fab6e9c6-a0b5-4897-9f3a-f97c19ff72c2)
+
+*The main window in audacity. Note that the signal is only in the right channel. This recording was a single mono track of a quarter track mono tape.*
+
+
+3. Split the recording into stereo tracks that may be routed to either channel. Navigate to the right side of the window in the “track control area” of the track. This will be similar to the [adjusting channel configuration](#adjusting-channel-configurations-creating-dual-mono-outputs) part of this document.
+4. Click the arrow in the area where the name of the recording is displayed. In the drop down menu select “Split Stereo track”
+
+![Audacity3](https://github.com/user-attachments/assets/b30b2f63-b581-4bd2-aab9-dd07e39d8268)
+
+*“Split Stereo Track”*
+
+![Audacity4](https://github.com/user-attachments/assets/b24d3ec0-2276-4dbf-9ce8-03b23433e1b7)
+
+*This action created two separate stereo tracks. Audacity should have routed each track to either the right or left. This can be verified in the track control window in the slider that goes between “L” and “R”. The blue dot reflects the extent to which the track is routed to the right or left side (underlined in red).*
+
+5. Now there are two stereo tracks. One of the tracks should be filled with the recording but it is effectively blank. “Click” on the empty track and delete the information. 
+6. Click on the other track where the recording is to highlight it and copy and paste it into the other track area.
+   > a. When pasting, make sure the play head is set to 00:00:00 to ensure the two tracks are timed correctly.
+
+![Audacity5](https://github.com/user-attachments/assets/7e74b816-087c-4ce2-bac6-a4d856fb5fc5)
+
+*The circle is meant to indicate that the track has been highlighted in light blue. Press “Backspace” on the keyboard.* 
+
+![Audacity6](https://github.com/user-attachments/assets/ee3448ad-3b76-49cc-8c41-b4c78e58300c)
+
+*After copying and pasting the recording from the right channel to the left channel.*
+   
+7. At this point there should be a stereo pair of tracks routed to either side. Press “Play” to ensure the tracks are synced. 
+
+![Audacity7](https://github.com/user-attachments/assets/30174f73-06f8-42c6-872f-d475b8256553)
+
+*Play button.*
+
+8. Now its time to change the speed of the recordings. Highlight both of the tracks. 
+9. Go to the top menu and select “Effect.” In the long drop down menu select “Change Speed.” 
+
+![Audacity8](https://github.com/user-attachments/assets/95dcff1c-f442-4142-945c-43dbe2d03f26)
+
+*Both tracks highlighted. The tracks must be highlighted for the effect to know which audio should be changed.* 
+
+![Audacity9](https://github.com/user-attachments/assets/bd78cbac-450f-4716-a85f-74bbea175500)
+
+*The location of the “Effect” button.* 
+
+![Audacity12](https://github.com/user-attachments/assets/4e4f9c75-93bc-42da-80d4-ac7f3a39e5ee)
+
+*“Change speed.”*
+
+10. The change speed menu will open. Select the desired percentage change for the recording. Click “Ok.”
+
+![Audacity13](https://github.com/user-attachments/assets/4daaa7b1-655f-440e-9906-554a2fb0d893)
+
+*This recording was a tape recorded at 1 ⅞” ips but it was played back 3.75 ips.*
+
+![Audacity14](https://github.com/user-attachments/assets/eac444c5-c25b-497b-a9c9-055f5ca8499a)
+
+*This is the screen that explains that it is working. This could take a while depending on the length/sample.*
+
+11. When it is done, playback the track in Audacity to ensure nothing has gone wrong in this process.
+12. “Export” with desired specs. Go to “File” and “Export.” 
+
+#### WaveLab RestoreRig (restoration tools) workflow
+
+RestoreRig has three main tools: the **DeClicker**, **DeNoiser**, and **DeBuzzer**:
+	* **DeClicker** lets you remove clicks, pops, and crackles associated with grooved media recordings, as well as noise from splices in tape recordings.
+	* **DeBuzzer** is for removing buzz or hum at fixed frequencies (such as 60Hz ground hum, extending up through 440 Hz).
+	* **DeNoiser** removes noise from recordings, such as tape hiss or line noise. This also includes fixed sources of “static” noise and “dynamic” noise, whose characteristics change slightly over time. 
+
+1. **Headphones**: To use Wavelab’s restoration tools, monitor the audio using the Sennheiser or AKG studio headphones in the IS Lab. Plug headphones into the jack on the Presonus Monitoring station.
+
+2. Set WaveLab as the source when monitoring on the Audio Transfer desktop computer.
+> a. Select “ST1” on the Presonus monitor controller box, located on the Audio Transfer Station table. Multiple sets of headphones may be plugged in, using the bank of quarter-inch headphone jacks that runs across the top of the audio controller.
+
+3. **Open the Access Master file. As a reminder, restoration and editing tools should only be applied to the Access Master file, whereas the Preservation Master file should remain as is.**
+> a. Right-click on the Access Master wav file, then navigate to **“Open with…” > “Wavelab.”**
+
+4. Set WaveLab view to show “spectrograms” to diagnose noise in the recording. For more information on spectrograms and how to view them in WaveLab,[see Appendix D]().
+
+![Restore1](https://github.com/user-attachments/assets/89c798c4-fdf6-4d2c-b69b-892fac43ff70)
+
+*View project as a spectrogram by hitting the “spectrogram” button in the bottom left 
+corner of the WaveLab window. Note: WaveLab is normally set at “Waveform.”*
+
+
+5. Enable the RestoreRig plugin, located in the Master Section of the WaveLab window. 	
+> a. The Master Section houses all effects plugins in WaveLab. Before they may be used, the Master Section must first be enabled. **Please note: these tools should not be activated when capturing audio recordings, as the effect will be applied to the effect as the recording happens.**
+> 
+> b. Turn on the master section by pressing the power button and turning the icon green.
+> 
+> c. Navigate to the bottom of the program to find the RestoreRig plugin label and ensure it is also enabled. Its bypass button should be green rather than brown, indicating  that the effect is on and working. 
+
+![Restore2](https://github.com/user-attachments/assets/578cda6b-fd9a-498b-a1a4-4baca61493b6)
+
+*View of “Master Section” of WaveLab with all effects “on”.*  
+
+![Restore3](https://github.com/user-attachments/assets/1d48782d-7156-46ad-9630-48714cf53ec7)
+
+*If the effects bypass button is brown, it has been bypassed and RestoreRig effects will not be applied. Pay attention to the Master Power button and the effect bypass button when using RestoreRig as both of these icons must be illuminated green to use RestorRig effects.* 
+
+6. Click on the word “RestoreRig” in the Master Section to open its control window.
+
+![Restore4](https://github.com/user-attachments/assets/e654859f-9325-410a-b96f-a0398cacf7c7)
+
+*This is the RestoRig window that will open over the top of the main WaveLab window.*
+
+7. Activate tools in RestoreRig. Press the power icon in the top left corner of each tool area to turn on the tool.
+
+![Restore5](https://github.com/user-attachments/assets/461455ec-3313-4079-a35a-4b8f916383e7)
+
+*Within this window each of the tools can be activated and deactivated. If the tool is grayed out, then it is inactive.* 
+
+8. The intensity of the DeClicker and DeNoise effects can be adjusted from 0% to 100%. The DeBuzzer targets a specific frequency which can be set in the control window. The intensity of the noise cancellation can also be adjusted via “level” control (squelching it 0 decibels, i.e., not at all, all the way up to -96 dbu). The sensitivity controls how much that effect extends into surrounding frequencies. Broader band noise may be targeted with lower sensitivity DeBuzzer.
+9. DeNoiser requires a portion of the recording to be selected, to determine the “noise” to remove. Highlight a quiet passage in the recording (where the spectrogram is the most empty) then click the “Learn” button to build a noise profile. Leaving a moment of dead space at the start of your tape or disc transfer is recommended when building a noise reference 
+> a. Select the correct type of audio recording in DeNoiser so it can apply a specific algorithm intended for the specific type and content of recording (e.g. spoken word, song, etc.).
+
+![Restore6](https://github.com/user-attachments/assets/7e0a5300-c45d-4dc6-8576-7bb2955c928a)
+
+*Select an algorithm for WaveLab to apply to the recording from the dropdown menu.*
+
+10. To hear the effect applied to the recording, ensure that its associated loudspeaker icon is white rather than blue.
+11. If the loudspeaker icon is blue, simply click it to turn it white again.
+
+![Restore7](https://github.com/user-attachments/assets/5e2fbe72-9057-44a9-b0f2-44dc32746ef8)
+
+*Declicker effect with Noise Listening Mode On.*
+
+12. Highlight a segment of the timeline for which the effect will be applied. Use the spectrogram view to find clicks, pops, and noise in your recording, and to see the affected frequency ranges and intensities.
+
+![Restore8](https://github.com/user-attachments/assets/dc11b982-f5c9-4999-8a83-a43507c2f725)
+
+*Noise or clicks in the [spectrogram](https://www.izotope.com/en/learn/understanding-spectrograms.html "Understanding Spectograms") will look like vertical lines as seen above.*
+
+13. The RestoreRig window creates a visualization of the pre-effect signal (labeled “Input Signal,” in red) against the signal with effects applied (labeled “Output Signal,” in blue).
+
+![Restore9](https://github.com/user-attachments/assets/5b05bf8e-6aa3-4c22-bf93-12608d7cdeca)
+
+*In this example a fairly aggressive DeNoising is applied, which has wiped out frequencies above about 8kHz. This will also be visible on the resulting spectrogram, after rendering.*
+
+14. Click on the small “FX” icon in the top left hand of the RestoreRig (Listen to Effect Only) to hear only the affected portion of the signal. If too much of the desired signal is heard, it is possible that excessive noise reduction has been applied. As long as this FX icon is blue, only the portion of the signal being affected by the NR tools will be audible. At this stage, WaveLab is only previewing the effect; it has not been applied to the recording. 
+15. Once the noise has been targeted effectively, highlight the portion of the track to select it for noise canceling. Click the “Render In Place” button in “RestoreRig,” or alternatively, apply the effect to the entire recording through the render tab of the main window.
+
+![Restore10](https://github.com/user-attachments/assets/4cb7e6b1-0661-42b4-91e6-7bcf74ca4ac2)
+
+*“Render in Place” icon in RestoreRig.*
+
+![Restore11](https://github.com/user-attachments/assets/842d5ace-bc03-4db8-a249-65c627d7f6ce)
+
+*The “Render tab” in the main window which allows you to render whole or part of the file or to create a new rendered file with the effect applied.* 
+
+![Restore12](https://github.com/user-attachments/assets/fdb3bafd-ebd6-4ef4-8f74-d4050a15822d)
+
+*Pre-effect signal*
+
+![Restore13](https://github.com/user-attachments/assets/9a716707-a69b-49f4-a503-c0f71959a9ce)
+
+*Post-effect signal*
+
+16. **Please note: after rendering, click the power button to turn off the effect in RestoreRig. Otherwise, the effect will be applied again to the rendered file.**
+17. Once effects have been rendered, examine the spectrogram closely. Listen to the recording in the timeline to see the results of the restoration tools. If playback is satisfactory, save changes to the Access Master copy.
+18. Export an additional, lower-quality Listening Copy using WaveLab’s 16bit/48kHz Listening copy Preset.
+
+![Restore14](https://github.com/user-attachments/assets/cb1ea960-7c3f-434a-92e2-635bfce142ff)
+
+
+### Powering down the audio rack 
+
+This documentation outlines the steps required to properly power down the audio rack. Proper shutdown procedures are essential to prevent damage to equipment. **Please turn off all equipment before leaving the lab–including the lab computer in use.**
+
+**After completing the audio transfer:**
+1. Close Wavelab.
+2. Turn off the audio deck in use (cassette, vinyl, DAT, etc.).
+3. Turn off the Prism, located above the power supply, which transforms the analog audio signal into a digital signal. Power button is located on the upper left.
+4. Turn off the power supply for the Audio Rack and Speakers. Find the little red buttons underneath a plastic flap, located on the left of the CyberPower deck, and on the right of the Tripp-Lite deck.
+5. Turn off the Audio Transfer Station Computer by pressing the power button on the tower.
+
+## Metadata Capture
+
+Metadata can be extremely beneficial in documenting details about the files (track title, author, date, location). Care must be taken to avoid ambiguity about which object is being described in the metadata; it is necessary to describe the work, its original manifestation, and subsequent digital versions. **It is critical to be able to distinguish what is being described in each instance.** The IS Media Lab has spreadsheet templates for [PBCore](https://docs.google.com/spreadsheets/d/1P0-8B6YXb2r5OKkiYj2VNwV9yf-3c0-fdGql0h2jGK8/edit#gid=226473954 "PBCore Template"), [general AV metadata](https://docs.google.com/spreadsheets/d/1EJ1VIpf-ytQOY_76WCxX_FNiTbZjas2SZ6TnUGyrUwE/edit#gid=0 "AV Metadata"), and Dublin Core. Select one of these schemas to fill out while listening to the track. 
+
+
+### A Note on Metadata Entry
+
+When filling out a metadata template, ensure that each cell is devoted to **one piece of information**. This can change depending on the document (e.g. one document has first and last name contained in the same cell; another document separates this data). Separating data into specific categories can help when changing data from one system to another.
+
+### PB Core
+
+The IS Media Lab recommends PB Core as the metadata schema of choice for describing digitized audio files. PB Core is a cataloging standard for the description of audiovisual content, a data sharing tool, a controlled vocabulary, and much more. It was developed in the 2000s by public broadcasters in the United States, in order to more effectively share, manage, and preserve media among different organizations and individuals. Visit the [PBCore site](https://pbcore.org/what-is-pbcore "What Is PBCore") to learn more about PBCore’s uses and applications.
+
+### Dublin Core
+
+Dublin Core is a set of fifteen generic, widely used elements first drafted at a 1995 meeting in Dublin, Ohio, to facilitate information discovery on an explosively growing Web. A diverse community of librarians, technologists, and researchers rallied to the idea of achieving rough interoperability across languages and disciplines through a core of shared semantics. Visit the Dublin Core site to learn more about Dublin Core’s uses and applications. Below is a metadata template for Dublin Core, which can be copied and pasted into a separate program or document for data entry.   
+
+DC Element | DC Definition | Audiovisual Interpretation
+:---: | :---: | :---: 
+**Title** | A name given to the resource | The main title associated with the recording
+**Subject** | The topic of the resource | Main topics covered
+**Description** | An account of the resource | Explanatory notes, interview summaries, descriptions of environmental or cultural context, list of contents
+**Creator** | An entity primarily responsible for making the resource | Not authors or composers of the recorded works but the name of the archive
+**Publisher** | An entity responsible for making the resource available | Not the publisher of the original document that has been digitized. Typically the publisher will be the same as the Creator
+**Contributor** | An entity responsible for making contributions to the resource | Any named person or sound source.Will need suitable qualifier, such as role (e.g. performer, recordist)
+**Date** | A point or period of time associated with an event in the lifecycle of the resource | Not the recording or (P) date of the original but a date relating to the resource itself
+**Type** | The nature or genre of the resource | The domain of the resource, not the genre of the music. So Sound, not Jazz
+**Format** | The file format, physical medium, or dimensions of the resource | The file format, not the original physical carrier
+**Identifier** | An unambiguous reference to the resource within a given context | Likely to be the URI of the audio file
+**Source** | A related resource from which the described resource is derived | A reference to a resource from which the present resource is derived
+**Language** | A language of the resource | A language of the resource
+**Relation** | A related resource | Reference to related objects
+**Coverage** | The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant | What the recording exemplifies, e.g. a cultural feature such as traditional songs or a dialect
+**Rights** | Information about rights held in and over the resource | Information about rights held in and over the resource
+
+## Appendix A: Supported Formats and Identification Guide
+
+### Supported format and identification chart
+
+Format Type | Image/Visual | Decks Supported | Description
+:---: | :---: | :---: | :---: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
