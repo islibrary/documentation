@@ -236,6 +236,13 @@ Attach enough leader to allow for two turns around a core without the film’s i
 ## Kinetta Workflow
 
 ### Cleaning the Equipment
+The Kinetta’s film gate path, the camera lens, and the six blue Particle Transfer Rollers (PTRs) all need to be cleaned before each film transfer. Cleaning supplies, like foam cleaning swabs and isopropyl alcohol, can be found in the gray cabinet labeled “Need Something?” located to the left of the Kinetta.
+
+![Foam Cleaning Swabs](https://github.com/user-attachments/assets/c90c89dd-c059-4af1-95a8-4ecc73cefb0f)
+
+![Isopropyl](https://github.com/user-attachments/assets/6330fb71-4402-4238-99dc-7bbfccd163da)
+
+
 
 #### Cleaning the Film Gate Path:
 
