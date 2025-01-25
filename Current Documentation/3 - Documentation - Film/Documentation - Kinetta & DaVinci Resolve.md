@@ -238,11 +238,11 @@ Attach enough leader to allow for two turns around a core without the film’s i
 ### Cleaning the Equipment
 The Kinetta’s film gate path, the camera lens, and the six blue Particle Transfer Rollers (PTRs) all need to be cleaned before each film transfer. Cleaning supplies, like foam cleaning swabs and isopropyl alcohol, can be found in the gray cabinet labeled “Need Something?” located to the left of the Kinetta.
 
-![Foam Cleaning Swabs](https://github.com/user-attachments/assets/c90c89dd-c059-4af1-95a8-4ecc73cefb0f)
+<img src="https://github.com/user-attachments/assets/c90c89dd-c059-4af1-95a8-4ecc73cefb0f" alt="foam cleaning swaps" width="150">
 
-![Isopropyl](https://github.com/user-attachments/assets/6330fb71-4402-4238-99dc-7bbfccd163da)
+<img src="https://github.com/user-attachments/assets/6330fb71-4402-4238-99dc-7bbfccd163da" alt="isopropyl alcohol" width="150">
 
-![gloves](https://github.com/user-attachments/assets/74133897-f50e-44ff-905d-ec370505d0f3)
+<img src="https://github.com/user-attachments/assets/74133897-f50e-44ff-905d-ec370505d0f3" alt="gloves" width="200">
 
 #### Cleaning the Film Gate Path:
 1. Unscrew the black film gate and lift it up to remove it from the scanner.
@@ -274,7 +274,7 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 
 *Capstan Roller*
 
-![kinetta screenshot](https://github.com/user-attachments/assets/a66d5f1c-9ae6-4d1e-b1de-329599b58789)
+<img src="https://github.com/user-attachments/assets/a66d5f1c-9ae6-4d1e-b1de-329599b58789" alt="kinetta screenshot" height="150">
 
 *Kinetta software shortcut*
 
