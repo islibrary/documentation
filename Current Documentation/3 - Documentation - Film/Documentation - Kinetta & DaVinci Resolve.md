@@ -289,6 +289,7 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 ### Loading the film
 1. **Wind film onto a core:** Once the leader has been attached, wind the film onto the proper core for the Kinetta.
 > * For a 16mm/35mm film, wind the film onto an archival film core.
+> * For 8mm film, put a 16mm split reel around a Kinetta 8mm reel. Please note that there are only two Kinetta-compatible 8mm reels in the lab. Alternatively, an 8mm film may be wound onto a 16mm core, which will sit flatter on the scanner.
 
 ![16_split_reel](https://github.com/user-attachments/assets/34bd033e-d10f-4f74-8d21-e7e1708a3b46)
 
@@ -296,7 +297,35 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 
 ![kinetta_core](https://github.com/user-attachments/assets/ebd0a515-5e5e-4577-a7a1-f7065de37bdd)
 
+*Different film gauges correspond to differently sized cores. Top to bottom: 16mm split reel and core, 35mm split reel and core, and a 16mm core on the Kinetta.*
+
+![8_split_reel](https://github.com/user-attachments/assets/000bcf8d-d453-4f2c-8f32-d145710f0b15)
+
+*8mm/Super8 split reel*
+
 ### Scanning Prep
+
+1. **Power on the Kinetta Equipment:**
+> * Power on the Kinetta computer tower, located underneath the Kinetta (power button in on the front right corner). Sign in with the UCLA Kinetta1 user credentials (located on monitor). 
+> * Flick the red power switch located on the central back panel of the scanner and ensure that “I” is pressed down. Please note that the power switch **will remain illuminated when the Kinetta is off.**
+
+![kinetta_power](https://github.com/user-attachments/assets/b92a69ba-5e1d-44bc-8054-7e765969abcf)
+
+*Power Button on the back of the Kinetta, circled in blue.*
+
+2. **Open the Kinetta software:**
+> * Double click the Kinetta Software shortcut on the desktop (shown left).
+> > * Click ‘Yes’ on the pop-up window asking whether to let the application make changes to the computer.
+> > * Click ‘OK’ on the pop-up window asking to reload a previous calibration.
+
+<img src="https://github.com/user-attachments/assets/a66d5f1c-9ae6-4d1e-b1de-329599b58789" alt="kinetta screenshot" height="150">
+<img src="https://github.com/user-attachments/assets/8a07f220-2b5d-4646-ac17-f04b8615c8e6" alt="kinetta scanner ok window" height="150">
+
+*(Left) Kinetta Shortcut Icon (Right) Calibration Pop-Up Window*
+
+> * The Controls Panel and the Second Panel will open (this may require opening the Kinetta software a few times). 
+> > * Do not change the configuration of the panels on the monitors.
+
 
 #### Load film onto the scanner
 
