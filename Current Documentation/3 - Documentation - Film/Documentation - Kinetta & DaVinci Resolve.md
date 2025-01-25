@@ -260,7 +260,6 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 
 5. Screw the gate back into place when finished.
 
-
 #### Cleaning the six blue Particle Transfer Rollers (PTRs):
 
 #### Cleaning the camera
