@@ -326,6 +326,9 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 > * The Controls Panel and the Second Panel will open (this may require opening the Kinetta software a few times). 
 > > * Do not change the configuration of the panels on the monitors.
 
+![kinetta_desk](https://github.com/user-attachments/assets/5b2f1c3d-ded4-4818-83cd-f033e4d5d724)
+
+*To toggle between the monitors, slide the cursor over the top left corner of the right monitor, and the top right corner of the left monitor. This process requires practice and patience.*
 
 #### Load film onto the scanner
 
