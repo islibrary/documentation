@@ -242,9 +242,24 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 
 ![Isopropyl](https://github.com/user-attachments/assets/6330fb71-4402-4238-99dc-7bbfccd163da)
 
-
+![gloves](https://github.com/user-attachments/assets/74133897-f50e-44ff-905d-ec370505d0f3)
 
 #### Cleaning the Film Gate Path:
+1. Unscrew the black film gate and lift it up to remove it from the scanner.
+
+![kinetta picture](https://github.com/user-attachments/assets/005cc819-41e7-4fcb-b3eb-8d3a0895a7b3)
+
+*The film gate must be lifted upward and removed from the Kinetta to be cleaned.*
+
+2. To clean the film gate path, gently wipe with a foam swab soaked in isopropyl alcohol on the removable section of the film gate.
+3. To clean the lightbox behind the film gate, use a dry foam swab to wipe away residual dust or debris from the small, glass window in the center of the gate. This ensures dust and debris will not feature in the scan as unwanted artifacts.
+
+![kinetta picture 2](https://github.com/user-attachments/assets/e192c040-25a4-43f9-b62e-dba0c242b4d8)
+
+*Film Path on the Removable Film Gate*
+
+5. Screw the gate back into place when finished.
+
 
 #### Cleaning the six blue Particle Transfer Rollers (PTRs):
 
