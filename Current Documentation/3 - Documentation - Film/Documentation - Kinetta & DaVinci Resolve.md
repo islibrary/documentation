@@ -283,8 +283,18 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 *Inching knobs*
 
 #### Cleaning the camera
+1. Remove the lens cap from the camera and set it on the table. Important note: the camera lens must be recovered after scanning.
+2. Using a clean swab WITHOUT alcohol, or a microfiber cloth, carefully clean the camera's lens. Gentle, circular motions are recommended.
 
 ### Loading the film
+1. **Wind film onto a core:** Once the leader has been attached, wind the film onto the proper core for the Kinetta.
+> * For a 16mm/35mm film, wind the film onto an archival film core.
+
+![16_split_reel](https://github.com/user-attachments/assets/34bd033e-d10f-4f74-8d21-e7e1708a3b46)
+
+![35_split_reel](https://github.com/user-attachments/assets/fb6a2054-a89a-4114-812c-6c2d74c0024e)
+
+![kinetta_core](https://github.com/user-attachments/assets/ebd0a515-5e5e-4577-a7a1-f7065de37bdd)
 
 ### Scanning Prep
 
