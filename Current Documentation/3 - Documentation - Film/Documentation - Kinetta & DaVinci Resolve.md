@@ -262,6 +262,26 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 
 #### Cleaning the six blue Particle Transfer Rollers (PTRs):
 
+1. Using a foam swab soaked with 99% isopropyl alcohol, spin the black piece with a finger to clean the rubber surface of the roller.
+
+![kinetta 3](https://github.com/user-attachments/assets/c6fa3100-f4e3-4901-8f3f-a857cb536342)
+
+*Clean blue PTRs using a swab soaked in alcohol.*
+
+2. Please note that the capstan roller (seen in the image below located to the immediate right side of the film gate) **does not manually spin.** Open the Kinetta software and press the forward inching knob button to spin the capstan roller while holding the wet swab in place.
+
+![kinetta 4](https://github.com/user-attachments/assets/2e288900-592d-4829-a8ca-9ef5ab8c2507)
+
+*Capstan Roller*
+
+![kinetta screenshot](https://github.com/user-attachments/assets/a66d5f1c-9ae6-4d1e-b1de-329599b58789)
+
+*Kinetta software shortcut*
+
+![kinettta screenshot](https://github.com/user-attachments/assets/ef980389-b52e-4389-9d6b-8453d7a9856e)
+
+*Inching knobs*
+
 #### Cleaning the camera
 
 ### Loading the film
