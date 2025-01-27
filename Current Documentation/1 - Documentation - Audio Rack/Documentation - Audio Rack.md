@@ -115,6 +115,10 @@ The IS Lab audio rack supports the following formats:
 
 [Appendix H: Keith Monks Record Cleaning Machine Information](#appendix-h-keith-monks-record-cleaning-machine-information)
 
+[Appendix I: Demagnetizing Audio Playheads (Lab Staff Only)](#appendix-i-demagnetizing-audio-playheads-lab-staff-only)
+
+[Appendix J: Guidelines for DAT Inspection and Playback](#appendix-j-guidelines-for-dat-inspection-and-playback)
+
 ## Resources
 [UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas "UCLA Media Archival Studies Research Guide")
 
@@ -303,11 +307,11 @@ Source: Nakamichi Dragon 3 Head Tape Deck manual.*
 > * **Scotch**
 > * **Sony**
 
-> **d.** Tapes affected by sticky-shed syndrome usually have a black coating on the tape, which was added for superior sound quality. Apart from this, there is no way to visually determine if a tape is susceptible to sticky shed syndrome. Any other brand must be examined, baked, and played back carefully. Archivists and researchers agree that major tape brands are consistent, stable, and reliable. By contrast, non-major brands, which often varied in formulations and were poorer in quality, present risks to their preservation. For more information on identifying sticky-shed syndrome, please refer to [Appendix B]().
+> **d.** Tapes affected by sticky-shed syndrome usually have a black coating on the tape, which was added for superior sound quality. Apart from this, there is no way to visually determine if a tape is susceptible to sticky shed syndrome. Any other brand must be examined, baked, and played back carefully. Archivists and researchers agree that major tape brands are consistent, stable, and reliable. By contrast, non-major brands, which often varied in formulations and were poorer in quality, present risks to their preservation. For more information on identifying sticky-shed syndrome, please refer to [Appendix B](#appendix-b-identifying-vinegar-syndrome--sticky-shed-syndrome).
 
 3. **Vinegar syndrome**:
 * A type of deterioration that affects acetate-based audio tapes. Similar to the way in which vinegar syndrome affects acetate-based film, affected tapes will have a profuse vinegar-like smell. In severe cases, the tape can become brittle due to “hydrolysis,” a reaction of the binder of the tape with moisture in the air. Vinegar syndrome is not considered as significant as sticky shed syndrome or soft binder syndrome. However, **tapes with advanced stages of vinegar syndrome probably are too brittle to withstand playback and should not be used in the Lab**. 
-* Please note: Contrary to film, AD test strips are not recommended for audio tape because they are not developed to detect the amount of acid in an affected audio tape. For more information on identifying vinegar syndrome, see [Appendix B]().
+* Please note: Contrary to film, AD test strips are not recommended for audio tape because they are not developed to detect the amount of acid in an affected audio tape. For more information on identifying vinegar syndrome, see [Appendix B](#appendix-b-identifying-vinegar-syndrome--sticky-shed-syndrome).
 
 #### Cleaning ¼” Audio Tape Decks
 
@@ -405,7 +409,7 @@ Proceed once it is confirmed that tape does not have the following issues:
 
 #### Playback Considerations
 **For cassette Tapes**:
-* Contact a member of Lab Staff to ensure that the deck is properly cleaned and [demagnetized](link to appendix 1).
+* Contact a member of Lab Staff to ensure that the deck is properly cleaned and [demagnetized](#appendix-i-demagnetizing-audio-playheads-lab-staff-only).
 * Identify tape type and appropriate bias and EQ settings.
 * Check recording tab status.
 * Confirm Dolby NR type and availability of decoder.
@@ -542,7 +546,7 @@ Number | Deck Shorthand | Deck Make/Model | Supported Media Formats
 13 | R2R 1 | Otari MX-5050 | Open reel audio tape
 14 | R2R 2 | Otari MX-50 | Open reel audio tape
 15 | PHONO | Technics SL-1210MK2 | Vinyl record; 78 shellac; transcription disc; acetate disc
-16 | TS^2 Dual Outputs Abrev. as TSFL and TSEQ. Refer to [Appendix E]() for more info. | Time Step T-03EQ A+ |
+16 | TS^2 Dual Outputs Abrev. as TSFL and TSEQ. Refer to [Appendix E](#appendix-e-timestep-archival-pre-amp) for more info. | Time Step T-03EQ A+ |
 
 
 
@@ -945,7 +949,7 @@ RestoreRig has three main tools: the **DeClicker**, **DeNoiser**, and **DeBuzzer
 3. **Open the Access Master file. As a reminder, restoration and editing tools should only be applied to the Access Master file, whereas the Preservation Master file should remain as is.**
 > a. Right-click on the Access Master wav file, then navigate to **“Open with…” > “Wavelab.”**
 
-4. Set WaveLab view to show “spectrograms” to diagnose noise in the recording. For more information on spectrograms and how to view them in WaveLab,[see Appendix D]().
+4. Set WaveLab view to show “spectrograms” to diagnose noise in the recording. For more information on spectrograms and how to view them in WaveLab,[see Appendix D](#appendix-d-reading-spectrograms-in-wavelab).
 
 ![Restore1](https://github.com/user-attachments/assets/89c798c4-fdf6-4d2c-b69b-892fac43ff70)
 
@@ -1422,16 +1426,148 @@ Playback heads become magnetized due to contact with magnetic tape. Demagnetizat
 
 You can find the “Hand-D-Mag” in the black metal cabinet near the front of the shelves. It is in a clear plastic box. Paper instructions for use are included in the box. 
 
+![AppendixI1](https://github.com/user-attachments/assets/5344d704-13fa-4010-8708-d945bf67597d)
 
+*Han-D-Mag in its box*
 
+![AppendixI2](https://github.com/user-attachments/assets/be4f7519-2fab-49a6-99f3-5fbcf07bcb9b)
 
+*What the Han-D-Mag looks like*
 
+Before beginning, it may be helpful to look up a manual of the deck that needs to be demagnetized to ensure that the proper head is demagnetized. 
 
+![AppendixI3](https://github.com/user-attachments/assets/cff35b54-37b2-46e4-bb83-346b01d2c727)
 
+*Here is an explanation of the configuration of the heads for the Otari MX5050. Since only the playback heads are typically used at the IS Lab, only H2 and H4 would be demagnetized. The lab’s machine is on the top line of the chart.*
 
+### Prepare to Demagnetize
 
+1. Unplug deck
+> a. It is imperative that the deck is turned off while demagnetizing the heads. Failure to do this could cause irreparable damage to the amplifier in the deck.
 
+2. Move deck to clear space (recommended white tables at the front of room 118)
 
+![AppendixI4](https://github.com/user-attachments/assets/94b4b3a1-a3b3-4e8a-abce-78b9b9794451)
+
+*Open reel deck is positioned away from any magnets or electronics and is unplugged.*
+
+> a. Pick up the deck and move it to a clear table away from any speaker or any electronic device. Demagnetizing in the immediate presence of other electronic devices risks damage to those devices.
+> 
+> b. No magnetic tapes should be in the vicinity of the deck.
+> 
+> c. It is also recommended that phones/ credit cards are taken out of pockets because of the strength of the “Hand-D Mag.
+
+3. Lie tape deck on its back (if it’s open reel) to get better access/view of the heads.
+4. Locate an 115V outlet at least 3 feet away from the deck and any other magnets/tape/ electronic equipment. 
+
+![AppendixI5](https://github.com/user-attachments/assets/c9b56ff7-17da-4daa-8086-33add51613c0)
+
+*Can visualize the deck and the heads better when open reel deck is laid on its back.*
+
+![AppendixI6](https://github.com/user-attachments/assets/b7985b08-c3ee-407c-a8b1-0c37cc4cecf6)
+
+*Use an outlet several feet away from the deck and away from other electronics or magnetic media.*
+
+### Demagnetize 
+
+1. Plug the ‘Hand-D-Mag” into the outlet. You should feel the “Hand-D-Mag” emitting pretty strong vibrations.
+2. Approach the component to be demagnetized with the plastic jacketed probe.
+3. Bring the probe tip within 1/8” of the head.
+4. Wave sideways slightly.
+5. Then withdraw slowly, while Hand-D Mag is still plugged in at a rate no faster than 3” to 4” per second; to a distance of at least 12.” 
+
+![AppendixI7](https://github.com/user-attachments/assets/043b305a-b275-4062-82ce-637d6d4ee557)
+
+*When the Han-D-Mag is on, CAREFULLY bring it close to the playhead.*
+
+![AppendixI8](https://github.com/user-attachments/assets/809a1436-6e97-4475-bd27-cbe1802ccd33)
+
+*Bring the probe tip until it is ⅛” from the head.*
+
+![AppendixI9](https://github.com/user-attachments/assets/a813f95a-f4ad-4cdd-922f-ac4845a603f0)
+
+*Wave the probe tip to the side slightly*
+
+![AppendixI10](https://github.com/user-attachments/assets/8b7b7859-3141-4f67-8fce-141f3493fc15)
+
+*Slowly, bring the probe away from the playhead at a rate of 3-4” per second.*
+
+6. Repeat with other magnetic heads as needed.
+7. Unplug the Hand-D Mag. **DO NOT keep the Hand-D-Mag plugged in for longer than 5 minutes** (unit may overheat).
+
+## Appendix J: Guidelines for DAT Inspection and Playback
+
+![AppendixJ1](https://github.com/user-attachments/assets/3a1d7818-9aca-4500-9810-9d1ca51ef6db)
+
+*DATs are much larger than micro cassettes and slightly larger than MiniDVs but smaller than regular analog audio cassettes.*
+
+### General Format Info
+
+DAT stands for digital audio tape. Its signal is encoded digitally via 4mm helical scans, by contrast to other magnetic audio tape formats encoded by lateral scan. Because it is a helical scan, DAT playback decks have spinning heads which read the tape.The tape base consists of polyester with pure metal particles floating in a polyester urethane binder. Many tapes often have a back coating of graphite or another lubricant. DATs were being made from around 1985-2005. The pure iron pigments used in the magnetic layer of DATs are susceptible to oxidation (rust). Binder hydrolysis in the polyester urethane binder has proven to be a prevalent issue with many DATs, causing complete loss of information. The high speeds produced by the rotating heads passing by the moving tape exacerbate damage to the information layer. After the error threshold is crossed, the information is irretrievable. These factors combine to make DATs a very high-risk format.
+
+DAT is a digital signal encoded on tape, which means that it will have an inherent sample rate and bit depth that cannot be changed. Most common bit depths/ sample rates are 12/32kHz 16/44.1kHz or 16/48kHz. Often the playback deck will detect the sample rate of the tape and will show it on the main display of the deck.
+
+### Inspection and Preservation Guidelines 
+
+According to the University of Illinois Preservation Self-Assessment Program, DATs are a “high-risk format,” due to the variety of preservation risks which they pose. During inspection for a DAT / digital audio tape, check for and note any of the following signs of deterioration which are known to afflict this format:
+* Pure iron pigments used in the magnetic layer of DATs are susceptible to oxidation, or rust.
+* Cracked or broken cartridge.
+* Loose or missing pressure pad (small, square piece of foam underneath the tape).
+* An uneven tape pack (when the wind of tape is not completely uniform).
+* Binder hydrolysis results in tape shedding or sticky residue. **Do not attempt playback for tapes afflicted with these issues, as they can damage the decks and the tape.**
+* As per the general instructions in the [Required Inspection](#required-inspection) section of this document, look for signs of mold and mechanical damage to the tape pack. **Moldy tapes must be isolated and cannot be played back in the Lab.**
+* Make note of the manufacturer of the tape. Different manufacturers had varying ways of encoding information; different tapes may play better or worse on different decks. For example, if it is a Sony brand tape, try playback on the Sony PCM R-500, for example.
+  > a. As noted in the [Audio Rack Equipment Section](#audio-rack-equipment), the Lab has two DAT decks. It is suggested to play tapes on decks made by their respective brands. If the tape is neither Sony nor Panasonic, try the Panasonic SV-3800.
+* Never do the following:
+> * Freeze DAT
+> * Unspool the tape
+> * Submerge the tape in water
+* Before playback: Clean the outside of the cassette with a foam swab, dipped in a solution of 1 part isopropyl alcohol and 2 parts water. 
+
+### Preservation and Playback
+
+The high speed of the tape as it passes through the audio head can exacerbate pre-existing tape damage and loss of information. As soon as an error with the deck is presented, DATs should be removed to prevent further or complete loss of audio information. **At this point, tapes with these issues should only be digitized by trained preservation engineers, using high-quality audio equipment.**
+
+**Important reminder**: Except in the case of serious errors, DATs **must be played to the end of the recording**. This is to ensure that the tape has a proper “library wind” for storage. If DATs are stopped in the middle of the recording and left unplayed, **this poses a serious risk of long-term physical damage or warping to the tape**, and loss of information.
+
+In the case of playback errors, it may be necessary to make a separate access master that stitches together segments from successive playbacks into one good file. See Dan Figurelli’s discussion of this method from the [“What’s Up with DAT?” ARSC webinar](https://arsc.aviaryplatform.com/playlists/134/show/playlist_resource_id/7212/collection_resource_file_id/130155 "What's Up with DAT").
+
+### DAT Workflow
+
+Users should note that the [signal path](#audio-rack-equipment) for the DAT decks are slightly different than other playback equipment. Since the tape is encoded digitally, the Prism Analog-to-Digital converter can be bypassed and interpreted by the computer sound cards. While there is an analog routing system for the two DAT players, it is recommended to select **digital out**.
+
+1. Because of the different signal path for DATs, it has been observed that, contrary to other decks, it’s better to have WaveLab open **before** playing the tape on the deck.
+2. When opening WaveLab, remember to set the project and monitoring sample rate to the sample rate specified by the deck (see left image):
+
+![AppendixJ2](https://github.com/user-attachments/assets/2680b256-f538-4ad3-a2e3-a6f1877edeb7)
+
+*Sample rate of the tape is depicted on the upper left of the display.*
+
+![AppendixJ3](https://github.com/user-attachments/assets/653d872b-e8d5-4c5c-8599-b6fa525dfd3f)
+
+*Zoomed out photo of Panasonic sv-3800 for reference.*
+
+![AppendixJ4](https://github.com/user-attachments/assets/30f55ff2-7141-4a55-b14a-65f927fc4f68)
+
+*The monitoring sample rate on WaveLab must match the sample rate of the DAT. This information is communicated to the computer’s audio card, which receives the signal from the deck.*
+
+![AppendixJ5](https://github.com/user-attachments/assets/b710d4ff-423f-4937-ac67-37b5757824e4)
+
+*Set the project settings in WaveLab to match the DAT’s specifications.*
+
+2. Once the sample rate has been set on WaveLab, begin monitoring to check for dropout.  Sometimes it may be difficult to tell when dropout is occurring. If someone is talking, it might be easier to tell that audio cutting mid sentence indicates dropout on the tape.
+> a. High-pitched screeching indicates deterioration of the metal particle binder. In this case, the tape should be immediately stopped and removed from the deck.
+
+3. DATs do not require levels to be set, since the audio reflected in the tape has already been sampled digitally.
+
+### Digitization 
+
+1. Capture the audio in WaveLab following the standard audio transfer workflow, which is available in the [Digitization](#digitization) section of this document.
+2. If excessive dropout or noise occurs, stop the tape and start capturing from the beginning again. Due to the nature of playback and deterioration of the tape, more information may be read in a second pass of the tape.
+   > a. Alternatively, if dropouts or failures occur, try playing the tape on the other DAT deck in the rack. Slight differences in tape or playback technology may make a deck better suited to a particular tape.
+   >
+   > b. If playback does not reveal more information where dropouts existed, that information is likely irretrievable.
+3. **Ensure that the tape is played until the very end of the recording**. If a tape is stopped in the middle of a recording, this risks warping and physical damage to the tape.
 
 
 
