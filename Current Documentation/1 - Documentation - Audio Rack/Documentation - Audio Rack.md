@@ -1416,6 +1416,15 @@ You now have a clean, dry disc. You can stop here if you feel like your record i
 13. Use the edge of a folded paper towel slipped under the edge of the disc to catch any remaining liquid at the edge of the disc. Wipe the vertical edge of the disc. 
 14. You now have an archivally clean record. Place the record in a new clean sleeve.
 
+## Appendix I: Demagnetizing Audio Playheads (Lab Staff Only)
+
+Playback heads become magnetized due to contact with magnetic tape. Demagnetization should be performed after 10 hours or more of playback, and whenever it is suspected that a magnetic field has built up on the playhead. If not corrected, the field on the head will get larger with more playback. If excessive hiss or the loss of high frequency response is heard during playback, it may be necessary to demagnetize the tape head. Cassette tape decks or ¼” open reel deck playheads may be demagnetized. Always be careful when demagnetizing heads, failure to follow the steps risks damage to the deck or other equipment. The Han-D-Mag is a powerful magnet so keep tapes, electronics and other magnets away from it when plugged in. **Demagnetizing playheads is to be performed by lab staff only. It is not recommended that those with pacemakers or magnetic medical devices use the Han-D-Mag.** Refer to [Annis’ Hand-D-Mag kit](https://www.rbannis.com/Han-D-Mags.html "Han D Mags") for more information about demagnetization.  
+
+You can find the “Hand-D-Mag” in the black metal cabinet near the front of the shelves. It is in a clear plastic box. Paper instructions for use are included in the box. 
+
+
+
+
 
 
 
