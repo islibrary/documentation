@@ -332,6 +332,11 @@ The Kinetta’s film gate path, the camera lens, and the six blue Particle Trans
 
 #### Load film onto the scanner
 
+a. Thread the film through the blue PTR rollers on the Kinetta, using the small black arrow labels on the machine as a guide.
+b. Make sure the film is flush against the gate, and under the metal bar. 
+c. Identify the emulsion side (dull side) of the film. For assistance, refer to the image below. Ensure that the emulsion side is facing the camera. This step is very important, as it ensures the most accurate transfer of the image information printed on the film.
+
+
 ### Prep the Software and Hardware
 
 #### Calibration Process
