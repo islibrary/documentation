@@ -336,18 +336,250 @@ a. Thread the film through the blue PTR rollers on the Kinetta, using the small 
 b. Make sure the film is flush against the gate, and under the metal bar. 
 c. Identify the emulsion side (dull side) of the film. For assistance, refer to the image below. Ensure that the emulsion side is facing the camera. This step is very important, as it ensures the most accurate transfer of the image information printed on the film.
 
+![LoadFilm1](https://github.com/user-attachments/assets/ac6e90e8-0924-4ae7-b702-cb1ffb91c3b5)
+
+*Diagram differentiating the emulsion and base sides of film.*
+
+a. The film may be loaded with the sprockets facing any direction. There is no specific requirement for how the film should be oriented when loading. Add the correct film gauge core to the opposite platter. For 8mm or Super8, use the special “Amphex” Kinetta-compatible core. Be sure to mirror the thread pattern of the film on both sides of the scanner.
+
+![LoadFilm2](https://github.com/user-attachments/assets/747bc4e9-7e4d-4df5-87e2-a16710a29023)
+
+*Examples of how to thread film based on the tandem switch configuration. Numbers under tension control will fluctuate; these are the numbers that were displayed during the screenshot.*
+
+A. Set the tension:
+a. Setting the tension is an important step which ensures the film is secure and properly scanned by the machine. Flip the Tandem switches on the Kinetta.
+b. Ensure that the arrows in the Tension Control section are facing **the same direction** as the threaded film. See the images above for reference.
+
+![LoadFilm3](https://github.com/user-attachments/assets/8706a57c-6380-4d65-806e-c6f92d8a42e8)
+
+*Tandem Switches*
 
 ### Prep the Software and Hardware
 
+![LoadFilm4](https://github.com/user-attachments/assets/91293be2-dafb-4e55-add1-4e85f5255aea)
+
+*The Kinetta software’s graphical user interface (GUI).*
+
+1. **Check the software settings**:
+   > a. Film Format: Set to the correct gauge of the film.
+   > 
+   > b. Film Speed: This is the frames per second (FPS) for the motor, not the file. The recording file generated will have an agnostic frame rate, and the FPS will be set later in DaVinci Resolve.
+   > > i. FPS may be slowed for films with significant damage; it is not recommended to go over 18 fps.
+
+2. **Apply tension to the film**:
+  > a. Once the film is threaded properly and the tenison controls are set to apply force in the correct direction, press the “load” button on the Kinetta software. This will add force to the platters, keeping the film tense, so that the scanner can shuttle the film with the control of the software. Force should be applied in the same direction that the film was loaded.
+  > 
+  > b. If the load is successful, the scanner will gather film tension and the “Load” button will change to read “Unload” in the software.
+  >
+  > c. If the load is unsuccessful, the scanner will loosen film on platters and the “Load” button will still read “Load.”
+  >
+  > d. If necessary, attempt re-loading by checking that take-up directions are correct and repeating the previous steps. If it still does     not load, restart the Kinetta software.
+
+3. **Frame the camera lens for the film**:
+  > a. Increase light levels by pressing the ‘White’ button. Raise the white light slider up until the preview monitor changes from dark to light.
+
+ ![LoadFilm5](https://github.com/user-attachments/assets/88631070-d9dd-4f6a-b866-de2b067064f0)
+
+ *Light Level Controls in the Kinetta software*
+
+ 4. **Center the image**:
+   > a. Using the green inching knobs, circled below, vertically center the image in the left monitor of the Kinetta Station.
+
+   ![LoadFilm6](https://github.com/user-attachments/assets/c1403e81-cece-4ee3-ae2b-be2b1dce7cec)
+
+  *Use the inching knobs to center the image and precisely advance through the film.*
+
+  5. **Adjust the camera**:
+     > a. Turn the black screw behind the camera to adjust the focus. This will move the camera further or closer from the film. Do not attempt to change focus using the lens.
+     >
+     > b. Turn the silver knob, shown below and to the right, to center the image. This will move the camera to the right or left.
+
+![LoadFilm7](https://github.com/user-attachments/assets/12c195e4-5bb8-418d-8b57-989ece9b30b5)
+
+![LoadFilm8](https://github.com/user-attachments/assets/e06ac125-c757-453a-9fc8-7f190580f1dc)
+
+*Use the lens carriage knob, left, to adjust focus. Use the silver knob, right, to center the image.*
+
 #### Calibration Process
+
+If the film gate has been changed or the camera has moved, please follow the steps listed below: 
+
+1. Remove the film from the gate (Please place it somewhere non-obstructive on the scanner so it does not get lost).
+2. Unscrew the gate and remove it from the sensor carriage.
+3. Hit the “calibrate” button on the Kinetta software.
+4. A message will pop up that says “please ensure the gate is clean and empty.” Wipe the sensor with a dry foam swab to ensure that dust or smudges will not feature in the film scan. Do not wipe the sensor with cloth or fingers, as these methods may leave residue.
+5. Press “Ok” in the window.
+6. Calibration actions will initiate after a few seconds of visual inactivity. Calibration may take several minutes.
+7. If calibration is successful, the button will change from “Cal Off” to “Cal On”. Waveforms will form a straight, white line, and the preview monitor will appear uniformly gray.
+8. If calibration is unsuccessful, the preview monitor may display quadrants, gradients, non-gray color, an error message reading “specified argument was out of the range of valid values,” or the monitor will display film with incorrect values.
+> a. Select “Ok” to recalibrate and retry the calibration steps.
+>
+> b. If re-calibration is also unsuccessful, turn off the scanner and turn it on again. Then reboot the software.
+>
+> c. Replace the film gate on the sensor carriage and rethread film on the scanner.
+>
+> d. Using the inching knobs, located above the red stop button, to advance the film to an image and then stop.
+>
+> e. Scroll with the mouse wheel to zoom in and out of the image. Focus on the grain of the film rather than the image. Do not use the film perforations as a reference for focus.
+> > i. Reset the zoom by clicking the mouse wheel.
+
+![Calibration1](https://github.com/user-attachments/assets/463f4987-f97a-42e6-859a-c6b86acfde5d)
+
+*An image in focus. The grain is visible and should give your image a sandy texture.*
+
+![Calibration2](https://github.com/user-attachments/assets/ac7c1285-6c55-4fda-83d3-f37c07903b97)
+
+*An image out of focus.*
+
+> f. Advance the film in the direction of your scan to make any focus adjustments.
+
+ 9. **Frame the image**:
+> a. In the center row of the software window, click the **White** button in the Light Source panel on the far left.
+>
+> b. Click the Preview button so that it reads Preview On.
+>
+> c. Use the crawl arrows (pictured below) to make focus adjustments, as needed.
+>
+> d. Horizontally center the image, as much as possible, retaining full view of the black margins.
+>
+> e. Aspire to have two entire perforations visible. One sprocket is still permissible.
+
+10. **Set the Reference Region**:
+> a. Specify the reference region by simultaneously holding down CTRL and the LEFT mouse button. Drag the cursor over the perforations to create a column, as shown on the following page. The column may be narrow. **Ensure the column does not touch nor exceed** the rounded edges. This ensures the program will be able to easily stabilize the image.
+
+![Calibration3](https://github.com/user-attachments/assets/b4ae2e5e-1353-490f-a0f5-cbd9c429f754)
+
+*Ensure that the reference region (circled) neither touches nor exceeds the rounded corners of the perforations.*
+
+> b. This process may take a couple of tries. Some tips: Release the CTRL button in between tries, hold down the mouse button, and make sure you are moving the mouse **horizontally, left to right**.
+>
+> c. For film with two rows of perforations, the reference region may be set on either side of the film.
+>
+> d. For horizontal stabilization, draw the region from the middle of the perforation to the outer edge of the film.
+>
+> e. On the left side of the monitor, a black line representing the reference region will appear (shown below). The line should be solid through the middle, as shown in the image affixed here:
+
+![Calibration4](https://github.com/user-attachments/assets/4a61f123-4aec-4b81-a96c-412c05575bfb)
+
+*How the lower left viewing window will look once the reference region is set.*
+
+> f. Select the “Set Reference Region” button while the film is still and centered in the gate. The button will say “Reset Reference Region.”
+>
+> g. Select ‘Stabilize.’
+>
+> h. Continue advancing the film to check for stabilization issues.
+>
+> i. If the image is rolling vertically in the preview monitor, ensure that the correct film format and FPS are both selected. Check the tension controls, and unload and load again if the problem persists. Ensure that the film is flush to the gate as it passes through.
+
+11. **Set Exposure Settings**:
+> a. Select the correct settings in the “Film Type” window:
+
+![Calibration5](https://github.com/user-attachments/assets/7b635f0f-1b71-4d59-ab00-947560279b07)
+
+*Film Type Window*
+
+> b. Turn the Zebras on in the top bar of the window (under “Overlays”). This is a useful (and optional) tool that will display the overexposed areas of the image.
+
+![Calibration6](https://github.com/user-attachments/assets/94bd89f2-ade7-465e-81e5-223a4f0790f2)
+
+> c. Select an exposure preset to get initial settings (Color Controls>Presets). These presets can be thought of as a general guide, and should not be used as the only indication of the image’s final exposure.
+
+![Calibration7](https://github.com/user-attachments/assets/841b7490-4205-4b49-96e9-25ebfdfe955e)
+
+*How to Navigate to Color Presets*
+
+> d. During playback, monitor the waveform to confirm that the highlights are not clipping (loss of information). Keep the waveform in between the top and bottom dashed lines, as shown in the image below. **Only the bottom waveform should be used as a reference for color correction**.
+
+![Calibration8](https://github.com/user-attachments/assets/929f68e6-057c-4b0c-bcca-dd953227ccc5)
+
+*Example of a good waveform. This waveform is keeping the highlights and shadows in between the top and bottom dashed lines.*
+
+![Calibration9](https://github.com/user-attachments/assets/f04caa55-b52b-4649-814a-62b0a1861515)
+
+*Example of a bad waveform. This waveform is clipping the highlights and crushing the blacks. The terms ‘clipping’ and ‘crushing’ refer to the loss of information.*
+
+> e. Use the Color Control and Curve Mix bars to set the final exposure. (Generally, we do not use the Light Source bars). 
+> > i. Lift controls shadows.
+> >
+> > ii. Gamma controls the grays or “midtones.”
+> >
+> > iii. Gain controls the highlights.
+> >
+> > iv. Curve Mix: digital controls that offer fine-tuning adjustments. These tools are highly recommended for achieving the look of a professional restoration.
+
+> f. Adjust Lift, Gamma, and Gain to achieve a more even spread of the waveform between the top and bottom dotted lines. This ensures an accurate and comprehensive capture of the image’s information.
+
+12. **Save the Color Settings**:
+> a. It is not uncommon for the Kinetta software to crash, especially for longer films. To mitigate the trouble of re-dialing the final exposure settings, the color settings may be saved as a template. See part b.
+>
+> b. Navigate to Color Controls and select Save Mem A, B, C, or D. Any one of these options will do.
+>
+> c. If you need to restart the software for any reason, navigate to the Color Controls, then Load Mem A,B, C, or D, depending on the option selected in the previous step. **Please note**: If the Kinetta crashes, or the software  must be closed, **set all other settings before reloading the color settings**. Otherwise, the Kinetta will freeze.
 
 ### Record
 
+1. In the Kinetta software control panel, click “New Movie.”
+2. In the file explorer, navigate to the **Kinetta Raid (K:)**
+3. Navigate to the folder for the appropriate class, or create a new folder as needed.
+> a. In that folder, create another folder labeled by name or group.
+>
+> b. Name the file, then specify the save location with a single click and press.
+4. Cue the film to the beginning.
+> a. Using the larger green arrows to the right and left of the red stop sign, advance or rewind to the beginning of the film, or the point at which the recording should begin.
+>
+> b. **Important note**: It is recommended to include at least 3 seconds of leader or extra footage prior to the first image in the final recording. In some cases, is it recommended to include even more leader to avoid Bayer Shift, a type of color distortion impacting the first few frames of a film. 
+5. Ensure that “Preview Off” is set, as in the image below.
+6. Click “Start Record”, then click the green arrow to the right of the stop sign to play the film. **Please note: The film must be stationary before the recording starts.**
+
+![Record2 ](https://github.com/user-attachments/assets/7557108e-9d51-4cbe-9077-451e5ec92d94)
+
+*How the Kinetta software should look during a scan.*
+
+7. If the film contains segments at different photographic extremes (e.g. high exposure/low exposure) or in different formats (e.g. b+w/color), it’s recommended to record once with settings for one extreme, the next with settings for the other. For reels containing both black and white and color, consider making separate recordings for each, to provide time to adjust the settings for both. The approach chosen depends on individual preferences and time constraints.
+
+![Record3](https://github.com/user-attachments/assets/7c7f745b-b553-4edf-9008-843670cef6f3)
+
+*Example of an image that is properly centered for the lighting process.*
+
+8. Important note: Always rewind the film for a couple of seconds before restarting the capture, to ensure that the entire film will be recorded.
+
 #### Monitor recording
+
+1. Watch the entire capture to check for capture issues.
+2. Stop the recording if unfixable issues such as the following arise:
+> a. Film loses stabilization.
+>
+> b. Film image jumps out of the preview monitor frame.
+>
+> c. Image goes out of focus.
+3. Capture in parts if continuous capture seems impossible.
+4. Stop capture between clips if recording in parts.
+5. Always rewind the film a couple of seconds before restarting capture to be sure that the entire film has been recorded.
+6. As the film nears its end, please be aware that **THE RECORDING MUST BE STOPPED BEFORE RUNNING OUT OF LEADER. Otherwise, the film will fly off of the Kinetta, risking potential damage to the film and to the machine.**
+7. Press the red Stop button.
+8. Select the ‘Stop Record’ button to end the recording.
+9. Ensure that the blue PTRs stop.
 
 #### Save the Recording
 
+1. Move the recordings to the server in the following step:
+2. Move the folder created in the Kinetta (K:) drive to the IS Media Lab’s synology server: navigate to Network > **ISmediaLAB** > class folder.
+
+![Record4](https://github.com/user-attachments/assets/9cd26d36-ee05-4ab3-aaa6-fafa9baf34dc)
+
+*Network in Finder Window*
+
+3. This folder will now be accessible at any of the other workstations in the lab. The other two stations with DaVinci are the Video Editing Station and the Video Transfer Station (this version of DaVinci cannot support the 4K resolution needed for 16mm).
+
 #### Check Capture Quality
+
+1. Navigate to the saved file for the film scan.
+> a. Make sure Quicktime 7 and [Cineform Decoder](http://cineform.com/gopro-cineform-decoder "Cineform Decoder") are both installed on the computer prior to playback.
+
+2. Scrub through the video and audio files to ensure smooth playback.Revisit the scanning process if the following problems arise:
+> a. Capture encompasses film from head leader to tail leader.
+>
+> b. If scanning clips, make sure the film has buffers on either end of a clip.
 
 ## Post-production
 
