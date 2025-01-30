@@ -583,49 +583,626 @@ If the film gate has been changed or the camera has moved, please follow the ste
 
 ## Post-production
 
+This section will:
+1. Provide instructions on how to color correct a film scan using Resolve.
+2. Explain how to extract optical sound from a film soundtrack using AEO Light.
+
 ### DaVinci Resolve Workflow
+
+DaVinci Resolve is a film editing software with a vast toolkit for all video editing needs. After scanning a film with the Kinetta, Resolve may be used to trim and splice the footage, depending on the presence of unwanted artifacts, like dust or damaged frames. It can also be used to improve colors, edit soundtracks, layer audio, apply effects, add subtitles or intertitles, and much more.
+
+Resolve provides robust options for color correction, which is used by archivists to create a “re-mastered” version of the raw image with adjustments to brightness, contrast, saturation, and tint. These changes can be applied to individual scenes in the film or across the film in its entirety, depending on the scope and intention of the project. Color correction is a necessary step during the creation of a preservation master, a “remastered” version of a film with improved color palettes. Color correction creates an image that is more professional-looking, appealing to the eye, and appropriate for screening and sharing purposes.
 
 #### DaVinci Resolve Overview 
 
+This software workflow will cover the following:
+1. How to import a scanned film and set up a project for basic editing (e.g. trimming, splicing, raising or lowering audio levels).
+2. How to do basic color correction (“one light”) for the entirety of a film. 
+3. How to create dynamic color correction which varies scene-by-scene.
+
 #### Setting up a new project
+
+1. Turn on the Mac desktop at the Video Editing Station. The tower is located on the floor, to the bottom right of the monitor. Power button is located toward the back of the tower, on the top face, in the center.
+2. Create a folder on the desktop with a unique name, to which the finished file will be exported. **Please do not work from the server nor the external drive**.
+3. Double-click on the desktop shortcut for DaVinci Resolve:
+
+![PostPro1](https://github.com/user-attachments/assets/c6c3f3a3-aee8-48d9-a4aa-d00dd5766af9)
+
+*Davinci Resolve Desktop Shortcut*
+
+4. Click the “New Project” button, located at the bottom of the window. Give the project a name, then click Create.
+5. Click the Edit tab, located at the bottom of the screen.
+
+![PostPro2](https://github.com/user-attachments/assets/ef37e3a4-2a22-448e-9104-e83244b978bc)
+
+*Edit Tab in Davinci Resolve*
+
+6. On the left side of the screen, right click anywhere inside of the Master Bin window. Click New Bin, which creates a new folder to import files. Rename this file. Note: this process may be repeated multiple times to create more files and help organize the project.
+7. Double click on the New Bin just created. In the top left corner, click File, then click ‘Import Media.’
+8. Navigate to the scanned film, then single click to select it. Then click Open.
+
+![PostPro3](https://github.com/user-attachments/assets/94256cdb-4e5c-4a60-b993-1027df14144a)
+
+*File>Import Media in Davinci Resolve*
+
+9. If a window appears asking to Change Project Frame Rate, select Change. 
+10. In the program workspace, right click on the imported media to bring up a side menu of options. In the menu, select Create New Timeline Using Selected Clips
+
+![PostPro4](https://github.com/user-attachments/assets/cd3a3c66-87b8-4b1f-a61c-c3656adade0c)
+
+*Create New Timeline Using Selected Clips*
+
+11. In the new window which appears, enter the Timeline Name and click Create.
+
+![PostPro5](https://github.com/user-attachments/assets/d3f94ffa-591b-4a4b-a17b-44b7640ffbee)
+
+*Create New Timeline*
+
+12. The media should appear in two places: the media player in the center of the program, and the timeline at the bottom of the frame. The timeline can be thought of as an editing ‘workspace,’ to perform basic functions such as trimming, splicing, and adjusting audio levels.
+13. Scroll through the timeline by dragging the orange playhead, or by pressing the spacebar to play.
 
 #### Stabilize the film
 
+1. Select the Color tab, located at the bottom of the program.
+
+![PostPro6](https://github.com/user-attachments/assets/0223a058-8b73-42f5-b410-101a9d454f89)
+
+*Color Tab in Davinci Resolve*
+
+2. Open Stabilize with the Crosshair icon.
+3. Click the Shaky Camera icon, shown below, then in the triple-dot menu, navigate to Classic Stabilizer.
+
+![PostPro7](https://github.com/user-attachments/assets/6a4ad8b9-ecb1-4b45-98ff-78127cc16be6)
+
+*Navigate to Classic Stabilizer under the triple-dot menu.*
+
+4. In the bottom right corner, Make sure it is set to Cloud Tracker.
+5. **Uncheck** Zoom and Rotate.
+6. In the bottom left corner, click Interactive Mode, then click the square icon to the right. Click and drag the mouse to draw a rectangle over the entire image.
+7. Click the trashcan to erase all the crosshairs on the frame. Redraw the rectangle so that it covers the sprockets holes, then re-click the rectangle icon. Set the point icon (this is the icon just to the right of the rectangle)
+8. Run the film forward. If it stops, redraw the rectangle and run forward again.
+9. Once it has run through the whole film, click Stabilize.
+
+![PostPro8](https://github.com/user-attachments/assets/6a54387d-69f1-4ac5-99a3-3f0dd1cb4565)
+
+*Click Stabilize*
+
 #### Set sizing for the image
+
+1. To preserve the highest resolution and aspect ratio of the scanned image, proceed with the next step.
+2. Go to File, then Project Settings. 
+
+![PostPro9](https://github.com/user-attachments/assets/cffaedf1-b81d-4b13-9f8b-57b8bffcef32)
+
+*File>Project Settings*
+
+3. Set the Timeline Resolution to a resolution that corresponds to the media. **This will depend on the aspect ratio of the film**. For example, this Dole Commercial is 35mm with a 4x3 (1.33) aspect ratio. *This step may require a bit of trial and error to set properly. It’s alright to set this incorrectly and then come back and change it*.
+4. For this particular film scan, a Timeline Resolution of 3840x2880 will provide the appropriate cropping for the image. Because there is no standard Timeline Resolution in Resolve for 3840x2880, a custom resolution must be set. Click the Timeline Resolution dropdown menu and choose Custom, then enter the resolution in the boxes below.
+
+![PostPro10](https://github.com/user-attachments/assets/67807cde-202b-429e-9753-cea3fef720cd)
+
+*Timeline Format with a dropdown menu of options for the Timeline resolution.*
+
+![PostPro11](https://github.com/user-attachments/assets/318437da-902b-4f45-962c-9eac243951fb)
+
+*Setting a custom resolution.*
+
+**NOTE: Below is a list of 4K resolutions for common film aspect ratios:**
+* **3840 x 2880 – 1.33 (4x3)** 
+* **3840 x 2304 – 1.66 (Super 16mm)**
+* **3840 x 2160 – 1.77 (16x9)**
+* **3840 x 2076 – 1.85 (Flat)**
+* **3840 x 1634 – 2.35 (Cinemascope)**
+
+5. If the resolutions above result in a frame that’s too big or too small, additional resolutions for these and other aspect ratios can be found at [this site](https://www.unravel.com.au/aspect-ratio-cheat-sheet "Aspect Ratio Cheat Sheet").
+6. In Project Settings, navigate to Image Scaling in the menu on the left. Under Input Scaling, click the dropdown menu and select Center crop with no resizing.
+
+![PostPro12](https://github.com/user-attachments/assets/d3e97473-7606-4138-979e-c4dfb413fa49)
+
+*Image Scaling under Project Settings*
+
+7. Choosing this setting will ensure the image is not stretched and maintains its scanned resolution.
+8. Then click Save.
+9. Check the image in the viewer on the right. If the image is significantly out of proportion, adjust the Timeline Resolution to reflect the appropriate resolution back in project settings (see the note on the previous page for other resolutions). If the image is slightly off but close to correct, then proceed to the next step. **NOTE: When working with multiple film scans that have different formats or were scanned on separate occasions, it is beneficial to create separate projects for each format or scan session, since the timeline resolution set in Project Settings will be universal for all timelines within a Resolve project. However, if working with multiple rolls of the same format, which were scanned without any zoom adjustments on the scanner, it is possible to include them all on the same timeline**.
+10. Fine tune sizing of the image. Click on the Inspector button on the top right to reveal Transform settings.
+
+![PostPro13](https://github.com/user-attachments/assets/e64d7cf4-e27f-4816-be7f-f6b1ffc47f33)
+
+*Fine tune sizing of the image*
+
+11. In Transform settings, adjust Zoom and X and Y position parameters to crop out the frame edge. NOTE: Hold down Option on the keyboard while clicking and dragging these parameters to make very minor adjustments.
+
+![PostPro14](https://github.com/user-attachments/assets/6e20ccd2-7d9f-400c-8268-63de42c68114)
+
+*Transform Settings in Davinci Resolve*
 
 #### Color correction
 
+1. Once the sizing of the image is satisfactory, click on the Color Tab by clicking the Color button on the bottom of the screen.
+
+![PostPro15](https://github.com/user-attachments/assets/12324bd4-ba0c-4af3-b6a7-736134eb5b88)
+
+*Color Tab in Davinci Resolve*
+
+2. Before beginning color correction, it is important to ensure that the appropriate scopes are made visible for the monitoring process. Click the Scopes button on the lower right side of the screen.
+
+![PostPro16](https://github.com/user-attachments/assets/2dad3cc1-3844-4447-b3a5-32885306f376)
+
+*Scopes Button*
+
+3. Ensure that the ‘Parade’ scope is visible. If this scope is not already selected, click the scope dropdown menu and select Parade.
+
+![PostPro17](https://github.com/user-attachments/assets/f9741435-a2db-4840-8443-6f1d9d5f1bf7)
+
+*Parade Scope under Waveform in Davinci Resolve.*
+
+![PostPro18](https://github.com/user-attachments/assets/ee9ee305-0545-481c-a686-a0ec247c8db6)
+
+*Parade Waveform Scope.*
+
+4. The color correction process can now begin. A ‘one light’ correction is a simple overall correction for the entire roll of film, rather than an in-depth, shot-by-shot correction. For the one light color correction, the only settings to adjust are the ‘Primaries - Color Wheels’ controls–Lift, Gamma, and Gain, which are located on the lower left portion of the screen.
+
+![PostPro19](https://github.com/user-attachments/assets/053801b7-e6ac-4136-a3c2-3fb5e88ec3a5)
+
+*Color Wheels in Davinci Resolve.*
+
+5. Each of these controls has a color wheel and a scroll bar underneath. The color wheels adjust color balance, and scroll wheels adjust exposure. Lift, Gamma, and Gain adjust the shadows, midtones, and highlights respectively. Offset, which is a universal adjustment, can be ignored.
+6. Before making any adjustments, search for a film frame that contains a wide range of exposure. Scroll through the film roll using the bar underneath the image.
+7. An ideal frame will have highlights at their brightest and shadows at their darkest in a single image. For example, a good looking frame to start with in this Dole commercial might be this one, which contains both bright highlights and dark shadows:
+
+![PostPro20](https://github.com/user-attachments/assets/7322132f-dfbd-45e6-8771-dbfe02ccc83e)
+
+*Example of a frame that contains both bright highlights and dark shadows.*
+
+8. Now make an adjustment to **exposure** using the Gain, and Lift scroll bars (not the color wheels). For guidance on this adjustment consult the scopes. The information on the scopes should be close to the top and bottom of the scopes window, but nothing in the Red, Green or Blue channels should be ‘clipped’ (over the top or bottom edges of the scopes).
+> a. **NOTE: The top of the Parade scopes represents the brightest whites, whereas the bottom of the Parade scopes represent the darkest blacks. Any information above the top or below the bottom of the scopes will be clipped and lost.**
+9. For example, in the image below, the Gain is brought down slightly to unclip the highlights. The Lift is brought down as well, to make the blacks richer. See example images on the following page.
+
+**Before:**
+
+![PostPro21](https://github.com/user-attachments/assets/6fc50787-0a04-4b5e-a87e-7f8049638f0a)
+
+![PostPro22](https://github.com/user-attachments/assets/683612b3-dbeb-4b4d-b0ae-bbe79212551e)
+
+**After:**
+
+![PostPro23](https://github.com/user-attachments/assets/c93c6dad-b45a-4659-94aa-8db3332a5383)
+
+![PostPro24](https://github.com/user-attachments/assets/99e31637-d16b-458b-80d9-4632be438404)
+
+**NOTE: Any of these adjustments can be reset by clicking the undo buttons (circular arrow rotating counter clockswise) on the upper right of each control.**
+
+10. Now, the shadows in the image appear very dense and dark. Bring up the Gamma exposure to raise the midtones and bring more light into the shadows.
+
+![PostPro25](https://github.com/user-attachments/assets/9aec0f9a-8832-4f2d-b70b-38c9651333c1)
+
+*Shadows in the image appear very dense and dark.*
+
+11. Once the exposure adjustment is set (it can be edited later) move on to adjusting the color balance. To keep things simple, we’ll want to **first adjust Gain, then Lift, then Gamma**.
+12. Make an adjustment to the Gain color balance by clicking and dragging the point in the center of the Gain color wheel.
+
+![PostPro26](https://github.com/user-attachments/assets/7cc1c33a-43ab-4bca-a285-55a113e2413f)
+
+*Gain Color Wheel in Davinci Resolve.*
+
+13. Use scopes as a reference but not a crutch; the primary focus should be the image itself. For example, the highlights in this image look quite yellow. To balance them out, move the Gain away from yellow and towards blue.
+> a. **NOTE: Increase the size of the image window by pressing Control F and/or Shift F on a windows keyboard, or Option F and/or Shift F on a Mac keyboard.**
+14. Scopes are not imperative for this, but may be helpful. Here is a before and after of the image after the Gain adjustment. Notice how the blue channel highlights (top) of the scopes are now closer to the red and green channels.
+
+**Before:**
+
+![PostPro27](https://github.com/user-attachments/assets/f73e6bd5-854f-41f3-ac51-b4ac133c6a8c)
+
+![PostPro28](https://github.com/user-attachments/assets/ea94da60-0307-4e2d-af90-2b7eccecf24e)
+
+**After:**
+
+![PostPro29](https://github.com/user-attachments/assets/3c394e1b-a686-4e72-ba60-484a86468e8d)
+
+![PostPro30](https://github.com/user-attachments/assets/b015aaf6-fbc4-4455-9d87-98ae09d8cc45)
+
+15. After adjusting the highlight color balance with Gain, adjust the black balance with Lift. Such an adjustment may not be necessary. The blacks in the example image appear balanced. This is confirmed by the equal level between at the bottom of the red green and blue channels in the scopes (see above).
+16. If any remaining color cast is found in the image, try adjusting the Gamma color balance to see if it helps. Slightly warming up the Gamma of this Dole commercial (by moving the color balance toward red/yellow), results in a more accurate looking image.
+> a. **NOTE: Undo a change in Audition by pressing Control + Z (Windows) or Command + Z (Mac).**
+17. Scroll through the film and see if any modifications are needed to the correction. Pay special attention to the scopes to make sure nothing is getting clipped.
+
 #### Save the Corrected Film
+
+1. Once color correction is finished, click the Deliver button on the bottom of the screen to jump over to the Deliver Tab:
+
+![PostPro31](https://github.com/user-attachments/assets/15ea4534-cc46-46e9-8193-597f8d9d5289)
+
+*Deliver Tab in Davinci Resolve.*
+
+2. On the Deliver page set the render settings: 
+> a. On the top left, select the Custom preset.
+> 
+> b. In the box next to Filename, type in an appropriate name for the file
+>
+> c. Click the Browse button next to Location to choose a destination for the file.
+
+![PostPro32](https://github.com/user-attachments/assets/e384dcae-b55c-4858-b2ab-19dda867a4f2)
+
+*Click the Browse button under Custom presets.*
+
+> d. Next to Format, select Quicktime
+>
+> e. Next to Codec select the preferred codec.
+>
+> f. Confirm that the Resolution is the same as the timeline resolution (set in Project Settings earlier). If it is not, then type in the timeline resolution.
+>
+> g. Confirm the framerate is correct (this should generally be 24 fps for 35mm and 16mm)
+>
+> h. The settings should appear something like this:
+
+![PostPro33](https://github.com/user-attachments/assets/dff6a2f1-f01f-492f-81b7-b30ccfa47c63)
+
+*Render settings in Davinci Resolve.*
+
+3. Once the settings are set properly, click Add to Render Queue.
+
+![PostPro34](https://github.com/user-attachments/assets/908f7564-c704-472c-acfd-97c6176123b4)
+
+4. The render job will appear in the Render Queue in the top right side of the screen. Press Render All.
+
+![PostPro35](https://github.com/user-attachments/assets/ab5c2fd7-8284-428a-b469-8e656f81dd43)
+
+*Press “Render All” when ready to render.*
+
+5. Once the render is complete, locate the file in the save destination. Playback the file to verify there are no problems.
+6. To backup a Resolve project, go to File > Export Project, and save the project to a harddrive.
+
+![PostPro36](https://github.com/user-attachments/assets/1d74bad5-df6a-4843-8a58-d87b11591862)
+
+*File>Export Project*
 
 #### Trimming and Splicing Footage (Editing Basics)
 
+1. Ensure that the media is present in the bottom timeline portion of the program, as shown below.
+
+![PostPro37](https://github.com/user-attachments/assets/12a35cf8-9f74-4d40-9774-fe09348fbdf9)
+
+> a. Should this not be the case, navigate to File > Import > then click Media. Navigate to the relevant media, click to select it, then press Open. Drag the media from the left side of the program to the timeline section at the bottom of the program.
+2. Click on the Edit Tab at the bottom of the program:
+
+![PostPro38](https://github.com/user-attachments/assets/f02cf16e-fcc4-43c6-bf76-c3971b7200bc)
+
+*Edit Tab.*
+
+3. Above the editing timeline, there is an icon labeled ‘Blade Edit Mode.’ Click on this icon (it will turn red), and the cursor will transform into a splicer. **Please note: to switch back to a regular cursor, for selecting clips as opposed to cutting them, click on the gray cursor button seen below. These two buttons allow one to toggle between Splicing and Selection Modes, both essential for editing (see below):**
+
+![PostPro39](https://github.com/user-attachments/assets/e9f69964-5f3f-451e-bc44-471d957aba7a)
+
+*Blade Edit Mode is selected.*
+
+![PostPro40](https://github.com/user-attachments/assets/2e4eca68-80bc-419a-a4a8-5835848e50ea)
+
+*Selection Mode is selected.*
+
+4. To Zoom In or Zoom Out on the editing timeline, press Command + (plus) or Command - (minus), respectively. There is also a plus-minus slider located above the editing timeline. These commands are essential for navigating through the media and making more precise edits as needed. Click and drag the gray bar at the bottom of the program to scrub through the media. (Or slide a finger left and right across the Mac wireless mouse).
+5. With the Blade Mode selected, hover the cursor over the media in the timeline. The cursor will turn into a red line, indicating the location of the splice to be made. To splice the footage, position the red line as needed and click on the footage. The footage will separate into two portions.
+
+![PostPro41](https://github.com/user-attachments/assets/7c082785-d2e5-4240-ab55-b13eb960ae15)
+
+*The red line indicates the location of the splice.*
+
+6. Unwanted artifacts and footage may be removed using the splicing tool. To do so, create two splices, one on either side of the footage to be removed. Toggle to Selection Mode. Click on the unwanted media to highlight it, then press the Delete key.
+7. To shorten or lengthen clips via dragging, click on Selection Mode. Position the cursor at the relevant end of the film clip, **until a single white bracket-and-rectangle icon appears. Once this icon is visible, click and hold the mouse, then drag in either direction to shorten or lengthen the clip as needed.**
+8. To Undo any editing actions, press Command + Z on the keyboard. (Or Control Z on PC). This may be done multiple times as needed.
+9. To Redo any editing actions, Click Edit > Redo in the top left corner of the program.
+10. **A note on editing: To prevent gaps in the finished film, all clips must be placed exactly side by side with NO separation between them. When splicing or removing footage, ensure that the ends of each clip lock together exactly and are side-by-side (Resolve will do this clearly and automatically once two clips are dragged together.)** 
+11. Please save the edits made **periodically and frequently, via Command + S or File > Save**, to prevent any work from being lost. 
+12. Once the film has been edited to completion, Click the rocket ship icon (‘Deliver’) at the bottom of the screen:
+
+![PostPro42](https://github.com/user-attachments/assets/a245cb58-d0b0-4e8c-ae4c-da55bce6be89)
+
+*The resulting space will contain settings for the export. For more information on file formats and codecs, please refer to [Appendix D](#appendix-d-information-on-codecs).*
+
+![PostPro43](https://github.com/user-attachments/assets/acf76941-ada7-4e67-bc2e-e588a883dd29)
+
 #### Adding Subtitles and Intertitles
 
+1. Ensure the Edit Tab is selected:
+
+![PostPro44](https://github.com/user-attachments/assets/7fd1d914-3df3-42a3-8d64-45afbcd64943)
+
+2. In the top left corner of the program, click on the Effects Tab:
+
+![PostPro45](https://github.com/user-attachments/assets/8470e7a5-efac-4a59-b873-c0a9ecaf2225)
+
+3. A menu will appear on the left. Click on Titles to reveal its corresponding menu, as shown below:
+
+![PostPro46](https://github.com/user-attachments/assets/e109e46b-0215-4938-bf8a-c98ce861e535)
+
+*Resolve offers a wide variety of title styles.*
+
+4. Hover over the list of titles to see a preview of that title in the viewer. For most purposes, Basic Title works well. Note: The font for Basic titles can be changed
+5. Click and drag the selected title from the left portion of the screen to the editing timeline, and above the main footage (see image on the next page):
+
+![PostPro47](https://github.com/user-attachments/assets/edd7c43f-5306-4062-b298-9f2315b95b2f)
+
+6. Click and drag the yellow timeline marker so it intersects with the title segment in the editing timeline (seen above as the box outlined in red). The subtitle should be visible in the viewer. Double click on the title in the viewer to edit the text.
+7. To change the duration of the title, position the cursor at the left or right end of the Title segment **in the editing timeline**, until a white bracket-and-rectangle icon appears. Click and drag the box to the left or right to change the duration of the title.
+8. Single click on the title so that it looks like the following:
+
+![PostPro48](https://github.com/user-attachments/assets/d7c000c2-32c5-4d15-8133-d04482bc43df)
+
+9. Click on the center dot to drag the title vertically up or down.
+10. To make the title an intertitle, position it as a splice between two segments of footage.
+11. To change font, size, and color, select the Inspector Tab in the top right of the program. A corresponding menu will appear (see next page for image).
+
+![PostPro49](https://github.com/user-attachments/assets/1fa92743-5902-4dc7-9c9e-6d9a3c85b243)
+
+12. To change the font, toggle the Font Family and Font Face. To change the color, toggle the Color. To change the size, click and drag the Size slider or enter a number into the corresponding field.
+
 #### Exporting access copies
+
+For access copies of video, one should choose a lossy codec to compress the size of the resulting file. This option is preferred for easier file sharing and storage, and for institutions with less resources for digital storage and file management. It is recommended to export access video copies with one of the following codecs:
+* **H264/H265**
+* **AVC**
+* **AC3**
+
+Avoid the lossless codecs of ProRes and PCM, as they are used for file decompression. Access video copies should be exported as **.mp4** or **.mov** files. While either of these formats are appropriate for access copies, **.mp4** is more compressed, and may be a more appropriate choice. Please follow the instructions below to export access copies:
+
+1. Open Davinci Resolve on the Video Editing Station Mac desktop (power button is located on the top face of the tower, towards the back).
+2. Once Resolve is open, import the video to compress:
+* Go to File and click on New Project. Rename the project.
+* Go to File, Import, then click Media.
+* Navigate to the video file, single click to select it, then click Open.
+
+3. If a dialogue box appears asking to change the frame rate, click Allow.
+4. The video file will appear on the left side of the screen. Click and drag the file downward into the timeline/workspace section, which occupies the bottom portion of the program.
+
+5. **Convert the file into .mp4/.mov**:
+* Click on the Deliver rocketship icon, located at the bottom of the program:
+
+![PostPro50](https://github.com/user-attachments/assets/6cd2858d-5373-4f23-8872-9bc93e4edf7c)
+
+*Rocketship icon in Davinci Resolve*
+
+* Locate the Render Settings menu in the top left of the screen (by the YouTube and Twitter logos):
+
+![PostPro51](https://github.com/user-attachments/assets/cf03436e-f858-4f24-b0d8-58807d182c0b)
+
+![PostPro52](https://github.com/user-attachments/assets/c5875c9e-78aa-44c5-bcd4-cc4bfc89723c)
+
+*Render Setting Menu in Davinci Resolve*
+
+* Click and drag the gray bar to the right, revealing H.264 and H.265. **Note**: Do not be confused by the fact that they say master; there are settings to ensure the file’s compression later on.
+* Click on H.264 or H.265, depending on personal preference, to reveal the corresponding menu on the left side of the screen. In the menu, click on the Format menu bar and select MP4 (for a .mp4 file), or QuickTime (for a .mov file).
+* Click on the Resolution menu bar, then choose 1920x1080 HD, 1280x720 HD, or 640x480 SD. Choose the resolution according to factors including: available storage, length of video, and desired or necessary quality.
+
+6. **Configure the settings as follows**:
+
+* Rename the file in the Filename field and press ‘Browse’ to set its location. Click Open to confirm.
+* Select ‘Video.’
+* Ensure that ‘Export Video’ is checked.
+* At the very bottom of the menu, underneath Subtitle Settings, click on ‘Add to Render Queue.’ The file will appear on the right side of the screen underneath the Render Queue.
+
+![PostPro53](https://github.com/user-attachments/assets/41bc6734-89e7-490b-9882-942421a8211d)
+
+*In order to export a file from Resolve, it must be added to the Render Queue, selected in the Queue, and then rendered.*
+
+* **Important**: In the Render Queue on the right side of screen, click on the file (it will be highlighted with a white border once selected), then click ‘Render All,’ at the bottom right corner of the screen.
+* The progress of the DPX export is observable in the Render Queue. The export will read ‘Completed in’ with an accompanying timestamp, once it is finished.
+* Finally, navigate to the save location of the access video copy. Ensure that the resulting file is satisfactory in size and quality.
+
+[DaVinci Resolve Templates | Motion Array](https://motionarray.com/browse/davinci-resolve-templates/effects/?sort_by=most-popular&utm_source=bing&utm_medium=cpc&utm_campaign=626176449&utm_content=1151189655527101&utm_term=davinci%20resolve%20effects&keyword=davinci%20resolve%20effects&ad=&matchtype=e&device=c&msclkid=2def7a94d7a7151e95a51f566037cc3a "DaVinci Resolve Templates | Motion Array")
 
 ### AEO Light Workflow
 
 #### AEO Light Overview
 
+AEO Light is an open-source software, developed by the University of South Carolina, for the purpose of extracting sound information recorded on celluloid film. The program uses the scanned copy of a film to analyze and reproduce audio information recorded on the film’s optical soundtrack. The extracted audio can then be incorporated into the preservation master of the scanned film.
+
 #### A Note on Optical Sound
+
+Optical sound was a popular film sound format from the 1920s to the 1970s. On celluloid film, an optical soundtrack will be located along the perforations on one side, and travels the entire length of film.This recording captures the flickering of a light bulb, whose light is recorded and interpreted by a photodiode, which converts it into an electric signal. There are many different types of optical sound formats. The three variations of optical sound include mono, stereo, and multi-track. Refer to [this site for examples of optical sound](https://www.endpointaudio.com/optical-sound-detail"Optical Sound Examples"), as well as the images below:
+
+![AEO1](https://github.com/user-attachments/assets/cecd51b1-0dc7-4318-bdd2-22e182d7d1ee)
+
+![AEO2](https://github.com/user-attachments/assets/d6b2c913-4a9f-4cff-9357-d33e1b182ec7)
+
+![AEO3](https://github.com/user-attachments/assets/29ddf913-9db0-4809-aa2f-cd0114a99fee)
+
+*Three optical soundtracks. The top and bottom films have single-track audio, whereas the center film has multi-track audio.*
 
 #### Convert files into DPX using DaVinci Resolve
 
+Before AEO Light can extract audio from a film’s soundtrack, the film scan must be converted into a set of DPX files, using Davinci Resolve. This produces a scanned image for every frame of the film (do not worry; the program only requires one frame to be selected to work). Please follow the conversion instructions which follow:
+
+1. Open Davinci Resolve on the Video Editing Station Mac desktop (power button is located on the top face of the tower, towards the back).
+2. Once Resolve is open, import your film scan:
+* Go to File and click on New Project. Rename the project.
+* Go to File, Import, then click Media.
+* Navigate to the scanned film, single click to select it, then click Open.
+3. If a dialogue box appears asking to change the frame rate, click Allow.
+4. The film scan file will appear on the left of the screen. Click and drag the file downward into the timeline/workspace section, which occupies the bottom portion of the program.
+5. **Convert the file into DPX**:
+  * Click on the Deliver rocketship icon, located at the bottom of the program window:
+
+![AEO4](https://github.com/user-attachments/assets/dd6a4eaa-03a5-47d8-af57-cfad667e983f)
+
+*Rocketship icon in Davinci Resolve*
+
+* Locate the Render Settings menu at the top left of the screen (by the YouTube and Twitter logos):
+
+![AEO5](https://github.com/user-attachments/assets/225e8efa-6849-4110-bc32-20db6e6f1f0b)
+
+![AEO6](https://github.com/user-attachments/assets/f7413222-4dad-4c07-a7ef-f9847c25e9cb)
+
+*Render Setting Menu in Davinci Resolve*
+
+* Click and drag the gray bar to the right, revealing ‘ProRes.’
+* Click on ProRes to reveal its corresponding menu on the left side of the screen. In the ProRes menu, click on the Format menu bar and select DPX from the dropdown options.
+
+![AEO7](https://github.com/user-attachments/assets/871ded5a-1305-4269-b95c-2e54e1194030)
+
+6. **Configure the settings as shown above**:
+* Rename the file in the Filename field and press ‘Browse’ to set its location. Click Open to confirm.
+* Select ‘Video.’
+* Select ‘Individual clips.’ 
+* Ensure that ‘Export Video’ is checked.
+* Ensure that the Codec selected is ‘RGB 10 bits’
+* At the very bottom of the menu, underneath Subtitle Settings, click on ‘Add to Render Queue.’ The flle will appear on the right side of the screen underneath the Render Queue.
+
+![AEO8](https://github.com/user-attachments/assets/860bcb21-4e12-42be-9234-74169c2dc11f)
+
+*In order to export a file from Resolve, it must be added to the Render Queue, selected in the Queue, and then rendered.*
+
+* **Important**: In the Render Queue on the right, click on the file (it will be highlighted with a white border to indicate its selection), then click ‘Render All,’ at the bottom right corner of the screen.
+* The progress of the DPX export is observable in the render queue. The export will read ‘Completed in’ with an accompanying timestamp once it is finished. **As a reminder**: the program will export several DPX files, one for each frame scanned.
+
 #### Open DPX files in AEO Light
+
+1. Click on the desktop icon for AEO Light:
+
+![AEO9](https://github.com/user-attachments/assets/eff67af0-66c7-4b77-a98b-09baec65a173)
+
+2. In the window that opens, click the New Project button (located in the top left corner).
+3. Navigate to the location of the saved DPX files. Double click on any one of the DPX files in the save folder (it makes no difference which one is selected).
+4. A separate viewing window will appear with a scanned frame.
+5. Click on the AEO Light MainWindow, which contains the settings. Locate the ‘Scan Frame’ field towards the bottom right (shown below). **Please note**: The number in this field corresponds to the frame that appears in the viewing window. 
+
+![AEO10](https://github.com/user-attachments/assets/df48a3ed-cc75-4a4e-8f17-dc537b880781)
+
+*The number in the ‘Scan Frame’ section corresponds to the DPX file for that number frame.*
+
+* Change the number in the ‘Scan Frame’ field to select **any frame of the film scan that contains an optical soundtrack**. For help determining which number frame to select, navigate to the folder of saved DPX files, then type its number into the ‘Scan Frame’ field. Look at the frame in the viewing window to confirm that an optical soundtrack is present.
 
 #### Adjust the Soundtrack’s Legibility
 
+1. Depending on the type of optical soundtrack, it may be advantageous to adjust the lift, gamma and gain of the image, to make the soundtrack more legible for the program. Click on the ‘Image Processing’ tab, located to the right of ‘Soundtrack Settings,’ to view the settings for Lift, Gamma, Gain, S Curve, and Blur/Sharp. Refer to the image below:
+
+![AEO11](https://github.com/user-attachments/assets/588af34f-4414-4ac1-b5d2-8d06742f85ef)
+
+*The settings above may be adjusted to get a more accurate reading of the optical soundtrack.*
+
+* If the scanned film is a negative, please **check** the ‘Negative’ box in the lower left corner (refer to the image above).
+
+2. Click on the ‘Extract Audio’ tab, located to the right of ‘Image Processing.’ A menu with options will appear (refer to image below). Ensure the following settings are selected:
+* Set ‘Frame In’ to 0 (this should be automatically selected).
+* Set ‘Frame Out’ to the **last numbered frame** in the DPX series. Please ensure that the timecode next to the Frame Out field represents the **correct duration for the entire scan**.
+* Set the Sampling Rate to 96 kHz.
+* Set the Bit Depth to 24 Bit.
+* **Please note**: These latter two settings are the archival standard and are recommended for most projects.
+
+![AEO12](https://github.com/user-attachments/assets/d6c2368c-c796-44ac-b8f7-8f70faefb7b6)
+
+*Settings which conform to archival standards*
+
 #### Preparing the Soundtrack Scan
+
+1. Click on the ‘Soundtrack Settings’ tab.
+* Set the correct channel configuration for the optical soundtrack:
+> * If the film scan has one track of audio, select ‘Mono.’
+> * If the film scan has two tracks of audio, select ‘Stereo.’
+> * Refer to [Endpoint Audio Labs](https://www.endpointaudio.com/optical-sound-detail "Optical Sound Examples") to aid in soundtrack identification.
+
+![AEO13](https://github.com/user-attachments/assets/109c24ff-0a5a-467c-be87-a89803306d18)
+
+*Viewing window and settings in AEO-Light*
+
+2. Set the boundaries of the optical soundtrack. These boundaries indicate the region of the image which the program will scan for audio information.
+* Use the upper soundtrack control fader to move the red line, which denotes the left boundary of the optical soundtrack (refer to image below). 
+* Use the lower “soundtrack control” to move the magenta line, which denotes the right boundary of the optical soundtrack (refer to image below).
+
+![AEO14](https://github.com/user-attachments/assets/c6d7bae6-93ba-4694-8856-a955f6e83818)
+
+*Setting optical audio track boundaries in AEO-Light*
+
+3. Use the “Frame Pitch Start” and “Frame Pitch End” controls to indicate the upper and lower boundaries of the frame:
+* Set the white “Frame Pitch Start” line on the upper boundary of the frame. 
+* Set the magenta “Frame Pitch End” line on the lower boundary of the frame.
+4. Scroll through the film by dragging the control beneath the “Scan Frame” field. Ensure the horizontal magenta and white lines that bound the individual frames move around while flipping through the frames.
 
 #### Sample the audio track 
 
+1. Click the ‘New Sample’ button on the bottom half of the window to create a 5 second sample of audio, which will play back automatically. 
+2. In the popup window, select a Sample Audio slot, then click Save (refer to the image below). **Please note**: the samples may be played back in the MainWindow at the bottom, via the ‘Play Sample’ buttons.
+3. To change the segment of film from which the sample is taken, change the number in the ‘Frame Scan’ field, or drag the slider below this field, then click ‘Set In.’ Repeat Steps 1-2. Collect samples at various points in the film, monitoring the sound quality until satisfied.
+
+![AEO15](https://github.com/user-attachments/assets/2a32a472-bd93-4584-a46c-abd6158cd329)
+
+*Save Sample Audio in AEO-Light*
+
 #### Extract the Audio
 
+1. Click the ‘Extract Audio’ menu, then click ‘Extract.’ 
+2. In the window that opens, use the ‘Output Name’ field to name the field. In addition to audio, AEO Light can render a compressed video reference file with the. To perform this option, select ‘Output Video,’ located below the ‘Output Audio’ line. Click the blue ‘Browse’ button to specify the save location, then press OK at the bottom to commence the audio extraction.
+
+![AEO16](https://github.com/user-attachments/assets/3dd039bb-0c3d-44c1-a479-a08a7016d85b)
+
+*Extract to Audio File Settings in AEO-Light*
+
+3. A mini window with a blue bar will appear to indicate the progress of the audio extraction. Once the mini window closes, the extraction is complete.
+
 #### Adding Soundtrack in DaVinci Resolve
+
+1. Open Davinci Resolve. In the recent files window that appears, double click on the thumbnail for the saved media file (the same file from the DPX export process).
+2. Click on the icon for the Edit tab, located at the bottom of the program (shown below):
+
+![AEO17](https://github.com/user-attachments/assets/af66a7e3-0c02-4842-8faa-5b658855e593)
+
+*Edit Tab Icon in Davinci Resolve*
+
+3. In the top right of the program, click ‘File,’ then hover over Import, and click Media.
+4. Navigate to the .mp4 file saved from AEO Light. Single click to select the file, then click Open.
+5. The audio file will appear in the media bin section on the left of the program. Click and drag the audio file into the ‘Audio’ section of the editing timeline, just below the video section containing the film content. Ensure that the audio and video files are aligned by playing the film back with the play button on the media player.
+6. Now that the audio has been added to the timeline, the audio and video must be exported together as a single file to create the soundtracked film. As in the DPX export process, click the Export rocketship icon at the bottom of the program, shown below:
+
+![AEO18](https://github.com/user-attachments/assets/557697a9-edc2-43ac-9e7b-5a52074f9502)
+
+7. In the top left corner of the screen, click and drag the gray bar located underneath the social media icons to the right. Click on H.264 to reveal its corresponding menu (H.264 is the standard for film exports. Ensure that ‘Export Video’ and ‘Export Audio’ are both checked. Name the file in the ‘Filename’ field, then click Browse to select the save location. 
+8. At the bottom left of the H.264 menu, click on ‘Add to Render Queue.’ This job should appear in the Render Queue on the right side of the program. Click to select it (it should be highlighted with a white border). In the bottom right corner of the program, press ‘Render.’ Once the job in the Render Queue reads ‘Completed’ in green text, Resolve has exported your finished film with the soundtrack.
 
 ## Troubleshooting
 
 ## Appendix A: Film Format Identification
+
+Format | Image | Description
+:--- | :---: | :---: 
+**8mm** | ![AppA1](https://github.com/user-attachments/assets/84bba5dd-913a-407e-94b0-71e9b36f4054) | An image of 8mm film. As compared to Super 8 film, the image is smaller and the perforations on the left are larger.
+**Super 8** | ![AppA2](https://github.com/user-attachments/assets/d5a522f8-8762-4cfb-a471-1cf339d32352) | An image of Super 8 film. As compared to 8mm, the image is larger and the perforations on the left are smaller.
+**16mm** | ![AppA3](https://github.com/user-attachments/assets/e50d9ec3-62a3-4d32-a076-6d0d76b6d232) | An image of 16mm film. Optical soundtrack on the left edge. Perforations to the right of the image. As compared to 8mm and Super 8 film, the size of the image is much larger in relation to the perforations.
+**35mm** | ![AppA4](https://github.com/user-attachments/assets/5f170778-a282-477b-a236-83eeedda00ab) ![AppA5](https://github.com/user-attachments/assets/ff79d4bd-9870-4ade-b7b3-1636fce49998) | Two images of 35mm film. All 35mm film has two rows of perforations on either side of the image. The top image displays a segment of 35mm film with an optical soundtrack recording to the right of the image. The bottom image displays a segment of 35mm film with no soundtrack. Both segments have an edge-code written on the right side, indicating the year of the film’s production. 
+
+Compared Formats | Image  
+:--- | :---:   
+35mm vs 16mm vs 8mm vs Super8 | ![AppA6](https://github.com/user-attachments/assets/ea319563-e743-4469-9b72-5c7b3732cb50) 
+
+**35mm**
+* Largest image
+* Perforations on either side of the image
+  
+**16mm**
+* 2nd largest image
+* Perforations on the right side
+* Second smallest perforations
+* Largest image in relation to perfs
+  
+**8mm**
+* Smallest image
+* Perforations on the right side
+  
+**Super 8**
+* 2nd smallest image
+* Perforations on the left side
+* Smallest perforations
+
+Compared Formats | Image 
+:--- | :---: 
+**Super 8 vs 8mm** | ![AppA7](https://github.com/user-attachments/assets/8f0a02b3-7b53-402f-a64e-6fc49e57e420)
+
+**8mm**
+* Smaller image
+* Perforations on the right side
+* Larger perforations
+
+**Super 8**
+* 2nd smallest image
+* Larger image
+* Smaller perforations
 
 ## Appendix B: Key Commands for Resolve 
 
