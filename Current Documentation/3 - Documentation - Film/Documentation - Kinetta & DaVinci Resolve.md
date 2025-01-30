@@ -1208,22 +1208,153 @@ Compared Formats | Image
 
 ### File
 
+Action | Key Command - Mac | Key Command - PC
+:--- | :--- | :---
+New Bin | Shift + Command + N | Shift + Control + N
+New Timeline | Command + N | Control + N
+Save Project | Command + S | Control + S
+Save Project As | Shift + Command + S | Shift + Control + S
+Import Project | Command + I | Control + I
+Export Project | Command + E | Control + E
+
 ### Timeline Navigation
+
+Action | Key Command - Mac | Key Command - PC 
+:--- | :--- | :---
+Go to First Frame | ; (semicolon) | ; (semicolon)
+Go to Last Frame | ‘ (apostrophe) | ‘ (apostrophe)
+Play Around Current Frame | / | /
+Go to Timeline Start | Function + Left Arrow | Home
+Go to Timeline End | Function + Right Arrow | End
+Previous Clip / Edit | Arrow Up | Arrow Up
+Next Clip / Edit | Arrow Down | Arrow Down
+Step One Frame Reverse | Arrow Left | Arrow Left
+Step One Frame Forward | Arrow Right | Arrow Right
 
 ### Marking
 
+Action | Key Command - Mac | Key Command - PC
+Mark In | I | I
+Mark Out | O | O 
+Clear In | Option + I | Alt + I
+Clear Out | Option + O | Alt + O
+Mark Clip | X | X
+Add Marker | M | M 
+Add & Modify Marker | Command + M | Control + M
+Modify Marker | Shift + M | Shift + M
+Delete Marker | Option + M | Alt + M 
+
 ### Playback
+
+Action | Key Command - Mac | Key Command - PC 
+:--- | :--- | :---
+Pause/Start Playback | Space | Space
+Play Reverse | J | J 
+Stop | K | K 
+Play Forward | L | L 
+Fast Forward | Shift + L | Shift + L
+Fast Reverse | Shift + J | Shift + J
+Loop/Unloop | Command + / | Control + /
+Play In To Out | Option + / | Alt + /
+Play To Out | Option + Command + / | Alt + Control + /
 
 ### Editing
 
+Action | Key Command - Mac | Key Command - PC
+:--- | :--- | :---
+Normal Edit Mode | A | A
+Trim | T | T
+Blade | B | B
+Razor | Command + B | Control + B
+Insert Edit | F9 | F9
+Overwrite Edit | F10 | F10
+Replace Edit | F11 | F11
+Place On Top Edit | F12 | F12
+Delete Selected | Backspace | Backspace
+Fit To Fill | Shift + F11 | Shift + F11
+Append At End | Shift + F12 | Shift + F12
+Dynamic Trim Mode | W | W
+Select Clips Forward on This Track | Y | Y
+Select Clips Backward on This Track | Command + Y | Control + Y
+Edit Point Type | U | U 
+Select Nearest Edit Point | V | V
+Snapping On / Off | N | N 
+Nudge One Frame Left | ,(comma) | ,(comma)
+Nudge One Frame Right | .(period) | .(period)
+Select Nearest Clip/Gap | Shift + V | Shift + V
+Linked Selection | Shift + Command + L | Shift + Control + L
+Clip Link | Option + Command + L | Alt + Control + L
+Enable Clip | D | D
+Split Clip | Command + \ | Command + \
+Join Clips | Option + \ | Option + \
+
 ### Effects
+
+Actions | Key Command - Mac | Key Command - PC
+:--- | :--- | :---
+Add Transition | Command + T | Control + T
+Retime Controls | Command + R | Control + R 
+Reset Retime | Option + Command + R | Alt + Control + R
+Paste Attribute | Option + V | Alt + V
+Add Static Keyframe | Command + [ | Control + [
+Add Keyframe | Command + ] | Control + ]
+Delete Keyframe | Option + ] | Alt + ]
+Go to Previous Keyframe | [ | [
+Go to Next Keyframe | ] | ]
 
 ## Appendix C: Identifying Edge Codes
 
 ### 8mm
 
+[Kodak Edge Codes](https://www.filmforever.org/Edgecodes.pdf "Edgecodes")
+This list is not reliable for the purpose of absolute accuracy, but is intended for guidance only, in the absence of a definitive list from Kodak.
+
+![Edge1](https://github.com/user-attachments/assets/b4608112-9c77-4bc1-9d18-55cfa7815189)
+
+![Edge2](https://github.com/user-attachments/assets/641c4ac3-a8e5-4509-a33e-37525348cf8b)
+
+![Edge3](https://github.com/user-attachments/assets/2bc4a366-92c7-4ba9-b88e-39452ba4e93e)
+
+![Edge4](https://github.com/user-attachments/assets/076c610d-a1c5-44cc-bc81-0213ac2cf79f)
+
 ### 16mm
+
+![Edge5](https://github.com/user-attachments/assets/8a76ee08-949a-40a4-8641-7af9873043e4)
+
+![Edge6](https://github.com/user-attachments/assets/28001bf0-56ee-4eaf-83ab-a90dc8acbc1a)
+
+![Edge7](https://github.com/user-attachments/assets/7d9e993c-7ce0-4dde-a897-d95375e04f18)
 
 ## Appendix D: Information on Codecs
 
+It is important to understand the relationship between digital file formats and the amount of information that each format can store. The term “codec” refers to the process of information compression or decompression, which is used to create a particular file format. The two main types of codecs are:
+1. **Lossy**: These codecs compress information to make a file easier to access, store, and send.
+2. **Lossless**: These codecs decompress information to make higher quality recordings, used for masters and professional presentations or deliverables.
+
+For digital files, there are several formats (also called “wrappers” or “containers”) which archivists and preservationists will commonly encounter. **Transcoding** refers to the process of converting one file format into another. Below is a non-exhaustive list of the most common formats for digital video and audio files:
+* .mov
+* .mp4
+* .mkv
+* .avi
+* .wav
+* .aiff
+* .mp3
+* .flac
+
+**For digital video files**:
+* H264, H265, and AVC are **lossy** files that are **smaller** in size.
+* ProRes is a **lossless** file that is **larger** in size. These files require a more powerful computer to be played.
+
+For digital audio files:
+* AC3 is a **lossy** file that is **smaller** in size.
+* PCM is a **lossless** file that is **larger** in size.
+
+Bit rate and sample depth are also adjustable when exporting a given file. Both of these specifications:
+* will impact the quality of the recording.
+* will impact the size of the file.
+* It is recommended to adjust these settings to find an ideal balance between quality and storage.
+* For streaming or screening purposes, a bit rate of 6000 kbps or higher is recommended.
+
 ## Appendix E: Film Inspection Sheet
+
+See the [Film Print Condition Inspection Sheet](https://drive.google.com/file/d/1H4ACNfROGbrhsVLwagqfkyOD2hZ8wzC4/view?usp=sharing) for a printable film inspection sheet. 
