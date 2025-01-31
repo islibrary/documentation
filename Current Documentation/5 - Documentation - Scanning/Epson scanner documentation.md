@@ -179,11 +179,12 @@ This section will walk through how to use the Epson SCAN 2 software, which commu
 
 ![unnamed (13)](https://github.com/user-attachments/assets/f3fb7bbd-e4bf-4894-abd3-0aa49f4f2d19) ![unnamed (14)](https://github.com/user-attachments/assets/a7bcc922-a49d-4292-a3dc-d7e538c0867c)
 
-The option for “Document Source” will always be set to “Scanner Glass,” regardless of the mode.
+7. The option for “Document Source” will always be set to “Scanner Glass,” regardless of the mode.
 * a. In “Photo Mode,” the option for “Document Type” will always be set to “Reflective.”
-* For “Document Mode,” set the “Image Type,” “Rotation” and “Resolution” settings. “Correct document Skew” will attempt to straighten any text for the scan. The success of this latter feature may vary and require multiple attempts.
+* b. For “Document Mode,” set the “Image Type,” “Rotation” and “Resolution” settings. “Correct document Skew” will attempt to straighten any text for the scan. The success of this latter feature may vary and require multiple attempts.
 
-7. The option for "Document Source"
+8. Click Preview to view a thumbnail of the scanned document. Use this image as a reference point to adjust the settings as needed. The preview may need to be rescanned, prior to making changes to resolution settings.
+9. Click and drag over the thumbnail image to set boundaries for the final scan.
 
 
 
