@@ -10,22 +10,31 @@ The video rack workflow documentation is a comprehensive guide for utilizing the
 2. **Digitization**: workflow for converting analog data to digital formats using vrecord.
 3. **Post-digitization**: directions for file management and storage, and considerations for digital preservation.
 
-The IS Lab video rack supports the following formats: 
+The IS Lab video rack supports the following formats:
+
 VHS, S-VHS, D-VHS, miniDV, Beta, Betacam, Betacam SP, Digibeta, Hi8, 
 U-Matic, Laserdisc, & DVCAM
 
 ## Resources
+### General
+[UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas)
+
+Resources for media preservation from the UCLA Library intended for students in the Media Archival Studies program.
+
+
 
 ## Table of Contents
 
 [Overview](#overview)
 
-[Table of Contents](#table-of-contents)
-
-[Rules and Guidelines](#rules-and-guidelines)
+[Resources](#resources)
 > [General](#general)
 >
 > [Format Identification Resources](#format-identification-resources)
+
+[Table of Contents](#table-of-contents)
+
+[Rules and Guidelines](#rules-and-guidelines)
 
 [Video Rack Workflow](#video-rack-workflow)
 > [Pre-digitization Workflow](#pre-digitization-workflow)
