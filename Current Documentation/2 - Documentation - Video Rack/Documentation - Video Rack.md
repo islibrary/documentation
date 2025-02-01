@@ -21,7 +21,34 @@ U-Matic, Laserdisc, & DVCAM
 
 Resources for media preservation from the UCLA Library intended for students in the Media Archival Studies program.
 
+[AMIA Homebrew Documentation](https://github.com/amiaopensource/homebrew-amiaos)
 
+GitHub repository for instructional guides and troubleshooting for AMIA’s Homebrew software.
+
+[Vrecord Documentation](https://github.com/amiaopensource/vrecord)
+
+GitHub repository for instructional guides on using the vrecord video capture software.
+
+[AV Artifact Atlas](https://www.avartifactatlas.com/)
+
+The AV Artifact Atlas is for use in the identification and definition of the technical issues and anomalies that can afflict audio and video signals.
+
+### Format Identification Resources
+[University of Illinois’ Preservation Self Assessment Program](https://psap.library.illinois.edu/collection-id-guide/videotape)
+
+Timeline of format obsolescence and collection of images to help with the identification of each video format.
+
+[Video Formation Identification Guide](https://cool.culturalheritage.org/videopreservation/vid_id/index.html)
+
+This site is produced for archivists, librarians, curators and conservators who want to identify the videotapes in their collections. Clicking the date ranges at the left will load thumbnail images of the prominent videotape formats and a short essay on the formats for the particular time period.
+
+[Texas Commission For the Arts Video Assessment and Identification Guide](https://www.arts.texas.gov/wp-content/uploads/2012/04/video.pdf)
+
+Video format identification guide. It also covers proper storage and risks for specific video formats. It explains how to perform a tape inspection and what to look for.
+
+[U-matic Palsite](https://umatic.palsite.com/tapes.html#:~:text=The%20different%20series%20tapes%20are,include%20Maxell%2C%203M%20and%20Ampex)
+
+A website which provides information about the U-matic video format, including a table of formats, gallery, glossary, and lore.
 
 ## Table of Contents
 
