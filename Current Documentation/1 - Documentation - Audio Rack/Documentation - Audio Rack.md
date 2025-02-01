@@ -24,6 +24,74 @@ The IS Lab audio rack supports the following formats:
   * 78 Shellac Transcription disc
   * Lacquer/Acetate Disc
 
+## Resources
+[UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas "UCLA Media Archival Studies Research Guide")
+
+Resources for media preservation from the UCLA Library, intended for students in the Media Archival Studies program.
+
+[UCLA Library Audio Archiving Guide](https://guides.library.ucla.edu/mas/audio "UCLA Library Audio Archiving Guide")
+
+A collection of resources on audio archiving from UCLA Library’s Media Archival Studies Research Guide. Publications and websites are included.
+
+[ARSC Guide to Audio Preservation](https://www.clir.org/wp-content/uploads/sites/6/pub164.pdf "ARSC Guide to Audio Preservation")
+
+The ARSC Guide to Audio Preservation is a practical introduction to caring for and preserving audio collections. It is aimed at individuals and institutions that have recorded sound collections but lack the expertise in one or more areas to preserve them. Commissioned for and sponsored by the National Recording Preservation Board of the Library of Congress. Copublished by the Association for Recorded Sound Collections, the Council on Library and Information Resources, and The Library of Congress.
+
+[FACET Field Audio Collection Evaluation Toolkit](https://dlib.indiana.edu/projects/sounddirections/facet/facet_formats.pdf "FACET Field Audio Collection Evaluation Toolkit")
+
+An excellent resource for the identification and risk assessments of audio formats. Also make recommendations on preservation priorities due to risk factors.
+
+[NEDCC Fundamentals of AV Preservation](https://www.nedcc.org/preservation-training/fundamentals-of-av-preservation "NEDCC Fundamentals of AV Preservation")
+
+Textbook created by NEDCC along with a fee-based accompanying [course](https://www.nedcc.org/preservation-training/fundamentals-of-av-preservation).
+
+[Guidelines on the Production and Preservation of Digital Audio Objects](https://www.iasa-web.org/tc04/audio-preservation "Guidelines on the Production and Preservation of Digital Audio Objects")
+
+This is the English language web edition of IASA-TC 04 (Second Edition, 2009), an accepted authority on digital audio preservation in the sound archiving field.
+
+[University of Illinois’ Preservation Self-Assessment Program](https://psap.library.illinois.edu/collection-id-guide/audiotape "University of Illinois’ Preservation Self-Assessment Program")
+
+Timeline of format obsolescence featuring a collection of images to help with the identification of open reel and cartridge-based audio formats.
+
+[Sticky-Shed Syndrome and Audiotape Baking from Arizona State Libraries](https://archivistapprenticeship.wordpress.com/2017/12/13/sticky-shed-syndrome-in-audiotapes/ "Sticky-Shed Syndrome and Audiotape Baking from Arizona State Libraries")
+
+Introductory blog post concerning the warning signs for sticky-shed syndrome, as well as preservation considerations for audiotape.
+
+[Care, Handling, and Storage of Audio Visual Materials](https://www.loc.gov/preservation/care/record.html "Care, Handling, and Storage of Audio Visual Materials")
+
+Guidelines for preservation and long term care for various audio formats from the Library of Congress.
+
+[PBCore](https://pbcore.org/ "PBCore")
+
+PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore's comprehensive and flexible features for their archiving needs. Consult this website for an overview and video tutorials on using PBCore for metadata management.
+
+### Wavelab Resources
+
+[WaveLab Pro 11.2.0 Operation Manual](https://steinberg.help/wavelab_pro/v11/en/WaveLab_Pro_11_Operation_Manual_en.pdf "WaveLab Pro 11.2.0 Operation Manual")
+
+Comprehensive manual for WaveLab Pro 11 software. An in-depth technical companion intended to supplement the introductory-level knowledge of this documentation.
+
+[Single Song Mastering in the Audio Montage - WaveLab Pro Workflows w/ Justin Perkins](https://www.youtube.com/watch?v=7yH8-ZFSfFk "Single Song Mastering in the Audio Montage - WaveLab Pro Workflows w/ Justin Perkins")
+
+Video tutorial on single song mastering and editing, one of the most-used functions in WaveLab Pro 11.
+
+[All of Justin Perkins’ WaveLab Workflows on YouTube](https://www.youtube.com/results?search_query=justin+perkins+wavelab "All of Justin Perkins’ WaveLab Workflows on YouTube")
+
+YouTube playlist containing video walkthroughs, tutorials, and workflows for every aspect of the WaveLab Pro 11 software.
+
+[Izotope - “Understanding Spectrograms"](https://www.izotope.com/en/learn/understanding-spectrograms.html "Izotope - 'Understanding Spectrograms'")
+
+Article explaining spectrograms and other important elements to monitor during the audio transfer process. Consult this resource for noise reduction and removal using WaveLab RestoreRig.
+
+[Wavelab Export Workflow Tutorial](https://drive.google.com/drive/u/0/folders/1--f5oU3bb0ALXTbzm2NCatdvxr3gqum7 "Wavelab Export Workflow Tutorial")
+
+Google Drive folder containing video tutorials on how to export the finished audio files from WaveLab Pro.
+
+[The RestoreRig Plug-in Suite](https://www.youtube.com/watch?v=yXDx0OnRNwY "The RestoreRig Plug-in Suite")
+
+Video tutorial on the sound restoration tools available in the RestoreRig plugin on WaveLab. Please note: while applicable, the tutorial is not based on the most current version of the software.. 
+
+
 ## Table of Contents
 
 [IS Library and Media Preservation Lab: Audio rack workflow documentation](#is-library-and-media-preservation-lab-audio-rack-workflow-documentation)
@@ -119,74 +187,6 @@ The IS Lab audio rack supports the following formats:
 
 [Appendix J: Guidelines for DAT Inspection and Playback](#appendix-j-guidelines-for-dat-inspection-and-playback)
 
-## Resources
-[UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas "UCLA Media Archival Studies Research Guide")
-
-Resources for media preservation from the UCLA Library, intended for students in the Media Archival Studies program.
-
-[UCLA Library Audio Archiving Guide](https://guides.library.ucla.edu/mas/audio "UCLA Library Audio Archiving Guide")
-
-A collection of resources on audio archiving from UCLA Library’s Media Archival Studies Research Guide. Publications and websites are included.
-
-[ARSC Guide to Audio Preservation](https://www.clir.org/wp-content/uploads/sites/6/pub164.pdf "ARSC Guide to Audio Preservation")
-
-The ARSC Guide to Audio Preservation is a practical introduction to caring for and preserving audio collections. It is aimed at individuals and institutions that have recorded sound collections but lack the expertise in one or more areas to preserve them. Commissioned for and sponsored by the National Recording Preservation Board of the Library of Congress. Copublished by the Association for Recorded Sound Collections, the Council on Library and Information Resources, and The Library of Congress.
-
-[FACET Field Audio Collection Evaluation Toolkit](https://dlib.indiana.edu/projects/sounddirections/facet/facet_formats.pdf "FACET Field Audio Collection Evaluation Toolkit")
-
-An excellent resource for the identification and risk assessments of audio formats. Also make recommendations on preservation priorities due to risk factors.
-
-[NEDCC Fundamentals of AV Preservation](https://www.nedcc.org/preservation-training/fundamentals-of-av-preservation "NEDCC Fundamentals of AV Preservation")
-
-Textbook created by NEDCC along with a fee-based accompanying [course](https://www.nedcc.org/preservation-training/fundamentals-of-av-preservation).
-
-[Guidelines on the Production and Preservation of Digital Audio Objects](https://www.iasa-web.org/tc04/audio-preservation "Guidelines on the Production and Preservation of Digital Audio Objects")
-
-This is the English language web edition of IASA-TC 04 (Second Edition, 2009), an accepted authority on digital audio preservation in the sound archiving field.
-
-[University of Illinois’ Preservation Self-Assessment Program](https://psap.library.illinois.edu/collection-id-guide/audiotape "University of Illinois’ Preservation Self-Assessment Program")
-
-Timeline of format obsolescence featuring a collection of images to help with the identification of open reel and cartridge-based audio formats.
-
-[Sticky-Shed Syndrome and Audiotape Baking from Arizona State Libraries](https://archivistapprenticeship.wordpress.com/2017/12/13/sticky-shed-syndrome-in-audiotapes/ "Sticky-Shed Syndrome and Audiotape Baking from Arizona State Libraries")
-
-Introductory blog post concerning the warning signs for sticky-shed syndrome, as well as preservation considerations for audiotape.
-
-[Care, Handling, and Storage of Audio Visual Materials](https://www.loc.gov/preservation/care/record.html "Care, Handling, and Storage of Audio Visual Materials")
-
-Guidelines for preservation and long term care for various audio formats from the Library of Congress.
-
-[PBCore](https://pbcore.org/ "PBCore")
-
-PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore's comprehensive and flexible features for their archiving needs. Consult this website for an overview and video tutorials on using PBCore for metadata management.
-
-
-
-### Wavelab Resources
-
-[WaveLab Pro 11.2.0 Operation Manual](https://steinberg.help/wavelab_pro/v11/en/WaveLab_Pro_11_Operation_Manual_en.pdf "WaveLab Pro 11.2.0 Operation Manual")
-
-Comprehensive manual for WaveLab Pro 11 software. An in-depth technical companion intended to supplement the introductory-level knowledge of this documentation.
-
-[Single Song Mastering in the Audio Montage - WaveLab Pro Workflows w/ Justin Perkins](https://www.youtube.com/watch?v=7yH8-ZFSfFk "Single Song Mastering in the Audio Montage - WaveLab Pro Workflows w/ Justin Perkins")
-
-Video tutorial on single song mastering and editing, one of the most-used functions in WaveLab Pro 11.
-
-[All of Justin Perkins’ WaveLab Workflows on YouTube](https://www.youtube.com/results?search_query=justin+perkins+wavelab "All of Justin Perkins’ WaveLab Workflows on YouTube")
-
-YouTube playlist containing video walkthroughs, tutorials, and workflows for every aspect of the WaveLab Pro 11 software.
-
-[Izotope - “Understanding Spectrograms"](https://www.izotope.com/en/learn/understanding-spectrograms.html "Izotope - 'Understanding Spectrograms'")
-
-Article explaining spectrograms and other important elements to monitor during the audio transfer process. Consult this resource for noise reduction and removal using WaveLab RestoreRig.
-
-[Wavelab Export Workflow Tutorial](https://drive.google.com/drive/u/0/folders/1--f5oU3bb0ALXTbzm2NCatdvxr3gqum7 "Wavelab Export Workflow Tutorial")
-
-Google Drive folder containing video tutorials on how to export the finished audio files from WaveLab Pro.
-
-[The RestoreRig Plug-in Suite](https://www.youtube.com/watch?v=yXDx0OnRNwY "The RestoreRig Plug-in Suite")
-
-Video tutorial on the sound restoration tools available in the RestoreRig plugin on WaveLab. Please note: while applicable, the tutorial is not based on the most current version of the software.. 
 
 ## Guidelines and rules 
 Please contact an IS Lab Staff team member for any and all questions about the guidelines listed below.
@@ -201,8 +201,6 @@ Please contact an IS Lab Staff team member for any and all questions about the g
 7. For first-time use of decks and first-time audio transfers, please reach out to a member of the IS Lab Staff for assistance.
 8. If materials needed to complete a project are lacking or out of stock (e.g. gloves, alcohol, etc.), please inform a member of the IS Lab Staff so that they may place an inventory request. 
 9. Copy files to the appropriate IS Lab server folder or to a personal storage device after transferring. **Do not leave files on the transfer computer’s hard drive or desktop**—all files are deleted from the computer at the end of each week.
-
-
 
 ## Pre-Digitization
 
