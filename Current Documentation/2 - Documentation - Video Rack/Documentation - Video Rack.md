@@ -14,7 +14,9 @@ The IS Lab video rack supports the following formats:
 VHS, S-VHS, D-VHS, miniDV, Beta, Betacam, Betacam SP, Digibeta, Hi8, 
 U-Matic, Laserdisc, & DVCAM
 
-# Table of Contents
+## Resources
+
+## Table of Contents
 
 [Overview](#overview)
 
@@ -131,6 +133,18 @@ U-Matic, Laserdisc, & DVCAM
 > > [Guidelines and rules](#guidelines-and-rules)
 
 ## Rules and Guidelines
+Please contact an IS Lab Staff team member for any and all questions about the guidelines listed below.
+
+1. Leave all food and drinks outside of the lab on the designated table in Zone A of the library.
+2. **<ins>DO NOT REWIND</ins> tapes in the following transfer decks: U-Matic, Hi8, SVHS, VHS1, and VHS2. Only use the designated “rewind decks,”** as listed in the equipment key, for rewinding your tapes prior to transfer. This is essential to protecting the longevity of our vintage equipment. 
+3. Do not clean any deck’s video or audio heads. Please ask a staff member for assistance. 
+4. If any equipment or software stops working or breaks during transfer, immediately contact an IS Lab staff team member for assistance.
+5. Turn off monitors in the rack when not in use, to prevent screen burn.
+6. Copy files to the appropriate IS Lab server folder or to your personal storage device after transferring. Do not leave files on the transfer computer’s hard drive or desktop—all files are deleted from the computer at the end of each week. 
+7. All tapes need to be inspected before using any deck to ensure it is safe to transfer. If you have any questions about the quality of your tape, ask an IS Lab staff member.
+8. If you have not previously used one of the decks or it is your first time performing a specific transfer, please reach out to a member of the IS Lab Staff for assistance.
+9. If you are lacking materials in order to complete your projects (e.g. gloves, alcohol, etc.), please inform a member of the IS Lab Staff so that they may place an inventory request. This helps to ensure that there will be enough materials for everyone.
+
 
 ### General
 
