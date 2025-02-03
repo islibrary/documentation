@@ -16,6 +16,7 @@ VHS, S-VHS, D-VHS, miniDV, Beta, Betacam, Betacam SP, Digibeta, Hi8,
 U-Matic, Laserdisc, & DVCAM
 
 ## Resources
+
 ### General
 [UCLA Media Archival Studies Research Guide](https://guides.library.ucla.edu/mas)
 
@@ -181,16 +182,18 @@ Please contact an IS Lab Staff team member for any and all questions about the g
 8. If you have not previously used one of the decks or it is your first time performing a specific transfer, please reach out to a member of the IS Lab Staff for assistance.
 9. If you are lacking materials in order to complete your projects (e.g. gloves, alcohol, etc.), please inform a member of the IS Lab Staff so that they may place an inventory request. This helps to ensure that there will be enough materials for everyone.
 
-
-### General
-
-### Format Identification Resources
-
 ## Video Rack Workflow
 
 ### Pre-digitization Workflow
 
 #### Identifying video format and choosing the correct deck
+
+Prior to digitization, it’s necessary to identify the correct deck for media format transfers. Use this section to identify your media, choose the correct deck, prepare media prior to transfer, and ensure the protection of equipment while working with the video rack transfer station.
+
+Refer to [Appendix A](#appendix-a--video-rack-decks-and-supported-media-formats) for a list of video formats resources section to identify the formats of the tapes for digitization
+
+After identifying formats and decks for digitization, contact a lab staff team member to ensure all heads are clean prior to media transfer.
+
 
 #### Required inspection
 
@@ -267,4 +270,37 @@ Please contact an IS Lab Staff team member for any and all questions about the g
 ### Command Line Interface
 
 
+# Appendix A: Video Rack Decks and Supported Media Formats 
 
+## IS lab equipment supported format and identification chart](#is-lab-equipment-supported-format-and-identification-chart)
+
+## Format Comparisons
+
+## Timeline of Video Formats
+
+
+# Appendix B: Equipment Legend
+
+## Video Rack A and B 
+
+## Lab Cart #lab-cart
+
+
+# Appendix C: Magnetic Tape Head Cleaning Guide
+
+## U-matic Deck Head Cleaning
+
+## Resources
+
+## Workflow — VCR head cleaning
+
+### Remove outer shell of deck
+
+### Clean interior hardware
+
+
+# Appendix D: Monitor maintenance
+
+## Resources and Definitions
+
+### Guidelines and rules guidelines-and-rules
