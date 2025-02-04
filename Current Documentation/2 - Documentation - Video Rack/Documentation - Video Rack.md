@@ -164,7 +164,7 @@ A website which provides information about the U-matic video format, including a
 >
 > >[Clean interior hardware](#clean-interior-hardware)
 
-[Appendix D: Monitor maintenance](#appendix-d-monitor-maitenance)
+[Appendix D: Monitor maintenance](#appendix-d-monitor-maintenance)
 > [Resources and Definitions](#resources-and-definitions)
 > >
 > > [Guidelines and rules](#guidelines-and-rules)
