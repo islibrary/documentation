@@ -68,7 +68,7 @@ A website which provides information about the U-matic video format, including a
 > [Pre-digitization Workflow](#pre-digitization-workflow)
 > > [Identifying video format and choosing the correct deck](#identifying-video-format-and-choosing-the-correct-deck)
 > > 
-> >[Required inspection](#requireed-inspection)
+> >[Required inspection](#required-inspection)
 > > 
 > > > [Inspection Workflow](#inspection-workflow)
 > > > 
@@ -84,7 +84,7 @@ A website which provides information about the U-matic video format, including a
 > >
 > > [Using Internal TBCs](#using-internal-tbcs)
 > >
-> > [Black Magic Switcher Routing - Composite](#black-magic-switcher-routing-composite)
+> > [Black Magic Switcher Routing: Composite](#black-magic-switcher-routing-composite)
 > >
 > > [Connecting to the camcorder (ask for lab staff assistance)](#connecting-to-the-camcorder-ask-for-lab-staff-assistance)
 > >
@@ -92,13 +92,13 @@ A website which provides information about the U-matic video format, including a
 > >
 > > [Signal Flow for Auxiliary setup](#signal-flow-for-auxiliary-setup)
 > >
-> > [U-Matic Transfers](#umatic-transfers)
+> > [U-Matic Transfers](#u-matic-transfers)
 > >
-> > [U-matic specific actions](#umatic-specific-actions)
+> > [U-matic specific actions](#u-matic-specific-actions)
 > >
-> > [U-Matic rewind lab cart](#umatic-rewind-lab-cart)
+> > [U-Matic rewind lab cart](#u-matic-rewind-lab-cart)
 > >
-> > [Note on U-matic formats](#note-on-umatic-formats)
+> > [Note on U-matic formats](#note-on-u-matic-formats)
 > >
 > [Digitization](#digitization)
 > > [Vrecord workflow](#vrecord-workflow)
@@ -134,13 +134,13 @@ A website which provides information about the U-matic video format, including a
 > >
 > > [DVRescue Resources](#dvrescue-resources)
 > >
-> > [GUI Navigation](#GUI-Navigation)
+> > [GUI Navigation](#gui-navigation)
 > >
-> > [Step-By-Step: GUI](#step-by-step--gui)
+> > [Step-By-Step: GUI](#step-by-step-gui)
 > >
 > > [Command Line Interface](#command-line-interface)
 
-[Appendix A: Video Rack Decks and Supported Media Formats](#appendix-a--video-rack-decks-and-supported-media-formats)
+[Appendix A: Video Rack Decks and Supported Media Formats](#appendix-a-video-rack-decks-and-supported-media-formats)
 > [IS lab equipment supported format and identification chart](#is-lab-equipment-supported-format-and-identification-chart)
 > 
 > [Format Comparisons](#format-comparisons)
@@ -148,23 +148,23 @@ A website which provides information about the U-matic video format, including a
 > [Timeline of Video Formats](#timeline-of-video-formats)
 >
 
-[Appendix B: Equipment Legend](#appendix-b--equipment-legend)
+[Appendix B: Equipment Legend](#appendix-b-equipment-legend)
 > [Video Rack A and B](#video-rack-a-and-b)
 >
 > [Lab Cart](#lab-cart)
 
-[Appendix C: Magnetic Tape Head Cleaning Guide](#appendix-c--magnetic-tape-head-cleaning-guide)
-> [U-matic Deck Head Cleaning](#umatic-deck-head-cleaning)
+[Appendix C: Magnetic Tape Head Cleaning Guide](#appendix-c-magnetic-tape-head-cleaning-guide)
+> [U-matic Deck Head Cleaning](#u-matic-deck-head-cleaning)
 >
 > [Resources](#resources)
 >
-> [Workflow — VCR head cleaning](#workflow-vcr-head-cleaning)
+> [Workflow: VCR head cleaning](#workflow-vcr-head-cleaning)
 > > 
 > >[Remove outer shell of deck](#remove-outer-shell-of-deck)
 >
 > >[Clean interior hardware](#clean-interior-hardware)
 
-[Appendix D: Monitor maintenance](#appendix-d--monitor-maitenance)
+[Appendix D: Monitor maintenance](#appendix-d-monitor-maitenance)
 > [Resources and Definitions](#resources-and-definitions)
 > >
 > > [Guidelines and rules](#guidelines-and-rules)
@@ -337,7 +337,7 @@ BM-SWR outputs to the Post-Dig Monitor & Mac tower include:
 * DV1 to BM-SWR - #6
 * BVH 2000 - #7
 
-### Black Magic Switcher Routing - Composite
+### Black Magic Switcher Routing: Composite
 
 ![Composite1](https://github.com/user-attachments/assets/eb94af9c-afa1-4a86-be15-f23db7e92417)
 
@@ -533,7 +533,7 @@ The U-matic Rewind Deck prevents the playback machine from being damaged.
 
 # Appendix A: Video Rack Decks and Supported Media Formats 
 
-## IS lab equipment supported format and identification chart](#is-lab-equipment-supported-format-and-identification-chart)
+## IS lab equipment supported format and identification chart
 
 ## Format Comparisons
 
@@ -544,7 +544,7 @@ The U-matic Rewind Deck prevents the playback machine from being damaged.
 
 ## Video Rack A and B 
 
-## Lab Cart #lab-cart
+## Lab Cart
 
 
 # Appendix C: Magnetic Tape Head Cleaning Guide
@@ -553,7 +553,7 @@ The U-matic Rewind Deck prevents the playback machine from being damaged.
 
 ## Resources
 
-## Workflow — VCR head cleaning
+## Workflow: VCR head cleaning
 
 ### Remove outer shell of deck
 
@@ -564,4 +564,4 @@ The U-matic Rewind Deck prevents the playback machine from being damaged.
 
 ## Resources and Definitions
 
-### Guidelines and rules guidelines-and-rules
+### Guidelines and rules
