@@ -470,8 +470,23 @@ This guide outlines the steps for transferring a U-matic tape using the IS Lab v
 **IMPORTANT NOTE**: Rewinds are **NOT allowed on the U-matic BVU-950**, pictured at the top of the following page, because there is a significant risk that it will cause damage to this expensive machine. **You may rewind your U-matic tape using the Sony VO-5850**. Refer to the table below for info on the U-matic rewind lab cart, located across from the Video Racks.
 
 ### U-Matic rewind lab cart
+![umatic cart](https://github.com/user-attachments/assets/21f7b33a-6916-4fd8-92c3-ba1f24e6a51a)
+
 
 ### Note on U-matic formats
+
+The U-Matic Videocassette Recorder (VCR) plays analog 3 ⁄ 4-inch magnetic tape cassettes, a high-quality video and audio recording typically seen in the 1980s. There are three variants of U-matic tape: 
+> 1. **Low-Band** is the original U-Matic format.
+> 2. **Hi-Band** features increased frequency carriers which deliver superior picture quality.
+> 3. **SP** is a further enhanced variation, which uses chrome tape for better video response and lower noise.
+
+**Playback Deck Sony BVU-950:**
+![umatic 1](https://github.com/user-attachments/assets/96f2f2b1-ba00-484c-ac14-ce074f73d5e3)
+U-matic Playback Deck (do not rewind).
+
+**Rewind Deck Sony VO-5850 (on Lab Cart across from video rack):**
+![umatic 2](https://github.com/user-attachments/assets/ac276be4-ae24-499e-b470-90b2bd4f1ffc)
+The U-matic Rewind Deck prevents the playback machine from being damaged.
 
 ## Digitization
 
