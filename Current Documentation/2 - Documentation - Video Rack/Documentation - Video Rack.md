@@ -472,6 +472,11 @@ This guide outlines the steps for transferring a U-matic tape using the IS Lab v
 ### U-Matic rewind lab cart
 ![umatic cart](https://github.com/user-attachments/assets/21f7b33a-6916-4fd8-92c3-ba1f24e6a51a)
 
+Number | Deck Shorthand | Deck Make/Model | Supported Media Formats
+:--- | :--- | :--- | :--- 
+1 | Color Monitor | JVC TM-A130SU | 
+1 | Waveform Monitor | Compuvideo | 
+2 | U-matic Rewind Deck | Sony V0-5850 | U-matic Tape
 
 ### Note on U-matic formats
 
