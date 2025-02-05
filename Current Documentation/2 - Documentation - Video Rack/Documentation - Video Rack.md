@@ -172,7 +172,7 @@ A website which provides information about the U-matic video format, including a
 [Appendix E: RF Scope Monitoring](#appendix-e-rf-scope-monitoring)
 > [VHS Transfers](#vhs-transfers)
 
-[Appendix F: U-matic Tape Baking & Head Cleaning ](#appendix-f-u-matic-tape-baking-&-head-cleaning)
+[Appendix F: U-matic Tape Baking and Head Cleaning ](#appendix-f-u-matic-tape-baking-and-head-cleaning)
 > [Cleaning the U-matic Player Video Heads](#cleaning-the-u-matic-player-video-heads)
 > 
 > [Playing the Tape](#playing-the-tape)
