@@ -524,11 +524,11 @@ This section will:
 Launch Vrecord in terminal
 1. Open Terminal, type **vrecord -e**, then hit enter on the keyboard.
 
-(insert vrecord1)
+<img src="https://github.com/user-attachments/assets/e48a18ab-e6aa-45c3-abae-970963b18952" alt="terminal" height="200">
 
 > a. Terminal should look like this:
 
-(insert vrecord2)
+<img src="https://github.com/user-attachments/assets/12b87395-de23-45f3-b46c-136b511752bd" alt="terminal2" height="400">
 
 *Vrecord Terminal*
 
