@@ -528,7 +528,7 @@ Launch Vrecord in terminal
 
 > a. Terminal should look like this:
 
-<img src="https://github.com/user-attachments/assets/12b87395-de23-45f3-b46c-136b511752bd" alt="terminal2" height="400">
+<img src="https://github.com/user-attachments/assets/12b87395-de23-45f3-b46c-136b511752bd" alt="terminal2" height="300">
 
 *Vrecord Terminal*
 
