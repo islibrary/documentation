@@ -623,7 +623,7 @@ Follow the format specific workflow and ensure that you have the signal from you
    * The signal is lower in the above photo but some of the waveform is below the 7.5 IRE so it is a bit too low. Adjust the “Set Up” knob to move the bottom of the waveform into range.
    * Vrecord has overlays visible in the passthrough window that also will indicate when the signal is out of NTSC broadcast range. Vrecord will color out of range values as yellow pixels in the digital monitor.
 
-
+<img src="https://github.com/user-attachments/assets/40fbda70-79a6-4fc6-b9c8-3e49b1351d09" alt="vrecord12" height="300">
 
 *Out of range values will turn yellow in the digital monitor in Vrecord.*
 
