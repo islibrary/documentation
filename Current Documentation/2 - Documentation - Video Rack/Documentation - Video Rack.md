@@ -513,28 +513,237 @@ The IS Media Preservation Lab's video rack workflow uses Vrecord for all video t
 
 Vrecord is pre-installed on the video transfer station computer in the Media Lab and runs via command-line. For comprehensive documentation, updates, and troubleshooting resources on the Vrecord software, refer to the [AMIA Open Source GitHub repository for Vrecord](https://github.com/amiaopensource/vrecord).
 
+This section will:
+   * Provide step-by-step instructions for video capture using Vrecord, including: 1) setting up Vrecord prior to capture, 2) the capture and monitoring transfer process, 3) post-digitization file access, and 4) file storage and management guidelines 
+   * Outline specific settings and options for your transfer in the Vrecord GUI
+   * Explain how to monitor the video signal before digitization using the Waveform monitor in the video rack and on the post-digitization end using Vrecord’s scopes in the passthrough and record windows
+   * Provide instructions for setting the NTSC broadcast range and how to adjust the time-based correction (TBC) to ensure  the video signal is within range. 
 
 ### Launch Vrecord in terminal
 
+Launch Vrecord in terminal
+1. Open Terminal, type **vrecord -e**, then hit enter on the keyboard.
+
+(insert vrecord1)
+
+> a. Terminal should look like this:
+
+(insert vrecord2)
+
+*Vrecord Terminal*
+
 ### Configuring Vrecord settings
+
+1. At this stage, the Vrecord graphical user interface (GUI) has launched and appears on your screen. Confirm the following default configurations listed below are set for your video tape prior to transferring:
+> a. Input utility - ffmpeg
+>
+> b. Video input - SDI
+>
+> c. Audio input - SDI Embedded Audio
+>
+> d. Audio Channel Mapping - 1 Stereo Track (from channels 1 & 2)
+> > i. Note: this may be adjusted depending on your tape. Visit [Vrecord github documentation settings](https://github.com/amiaopensource/vrecord/blob/main/Resources/Documentation/settings.md) for further instructions.
+
+(insert vrecord 3)
+
+*Vrecord’s graphical user interface (GUI), containing various settings for the digitization process.*
+
+> e. On the second line of the Vrecord GUI, set your desired video file type and codec. For example, FFVI Version 3 and Matroska file, 4 slice count with FLAC audio are suitable choices.
+> > i. Note: Certain codecs are incompatible with each other and errors may appear in the “Errors & Warnings” box. Some selections may require additional fields on this line. For example, Matroska has the option to embed digitization logs on the left side. Additionally, FFV1 version 3 lets you choose the slice count (the higher the slice count the more data and the larger the file).
+> >
+> > ii. [AMIA’s analog digitization documentation](https://github.com/amiaopensource/vrecord/blob/main/Resources/Documentation/analog_digitization.md) has more info about these selections as well as file specifications standard used by archives.
+>
+> f. On the line below, “Playback Options” lets you choose how you monitor your transfer in the record and passthrough windows. The settings can be different for the playback and record windows.
+
+(insert vrecord4)
+
+*IS Lab recommends the settings seen above for video digitization.*
+
+> > i. “Unfiltered” will only display the playback image. 
+> >
+> > ii. The “audio+video” option (shown below) is the most commonly used setting, and shows a fairly comprehensive view of video monitoring tools, including range pixels, waveform monitor, vectorscope, and audio scopes in the top left corner. Refer to the [video views section](https://github.com/amiaopensource/vrecord/blob/main/Resources/Documentation/settings.md#video-views) of the Vrecord documentation for more info.
+
+(insert vrecord5)
+
+*The Vrecord passthrough window allows one to monitor the video playback prior to digitization*
+
+> g. “Frame MD5s” prompts the software to generate a checksum for every frame of the capture. A checksum is a unique identifier for digital files which guarantees fixity, or the integrity of the information. This is recommended and highly useful for preservation. More info about checksums can be found [here](http://dericed.com/papers/reconsidering-the-checksum-for-audiovisual-preservation/).
+>
+> h. For the QCTools XML?, Vrecord can create an XML file accompanying the transfer that contains a measurement of characteristics of the video signal (such as luminance, color saturation, audio levels, etc. This is also recommended for preservation.
+>
+> i. In the last line of the window, set your file destination, file name, and name of the person digitizing. If applicable, set the record time, which will automate Vrecord’s termination of your capture.
+> > **i. Vrecord will not let you record if there is no file name.**
 
 ### Monitor the Signal
 
+Follow the format specific workflow and ensure that you have the signal from your deck routed to the Mac video transfer station correctly.
+
+1. Press “play” on your deck and then hit the “Passthrough” button on the bottom of the Vrecord GUI to open the signal monitoring window.
+
+(insert vrecord6)
+
+*The Record and Passthrough buttons on the Vrecord GUI*
+
+   * The Passthrough window like the one shown above will open with your video capture shown in the top center of the window.
+
+2. Once you have the passthrough window open, the whole station should look like this:
+
+(insert vrecord7)
+
+*An ideal setup for the Video Transfer Station setup*
+
+3. Signal should be coming from the deck through the Pre-Digitization Monitor (on the left in the video rack).
+   * The signal should appear on the waveform monitor (below pre dig mon1).
+   * The signal should also show up on post dig monitor 2 on the right. Finally, your signal should make it through to Vrecord. You should hear the audio of the tape coming through the two Roland speakers behind the computer monitor.
+
+(insert vrecord8)
+
+*The yellow lines above indicate the NTSC broadcast range. Information must fall within this range to be captured*
+
+4. Check the waveform monitor to ensure the signal is within the broadcast range (space between the two yellow lines seen above).
+   * The face of the waveform monitor shows the luminance IREs of the video signal passing through. This is a measurement of the brightness of the signal.
+   * For NTSC, the broadcast standard used in the U.S, the upper limit is 100 IRE and the lower border of broadcast range is 7.5 IRE (indicated by the red dotted line on the waveform monitor.) If the signal is above or below the line, then it is out of range and cut off.
+   * Vrecord has a digital waveform monitor on the passthrough window.
+
+5. Get the signal in range.
+   * Use the “Video Level” and “Chroma Level” knobs on the TBC to bring the signal into the NTSC broadcast range.
+
+(insert vrecord9)
+
+*“Video” and “Set Up” knobs on the TBC*
+
+   * Start with the knobs in the neutral position (the place where they softly click. This might not be the exact center).
+   * Use the “Video Level” and “Chroma Level” knobs on the TBC to adjust the signal to bring into NTSC broadcast range. 
+>   1. The “Video” control adjusts the luma, or the brightest part of the waveform. It changes the amplitude of the wave (squishes or stretches it).
+>
+>   2. The “Chroma Level” knob boosts black in the video signal  (moves the entire thing up or down).
+>
+>   3. **Do not touch the other two knobs on the TBC.**
+   * Fast forward to a part of the tape with content. Try to use a shot with both pure black or white to make your adjustments.
+   * The signal is lower in the above photo but some of the waveform is below the 7.5 IRE so it is a bit too low. Adjust the “Set Up” knob to move the bottom of the waveform into range.
+   * Vrecord has overlays visible in the passthrough window that also will indicate when the signal is out of NTSC broadcast range. Vrecord will color out of range values as yellow pixels in the digital monitor.
+
+(insert vrecord10)
+
+*Out of range values will turn yellow in the digital monitor in Vrecord.*
+
+   * In the above photo, the lowest luminance values in the frame are below 7.5IRE, as indicated by Vrecord’s yellow coloration of those pixels.
+   * In range signal on the waveform monitor should look like the image below:
+
+(insert vrecord11)
+
+*Waveform Monitor Safe Broadcast Range*
+
+   * When the Waveform is in range on the Vrecord passthrough window, it will look like the image below.
+
+(insert vrecord12)
+
+*Optimal Waveform in Vrecord*
+
+6. Monitor the video signal through several different scenes or camera angle changes to ensure it remains in range. Light levels in difference shots may be different and could cause the signal to go out of range.
+   * Set the TBC so the signal stays in range through as much of the tape as possible. If it is impossible to keep the signal in range through the different parts of the tape, you will have to break the transfer up into pieces.
+
 #### Perform a Test Capture
+
+> a. Hit “esc” or “q” to exit the passthrough window and return to the Vrecord GUI.
+> > i. You can press the up arrow in the terminal and it will type the last command you gave it
+>
+> b. Check your file settings to see that they are what you wanted.
+>
+> c. You might want to name your capture “test capture” or words to that effect.
+>
+> d. Press the “record” button and Vrecord will send you back to the terminal.
+
+(insert vrecord13)
+
+*The command line terminal is used to launch Vrecord and to begin the process of video digitization*
+
+7. When you see the window above, press “enter” to start recording.
+
+(insert vrecord14)
+
+*The window above appears during the digitization process*
+
+8. Capture the signal for ten seconds. Press “esc” or “q” to finish recording.
+
+(insert vrecord15)
+
+*The terminal will appear once the recording is complete*
+
+9. Vrecord will send you back to the terminal when you stop recording.
+10. Press “Stop” on the deck you are using.
+11. Navigate to the location you designated in Vrecord and playback your file (it might look like this image below). Double click to play. You may have to “command +click” and select “Open with…”and choose “VLC Media Player” to playback your file.
+
+(insert vrecord16)
+
+*The test capture can be played back with VLC Media Player*
 
 ### Rewind
 
+* Once you have successfully set the TBC for your capture, put your tape in the designated rewind deck (if the lab has one for your format).
+* Rewind to the beginning. The start of the tape might be before the 00:00 mark in the negatives.
+
 ### Set Final Recording Settings in Vrecord
 
+* Return to the Vrecord GUI and double [check your file settings again](#configuring-vrecord-settings).
+> i. Rename the file if needed.
+* Once everything is set up, press the “record” button in the GUI and then “enter” on the keyboard. 
+* Press “Play” on the deck and monitor the capture while it’s playing.
+* Play tape til the deck stops. Hit “esc” or “q”
+* Navigate to your folder where the file was saved. Test the playback of the file by double clicking.
+* Leave the terminal window open. If Vrecord is producing a QCTools report, this can take upwards of half an hour to generate. This is the percentage number shown at the end of the transfer.
+
 ## One-Inch Open Reel Tape Digitization
+1-inch Type C is an open reel analog helical scan video tape used for professional video and broadcast television. This guide outlines the steps for transferring an 1-inch open reel tape using the **Sony BVH 2000 Videocorder.**
+
+This video format is open reel meaning the tape is not protected by a plastic cassette shell unlike many formats. When using one inch tape, it’s important to avoid touching the surface of the tape. It’s recommended that gloves are worn when threading tape onto the deck. 
+
+**Resources:** [BVH2000 Manual Download](https://www.manualslib.com/manual/1741663/Sony-Bvh-2000.html)
+
+(insert bvh1) 
+
+(insert bvh2)
+
+*Sony BVH-2000 machine (left) and its user interface (right)*
 
 ### BVH2000 signal flow
 
+The BVH-2000 has a slightly unique signal flow to the other decks in the video rack. It has a dedicated time base corrector, rf scope, vectorscope. The signal from the 1” tape machine deck is digitized by a dedicated Aja analog to digital mini converter, the same model as the one used for the composite patch bay. The signal only needs to be routed on the Black Magic 20 x20 digital switcher. The signal will not play through the CRT monitors in the video rack or the waveform monitor. 
+
+(insert bvh3)
+
+*Routing the signal flow for 1” video tape on the Black Magic switcher.* 
+
 ### Threading the BVH-2000 VTR
+
+1. Threading the tape on the BVH works much like the Kinetta or an open reel audio deck. Tension must be applied to the takeup reel side to keep the tape in position.
+2. The signal is recorded on the shiny side of the tape (opposite of film and audio). Usually broadcast tapes are recorded heads out and with the base side facing out. Usually broadcast tapes will have labels on the reels for identification. If wound correctly, the side with the labels should face out when on the supply side.
+3. Threading on the machine should be performed with powder free gloves to avoid unnecessary touching of the tape. 
+4. Place the tape reel lining up the teeth with the notches on the hubs of the VTR. 
+5. The tape should come off the outside of the supply reel and mirror that by joining up with the outside of the takeup reel.
+
+(insert bvh4)
+
+*Tape threading diagram with the line indicating the path of the tape.*
+
+6. Look at the arrows on the BVH for guidance on how to thread the tape. The tape should go around the drum. 
 
 ### Turning on the BVH-2000
 
+1. Many power switches must be activated to turn on the BVH-2000. Look for the pieces of white tape next to the switches to turn on the unit and the accompanying monitors and equipment.
+2. Start with the main power switch. This is located in the bottom cabinet on the right side. Do not turn on the switch mark service. 
+3. Then turn on the time base corrector. The metal box to the left of the main power switch in the bottom cabinet is the TBC. Flip the black switch.
+4. Then turn on the VTR itself. This switch can be found on the floor next to the VTR on the left side. 
+
 ### Playing the tape on the BVH-2000
+1. Once tape is in position. Press the “Play” button. The head will begin to spin rapidly and the reels will advance the tape. 
+2. Make sure the CRT monitor, vectorscope and RF monitor are turned on to see the signal.
+3. If the tape is moving for a while, do not worry. Many 1” Tapes are professional broadcast tapes recorded with lots of empty tape at the head and tail. 
+4. Usually the 1” tapes have bars and tone recorded at the beginning. 
+5. When the bars and tone begin playing, use them to make sure the signal is in range. 
+6. The tone should play at 0dB. Look at the level meters for the right and left channel located above the play button and below the video drum.
+7. Once the signal has been determined to be in range.
+8. Follow instructions in the [Digitization](#digitization) section of this document. During playback and monitoring, the signal will not play through the CRT monitors in the video rack or the waveform monitor. 
 
 ### Rewinding the Tape
 
