@@ -580,7 +580,7 @@ Follow the format specific workflow and ensure that you have the signal from you
 
 1. Press “play” on your deck and then hit the “Passthrough” button on the bottom of the Vrecord GUI to open the signal monitoring window.
 
-(insert vrecord6)
+<img src="https://github.com/user-attachments/assets/2aa6e930-2ca8-4523-9fd1-85b6653251ff" alt="vrecord3" height="75">
 
 *The Record and Passthrough buttons on the Vrecord GUI*
 
@@ -588,7 +588,7 @@ Follow the format specific workflow and ensure that you have the signal from you
 
 2. Once you have the passthrough window open, the whole station should look like this:
 
-(insert vrecord7)
+<img src="https://github.com/user-attachments/assets/ec0f73c0-0284-402f-9a52-4e3af4998c6b" alt="audio transfer station" height="300">
 
 *An ideal setup for the Video Transfer Station setup*
 
@@ -596,7 +596,7 @@ Follow the format specific workflow and ensure that you have the signal from you
    * The signal should appear on the waveform monitor (below pre dig mon1).
    * The signal should also show up on post dig monitor 2 on the right. Finally, your signal should make it through to Vrecord. You should hear the audio of the tape coming through the two Roland speakers behind the computer monitor.
 
-(insert vrecord8)
+<img src="https://github.com/user-attachments/assets/cf8f39ef-4f01-49c0-a901-01b5f6144dc5" alt="scope" height="300">
 
 *The yellow lines above indicate the NTSC broadcast range. Information must fall within this range to be captured*
 
@@ -608,7 +608,7 @@ Follow the format specific workflow and ensure that you have the signal from you
 5. Get the signal in range.
    * Use the “Video Level” and “Chroma Level” knobs on the TBC to bring the signal into the NTSC broadcast range.
 
-(insert vrecord9)
+<img src="https://github.com/user-attachments/assets/c441c106-e9e5-4fed-ae4c-dd7a751374f5" alt="tbc" height="200">
 
 *“Video” and “Set Up” knobs on the TBC*
 
@@ -623,7 +623,7 @@ Follow the format specific workflow and ensure that you have the signal from you
    * The signal is lower in the above photo but some of the waveform is below the 7.5 IRE so it is a bit too low. Adjust the “Set Up” knob to move the bottom of the waveform into range.
    * Vrecord has overlays visible in the passthrough window that also will indicate when the signal is out of NTSC broadcast range. Vrecord will color out of range values as yellow pixels in the digital monitor.
 
-(insert vrecord10)
+
 
 *Out of range values will turn yellow in the digital monitor in Vrecord.*
 
