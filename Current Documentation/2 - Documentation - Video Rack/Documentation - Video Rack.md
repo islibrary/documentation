@@ -169,6 +169,14 @@ A website which provides information about the U-matic video format, including a
 > >
 > > [Guidelines and rules](#guidelines-and-rules)
 
+[Appendix E: RF Scope Monitoring](#appendix-e-rf-scope-monitoring)
+> [VHS Transfers](#vhs-transfers)
+
+[Appendix F: U-matic Tape Baking & Head Cleaning ](#appendix-f-u-matic-tape-baking-&-head-cleaning)
+> [Cleaning the U-matic Player Video Heads](#cleaning-the-u-matic-player-video-heads)
+> 
+> [Playing the Tape](#playing-the-tape)
+
 ## Rules and Guidelines
 Please contact an IS Lab Staff team member for any and all questions about the guidelines listed below.
 
@@ -465,7 +473,7 @@ This guide outlines the steps for transferring a U-matic tape using the IS Lab v
 
 ### U-matic specific actions
 
-1. **It is mandatory that U-matic tapes are baked before playback in the video rack. Tapes must be baked for 48 hours in the Thermocenter oven** (located in the far right corner of the lab, next to the record cleaning machine). For detailed instructions on how to take apart and bake your tape, please see [Appendix E](). Please factor in the time needed to bake your tape when scheduling your appointment for a U-matic transfer in the Media Lab.
+1. **It is mandatory that U-matic tapes are baked before playback in the video rack. Tapes must be baked for 48 hours in the Thermocenter oven** (located in the far right corner of the lab, next to the record cleaning machine). For detailed instructions on how to take apart and bake your tape, please see [Appendix E](#appendix-e). Please factor in the time needed to bake your tape when scheduling your appointment for a U-matic transfer in the Media Lab.
 
 **IMPORTANT NOTE**: Rewinds are **NOT allowed on the U-matic BVU-950**, pictured at the top of the following page, because there is a significant risk that it will cause damage to this expensive machine. **You may rewind your U-matic tape using the Sony VO-5850**. Refer to the table below for info on the U-matic rewind lab cart, located across from the Video Racks.
 
@@ -500,6 +508,11 @@ The U-matic Rewind Deck prevents the playback machine from being damaged.
 ## Digitization
 
 ### Vrecord workflow
+
+The IS Media Preservation Lab's video rack workflow uses Vrecord for all video tape transfers. Vrecord is an open-source software designed to capture video signals and turn them into digital files. Vrecord is maintained by the Association of Moving Image Archivists (AMIA) Open Source working group.
+
+Vrecord is pre-installed on the video transfer station computer in the Media Lab and runs via command-line. For comprehensive documentation, updates, and troubleshooting resources on the Vrecord software, refer to the [AMIA Open Source GitHub repository for Vrecord](https://github.com/amiaopensource/vrecord).
+
 
 ### Launch Vrecord in terminal
 
@@ -574,3 +587,15 @@ The U-matic Rewind Deck prevents the playback machine from being damaged.
 ## Resources and Definitions
 
 ### Guidelines and rules
+
+
+# Appendix E: RF Scope Monitoring
+
+## VHS Transfers
+
+
+# Appendix F: U-matic Tape Baking & Head Cleaning 
+
+## Cleaning the U-matic Player Video Heads
+
+## Playing the Tape
