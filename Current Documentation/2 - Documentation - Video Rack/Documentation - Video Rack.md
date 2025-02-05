@@ -594,7 +594,7 @@ Vrecord is pre-installed on the video transfer station computer in the Media Lab
 ## VHS Transfers
 
 
-# Appendix F: U-matic Tape Baking & Head Cleaning 
+# Appendix F: U-matic Tape Baking and Head Cleaning 
 
 ## Cleaning the U-matic Player Video Heads
 
