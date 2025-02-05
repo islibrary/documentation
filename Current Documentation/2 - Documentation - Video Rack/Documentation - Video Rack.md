@@ -746,64 +746,355 @@ The BVH-2000 has a slightly unique signal flow to the other decks in the video r
 8. Follow instructions in the [Digitization](#digitization) section of this document. During playback and monitoring, the signal will not play through the CRT monitors in the video rack or the waveform monitor. 
 
 ### Rewinding the Tape
+1. To rewind. Press “Stop.”
+2. Remove the cover from the drum/tape path area. 
+3. Press “shuttle.”
+4. Carefully turn the black wheel counterclockwise to begin rewinding the tape. Start slow and watch the tape carefully so it does not get stuck on any of the parts. 
+5. Turn the wheel further counterclockwise to speed up the reels. The audio head will tilt down and away from the tape. 
 
 ## Post-Digitization 
 
+The following list provides recommendations for file management and storage, as well as considerations for digital preservation:
+
+1. After the digitization process, transfer your file(s) to the server.
+> a. This process might take a few hours for large files, please be patient and check on progress often.
+2. After transferring your file(s) onto the server, delete them off the desktop. 
+> a. Do not delete other peoples files and speak with media lab staff if there are any unknown files that need to be deleted.
+>
+> b. As per Media Lab policy, **all files on the desktop will be deleted at the end of each Friday**. This practice helps maintain a clean and efficient workspace. 
+
 ### Rewind Deck
+
+Please use the Samsung DVD/VHS deck, located on top of Video Rack A, for all VHS Rewinds.
 
 ## DVRescue Workflow (Data Migration)
 
+DVRescue is an open source, free software, dedicated to developing procedures and tools that will support migrating data from DV tapes into digital files suitable for long-term preservation. 
+
 ### DVRescue Resources
+
+* Documentation by MiPoPS on [DV Rescue](https://mipops.github.io/dvrescue/index.html)
 
 ### GUI Navigation
 
+How to capture a DV video tape using DVRescue.
+1. In the “Capture” tab from the left-hand menu, you will see a large box in the center of the screen showing your capture window:
+
+(insert dvrescue1)
+
+DV Rescue Navigation Menu
+> a. if you do not have a deck connected or if the deck is off, the message “No DV Deck Connected” will display on your screen.
+>
+> b. If the deck is successfully connected, the make and model of your DV deck should appear above the capture playback window. If you have more than one deck connected, multiple players will appear.
+
+2. Once you have specified a file location and name for your capture, the file name will also appear in the upper right hand corner of the corresponding deck being used to capture it.
+3. The player buttons below the capture window can control the deck, and the icon to the right of the player buttons indicates the current status of the deck.
+4. Counters underneath the player buttons track video by frame number, timecode, and the actual record time that has elapsed.
+5. The graph underneath the counters tracks frames with error concealment for audio and video. If you hover your cursor over the graph, a tooltip will display the running total of frames containing errors.
+
 ### Step-By-Step: GUI
+
+1. In the DVRescue GUI, select “Capture” from the list on the left hand side. If you do not have a deck connected or if the deck is off, you will see the following message.
+2. Turn on your DV deck. The make and model of the deck should appear above the capture playback window.
+3. If you have more than one deck connected, multiple players will appear in the Capture tab. Please select the one you want to use by clicking on the name of the deck.
+4. If your deck has a Remote/Local setting, make sure it is set to “Remote” before initiating the capture.
+> a. Please note that some decks are known to have different behavior. See the DV Deck Guide for deck-specific information.
+5. You can use the player buttons to control the deck and preview the content on the tape.
+6. When ready, click the record button to initiate the transfer.
+7. A pop-up window will open. Here you can navigate to the location where you would like to save the files created during capture, including the video file itself and all of the logs. Click the name listed in the field for the “output directory” and then select the directory.
+8. Type in the tape identifier as the file name and click OK.
+9. Deck control will automatically start recording the tape. While it records, you can preview the video in the GUI player.
+> a. Feel free to start more than one recording at the same time. You can monitor all of your simultaneous recordings.
+>
+> b. When DVcapture encounters an error, it will automatically rewind and try to capture the frames containing errors (more than once if needed; if unable to capture full frames, after 3 attempts, it will move on) to the next portion of the tape.
+10. When the recording ends or the deck reaches the end of the tape, DVRescue will stop capturing and automatically initiate rewinding the tape. If you would like to end the capture before the end of the tape or if there is a large chunk of recorded-over blank space, click “Stop” to end the capture. (DVRescue will continue to register blank tape as content if there is timecode or recording time left over from erasing or recording over previous content)
+11. Once you are done capturing files, you can immediately click on the “Analysis” tab to perform quality control on the files. All of the files captured during your current session will be populated in the list in the Analysis tab. Please see the DV analysis documentation for instructions and tips for reviewing DV files.
 
 ### Command Line Interface
 
+All of these flags and options can also be viewed by typing dvrescue -h into the command line window.
+
+* **--capture** = Launch capture.
+> * Is the default if no --cmd option is provided.
+>
+> * Usable only if input is a device.
+
+* **--in-control** = Include an integrated command line input for controlling the input.
+> * Usable only if input is a device.
+
+* **--list_devices** = List detected devices and their indices.
+* **--statusl** = Provide the status (playing, stop...) of the input.
+> * By default device://0 is used.
+>
+> * Usable only if input is a device.
+
+* **--cmd [value]** = Send a command to the input.
+> * By default device://0 is used.
+>
+> * Usable only if input is a device.
+>
+> * Value may be:
+> > * play = Set speed to 1.0 and mode to play.
+> >
+> > * srew = Set speed to -1.0 and mode to play.
+> >
+> > * stop = Set speed to 0.0 and mode to no-play.
+> >
+> > * rew = Set speed to -2.0 and mode to play.
+> >
+> > * ff = Set speed to 2.0 and mode to play.
+
+* **--mode [value]** = Send a command to the input with the specified mode.
+> * By default device://0 is used.
+>
+> * By default value is n if speed is 0 else p.
+>
+> * Usable only if input is a device.
+>
+> * Value may be:
+> > * n = Set mode to no-play.
+> >
+> > * p = Set mode to play.
+
+* **--speed [value]** = Send a command to the input with the specified speed (float).
+> * By default device://0 is used.
+>
+> * By default value is 0 if mode is no-play else 1.
+>
+> * Usable only if input is a device.
+
+* **--rewind-count [value]** = Automatically rewind to last good frame and capture again, value times.
+> * Usable only if input is a device.
+
+* **--rewind** = Same as --rewind-count 1
+* **--rewind-basename** [value] = Base name of files storing buggy frames per take
+> * Default is the output file name.
 
 # Appendix A: Video Rack Decks and Supported Media Formats 
 
 ## IS lab equipment supported format and identification chart
 
+The images shown below depict various Media Formats. In each row, the media format corresponds to a particular deck, or playback machine. Once you have identified your media format, find the deck shorthand. This acronym has its own label on the Audio Rack, and will allow you to more quickly identify the location of the deck on the audio rack. Please note that some media formats are supported by multiple decks.
+
 ## Format Comparisons
 
 ## Timeline of Video Formats
 
-
 # Appendix B: Equipment Legend
+
+Please see the following page for the legend. Refer to the [Equipment Legend Photoshop files](https://drive.google.com/drive/folders/1u7acSQs9-b63z31hMhXAP25H53Qokiz1?usp=drive_link).
 
 ## Video Rack A and B 
 
 ## Lab Cart
 
-
 # Appendix C: Magnetic Tape Head Cleaning Guide
+
+Tape heads require regular maintenance and cleaning to ensure optimal signal quality and successful transfers of magnetic media to digital formats. Particles from magnetic media build up on recording and playback heads and need to be cleaned using paper, lint-free swabs, and isopropyl alcohol. This guide provides instructions on how to clean the record and playback heads of VCRs and audio cassette players.
+
+**Pre-cleaning instructions: Do not attempt to clean the heads without an IS lab staff member present.** Before beginning your transfer project, contact a lab staff member to confirm the heads have been recently cleaned. If transferring more than a couple of tapes, plan to work with lab staff and clean the heads throughout your project to ensure optimal signal quality.
 
 ## U-matic Deck Head Cleaning
 
+1. Head cleaning is only to be performed by lab staff. Please find a staff member and they can help you to clean the U-matic heads. 
+2. Ensure the deck is turned off.
+3. Pull the U-matic deck drawer out of the video rack. Lift the cover off the deck (the screws should be taped to the top of the cover. It should be left unscrewed). 
+
+(insert appendixc1) 
+
+*U-matic deck with cover (cover screws taped to the top of the cover).*
+
+(insert appendixc2)
+
+*U-matic deck with cover removed.*
+
+4. Carefully lift the panel above the main cavity in the deck to expose the drum.
+
+(insert appendixc3)
+
+*The green circuit board must be gently lifted to access the drum.*
+
+(insert appendixc4)
+
+*Removing the roof of the U-matic player provides access to the drum of the machine. Located around the drum are the video heads, which interpret information on the Videotape. The heads are periodically cleaned to ensure an accurate and smooth video transfer.*
+
+5. Use cut strips of paper to clean the heads. Soak the paper strips with 99% isopropyl alcohol. Gently rotate the drum so that heads pass under the alcohol soaked swab.
+> a. This may take a while as dirt gradually becomes saturated by the alcohol. Monitor the color of the swabs as it may take multiple passes to get dirt out.
+>
+> b. When swabs are covered in dirt, grab a fresh swab.
+>
+> c. Never move the head cleaner vertically against the video heads.
+>
+> d. Never touch the heads with hard objects.
+>
+> c. Don’t touch heads while they are in motion. 
+
+6. Clean all stationary tape guides and surfaces with which the tape comes into contact.
+> a. Keeping in mind the rule of thumb: clean plastic or rubber parts with water and metal parts with alcohol. 
+7. To Push the shelf back into the rack, unlock the drawer using the switches on the tracks of the drawer.
+
+(insert appendixc5)
+
+*When sliding the U-matic player back into place, the switches on either side of the metal track need to be pressed down for the rack to slide back.*
+
 ## Resources
+
+[VCR Head Cleaning Video](https://www.youtube.com/watch?v=5ClXrffkN3M)
+* Using a swab/shammy
+[VCR Head Cleaning Video](https://www.youtube.com/watch?v=Ew1T8p3wYXE)
+* Using paper
 
 ## Workflow: VCR head cleaning
 
+Do not attempt to clean heads without a lab staff member.
+
+Gather cleaning supplies:
+* 99% Isopropyl alcohol
+* Printer paper
+* Lint-free swabs
+
 ### Remove outer shell of deck
+
+1. Ensure the deck is unplugged.
+2. Unscrew screws on upper shell of the deck. Screw location and quantities will vary depending on the VCR.
+3. Place screws onto a piece of tape and place in a secure place to ensure they don’t get lost. 
+4. Once all screws have been removed, pull backward on the outer shell and place to the side.
 
 ### Clean interior hardware
 
+1. Secure your cleaning materials: Locate the 99% isopropyl alcohol and the bag of foam swabs from the gray cabinet labeled “Need Something?” in the Media Preservation Lab. Cut or rip a sheet of printer paper into small scraps about 1-2 inches long.
+2. Generously saturate the foam swab with isopropyl alcohol.
+3. Locate the shiny, cylindrical drum of the machine. Do not touch the side of the drum directly with your finger (the oils can ruin subsequent transfers). 
+4. Inspect the drum. Towards the bottom of the drum is a line of small, rectangular indentations. Inside each indentation is a line of copper pins. These are known as the heads, which gather dirt and dust over time. Inspection with a flashlight may aid their identification.
+5. Using the foam swab, apply moderate pressure to the side of the drum along the line of heads, keeping the swab still. At the same time, use your index finger on the top of the drum to spin it in a circle. Your index finger may only touch the top of the drum, not the side.
+6. Continue this process for a few minutes. Dust and dirt will gather on the swab.
+7. Repeat this process with the paper. Generously soak a scrap of paper with isopropyl and press it to the side of the drum, along the line of heads. Rotate the top of the drum with your index finger. You should feel the heads passing under the paper. This will ensure the most thorough cleaning of the heads. You should see dust and/or dirt gathering on the paper scrap.
+8. Repeat this process multiple times, starting with the swab and continuing with the paper.
 
 # Appendix D: Monitor maintenance
 
+Video monitors are used to display elements in the video system. These units are essentially high-quality TV receivers with special inputs and modifications that permit them to accept video and sound signals through the appropriate VTR, camera, and audio connectors. Monitor/receivers can reproduce both sound and picture, commonly referred to as a TV Monitor or just Monitor.
+
+(insert appendixd1)
+
+*Right to left: Ikegami TM10-17RA (pre-digitization monitor) and Ikegami TM9-1D (post-digitization monitor).* 
+
+(insert appendixd2) 
+
+*Pre-Digital Ikegami [TM10-17RA](https://crtdatabase.com/crts/ikegami/ikegami-tm10-17ra) High resolution 9” broadcast monitor with a 450 TVL shadow mask tube. It displays visible scan lines in 240p. It accepts composite, S-Video, RGB, and component video signals, and has a single speaker for audio.*
+
+(insert appendixd3)
+
+Ikegami [TM9-1D](https://crtdatabase.com/crts/ikegami/ikegami-tm9-1d) Portable 9" broadcast monitor with a low TVL slot mask tube, dual composite inputs, and a built-in SDI input card.
+
 ## Resources and Definitions
+
+[The Video Guide on TV Monitors and Video Projectors](https://cool.culturalheritage.org/videopreservation/vid_guide/8/8.html)
+
+[Adjusting the Waveform and CRT Monitors (1)](https://docs.google.com/document/d/1V0Oy_nvFDwxHlRTdb6wcAakqQPfynfun/edit?usp=sharing&ouid=100964043909374250980&rtpof=true&sd=true)
+
+[Adjusting Your CRT's Color](https://crtdatabase.com/faq/crt-color-adjustment)
+
+[List of CRTs](https://crtdatabase.com/)
+
+Dropout:  A term used with analog videotape recorders.  A brief signal loss caused by a tape head clog, defect in the tape, or debris that causes an increase in the head-to-tape spacing. Missing magnetic material can also cause a dropout. A video dropout generally appears as a white spot or streak on the video monitor. When several video dropouts occur per frame, the TV monitor will appear snowy. The frequent appearance of dropouts on playback is an indication that the tape or recorder is contaminated with debris and/or that the tape binder is deteriorating. 
 
 ### Guidelines and rules
 
+* Ensure monitors are turned off after use to avoid degraded picture quality. 
+* When transporting monitors, two people are needed. Take a photo of how cables were plugged in to have a record for your own convenience. Remove cables from the monitor. Two people lift the monitor onto a wheeled cart. Do not carry monitors longer than placing it on the cart. Gather cords needed.
+
+(insert appendixd4)
+
+*Example of how to plug in a Post-Digital Monitor (left) and Pre-Digital Monitor (right)*
 
 # Appendix E: RF Scope Monitoring
 
+RF scope: The RF monitor is a useful monitoring tool for seeing if the U-matic playback heads are misaligned, which is a common problem the format faces. This step allows obtaining the highest level of signal from the tape, by aligning the heads with the video track.
+
+1. Turn on the RF scope and refer to the image below to confirm that all the settings are correct.
+
+2. Play the tape for a bit and use the tracking and skew knobs to adjust the RF scope signal for optimal adjustments. Refer to document for more information on what the scope should look like: [RF, A Scope for Video Preservation](http://erikpiil.com/2014/07/14/rf-a-scope-for-video-preservation.html)
+
+(insert appendixe1)
+
+*RF Signal Scope*
+
+3. Once this is done, queue the tape for playback and begin your transfer through VRecord. 
+
 ## VHS Transfers
 
+The lab has three playback decks for VHS transfers to be completed (refer to Appendix B for equipment legend). There are two Sony consumer level decks, the SLV-AX10 (VHS 2) and SLF-675HF (VHS1), and one professional deck, the Panasonic SVHS deck AG-7750 (SVHS). 
+
+(insert appendixe2) 
+
+(insert appendixe3)
+
+This guide outlines the setup for transferring VHS tapes using the IS Lab video rack, covering tape inspection, format identification, and compatibility with IS Lab equipment. It specifies recommended VHS playback decks for projects and provides instructions on setting up the video rack for signal capture to the computer.
+
+(insert appendixe4)
+
+*Video Rack Power-On Order*
+
+1. Turn on the three power supplies for Video Rack A and B. Find the little red buttons underneath a plastic flap, located on the left of each CyberPower deck.
+
+(insert appendixe5)
+
+(insert appendixe6)
+
+*Video Rack A and B Power Supply Buttons*
+
+2. Turn on the two Shinybow switchers, which allow the signal running to the monitors and waveform monitor to be toggled.
+
+(insert appendixe7)
+
+*Two Shinybow Switchers Power Buttons*
+
+3. Turn on the Time Base Corrector (gray piece of equipment below the Waveform monitor.)
+
+(insert appendixe8)
+
+*Time Base Corrector (TBC) Power Button*
+
+4. Turn on the Waveform Monitor (the off-white object located above the TBC). Power button is in the bottom left corner.
+
+(insert appendixe9)
+
+*Waveform Monitor Power Button.*
+
+5. Turn on the Pre-digitization and Post-digitization CRT Monitors (the two TVs). Power buttons are located on the bottom left and right corners of each monitor, respectively. **Do not leave these monitors on for a prolonged period of time, unless you are transferring a tape. As soon as you are finished with your transfer, please turn these monitors off to prevent them from burning out.**
+
+(insert appenxixe10)
+
+*Monitor Power Buttons*
+
+6. Select the deck you are using and turn it on. The U-matic is shown below as number 10; the two VHS players are shown side by side; the SVHS player is shown at the bottom.)
+
+(insert appendixe11)
+
+*U-matic Player power button*
+
+(insert appendixe12)
+
+(insert appendixe13)
+
+*2 VHS Players power buttons*
+
+(insert appendixe14)
+
+*SVHS Player Power Button*
+
+Audio PatchBay Routing for three VHS decks are shown below. 
+
+(insert appendixe15)
+
+(insert appendixe16)
+
+(insert appendixe17)
 
 # Appendix F: U-matic Tape Baking and Head Cleaning 
+
+
 
 ## Cleaning the U-matic Player Video Heads
 
