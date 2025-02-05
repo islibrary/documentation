@@ -202,7 +202,6 @@ Refer to [Appendix A](#appendix-a--video-rack-decks-and-supported-media-formats)
 
 After identifying formats and decks for digitization, contact a lab staff team member to ensure all heads are clean prior to media transfer.
 
-
 #### Required inspection
 
 A thorough inspection of the tape should be performed before transfer to ensure there is no mold, dirt, or excessive damage to the tape. Tapes with any of these issues cannot be transferred in the IS Lab. Failure to inspect tapes could result in damage to the decks and tape. 
@@ -221,7 +220,6 @@ Format | Safe Mode | Rec Mode
 :--- | :---: | :---: 
 **Hi8** | ![Inspection1](https://github.com/user-attachments/assets/5f53a0e2-0044-481c-a168-0ed733cd7e95) | ![Inspection2](https://github.com/user-attachments/assets/5624ef21-81db-469f-a33f-1f7b91931ba1)
 **VHS** | ![Inspection3](https://github.com/user-attachments/assets/f297ca6c-d547-4145-ad5f-930c4713e36c) | ![Inspection4](https://github.com/user-attachments/assets/1f9f59b6-e69c-4829-822f-aba217bb40da)
-
 
 1. Inspect a videotape only with clean and dry hands. Gloves and face masks may also be worn, because of the risk of contact to mold and dust. Gloves should be worn when inspecting any non-cassette formats (1 inch, 2 inch, ½ inch). Work on a clean, dry surface. 
 2. **Check for mold on the exterior**: Before picking the tape up, check for signs of mold. There are many signs of mold; small white and brown strands or filaments have been reported as signs of mold on video tape. If mold is suspected, the tape should be isolated and cannot be transferred in the lab. 
