@@ -544,7 +544,7 @@ Launch Vrecord in terminal
 > d. Audio Channel Mapping - 1 Stereo Track (from channels 1 & 2)
 > > i. Note: this may be adjusted depending on your tape. Visit [Vrecord github documentation settings](https://github.com/amiaopensource/vrecord/blob/main/Resources/Documentation/settings.md) for further instructions.
 
-(insert vrecord 3)
+<img src="https://github.com/user-attachments/assets/ddb22a6d-6f4b-4355-b3c7-8a82ee7e5fa5" alt="vrecord" height="400">
 
 *Vrecord’s graphical user interface (GUI), containing various settings for the digitization process.*
 
@@ -555,7 +555,7 @@ Launch Vrecord in terminal
 >
 > f. On the line below, “Playback Options” lets you choose how you monitor your transfer in the record and passthrough windows. The settings can be different for the playback and record windows.
 
-(insert vrecord4)
+<img src="https://github.com/user-attachments/assets/4013b0ed-1ace-40f7-8654-25c32cf80023" alt="terminal3" height="300">
 
 *IS Lab recommends the settings seen above for video digitization.*
 
@@ -563,7 +563,7 @@ Launch Vrecord in terminal
 > >
 > > ii. The “audio+video” option (shown below) is the most commonly used setting, and shows a fairly comprehensive view of video monitoring tools, including range pixels, waveform monitor, vectorscope, and audio scopes in the top left corner. Refer to the [video views section](https://github.com/amiaopensource/vrecord/blob/main/Resources/Documentation/settings.md#video-views) of the Vrecord documentation for more info.
 
-(insert vrecord5)
+<img src="https://github.com/user-attachments/assets/b0eb663f-4f05-4a9a-a577-89e6189b1f5e" alt="vrecord2" height="400">
 
 *The Vrecord passthrough window allows one to monitor the video playback prior to digitization*
 
