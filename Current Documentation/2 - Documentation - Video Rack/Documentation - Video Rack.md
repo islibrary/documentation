@@ -1093,6 +1093,31 @@ Audio PatchBay Routing for three VHS decks are shown below.
 
 # Appendix F: U-matic Tape Baking and Head Cleaning 
 
+Assistance by IS Lab Staff is required to bake tapes using the Thermocenter oven. Please see [Thermocenter oven documentation - combined](https://docs.google.com/document/u/0/d/1PUGxgF3gJMQ374QfshrFgLr5_3rAtVtNAeZRWoPlrJE/edit) for more information about tape baking.
+
 ## Cleaning the U-matic Player Video Heads
 
+**WAIT! Assistance by a Lab Staff member is required to perform these steps.** U-matic tapes can shed very easily and can therefore clog the video heads. **Never use cotton swabs! These fibers can catch on the video heads and break them easily.** Paper pieces and foam swabs are appropriate. 
+
+1. Cut a strip of paper and submerge it in high percentage isopropyl alcohol. Slide the U-matic deck out of the video rack and lift up the top. The top video board opens on a hinge.
+
+(insert appendixf1) 
+
+*U-matic head found when the top is lifted.*
+
+(insert appendixf2)
+
+*U-matic deck with top on.*
+
+2. The video drum is visible from the top, and using the strip of paper dipped in rubbing alcohol (make sure it has not dried), place firmly against the video drum until you can feel the heads, and manually rotate the drum to gently wipe over the heads.
+3. Close up the deck and put everything back into its original position for playback. 
+
 ## Playing the Tape
+
+1. Refer to the Composite Video Workflow documentation and VRecord Tutorial for playback.
+
+(insert appendixf3)
+
+*U-matic Playback Head*
+
+
