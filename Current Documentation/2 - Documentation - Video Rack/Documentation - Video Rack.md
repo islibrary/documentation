@@ -628,13 +628,13 @@ Follow the format specific workflow and ensure that you have the signal from you
    * In the above photo, the lowest luminance values in the frame are below 7.5IRE, as indicated by Vrecord’s yellow coloration of those pixels.
    * In range signal on the waveform monitor should look like the image below:
 
-(insert vrecord11)
+<img src="https://github.com/user-attachments/assets/96560b98-e808-40d7-8e00-802f1fd0982a" alt="scope2" height="300">
 
 *Waveform Monitor Safe Broadcast Range*
 
    * When the Waveform is in range on the Vrecord passthrough window, it will look like the image below.
 
-(insert vrecord12)
+<img src="https://github.com/user-attachments/assets/5109e325-511f-4b33-9fd4-d42f4dd8bb4b" alt="vrecord13" height="300">
 
 *Optimal Waveform in Vrecord*
 
@@ -652,19 +652,19 @@ Follow the format specific workflow and ensure that you have the signal from you
 >
 > d. Press the “record” button and Vrecord will send you back to the terminal.
 
-(insert vrecord13)
+<img src="https://github.com/user-attachments/assets/5ec75fc9-821f-42b0-b550-1e85a1babf78" alt="terminal4" height="300">
 
 *The command line terminal is used to launch Vrecord and to begin the process of video digitization*
 
 7. When you see the window above, press “enter” to start recording.
 
-(insert vrecord14)
+<img src="https://github.com/user-attachments/assets/08aac511-8328-453f-be7a-b90179af3000" alt="vrecord14" height="300">
 
 *The window above appears during the digitization process*
 
 8. Capture the signal for ten seconds. Press “esc” or “q” to finish recording.
 
-(insert vrecord15)
+<img src="https://github.com/user-attachments/assets/003671f2-50b4-4b3d-9c0f-78f0331f286c" alt="vrecord15" height="300">
 
 *The terminal will appear once the recording is complete*
 
@@ -672,7 +672,7 @@ Follow the format specific workflow and ensure that you have the signal from you
 10. Press “Stop” on the deck you are using.
 11. Navigate to the location you designated in Vrecord and playback your file (it might look like this image below). Double click to play. You may have to “command +click” and select “Open with…”and choose “VLC Media Player” to playback your file.
 
-(insert vrecord16)
+<img src="https://github.com/user-attachments/assets/7bd8d37b-086f-4ece-b99a-02916667342c" alt="file" height="250">
 
 *The test capture can be played back with VLC Media Player*
 
