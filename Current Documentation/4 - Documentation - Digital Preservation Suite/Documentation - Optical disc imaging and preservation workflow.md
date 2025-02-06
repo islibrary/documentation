@@ -134,6 +134,5 @@ This section covers turning on the computer, logging in, inserting a disc, and c
 ![unnamed (4)](https://github.com/user-attachments/assets/a0de4dfb-72f3-4820-995d-6b95a880e551) ![unnamed (5)](https://github.com/user-attachments/assets/f0d2d2f0-fe7e-42df-9b8e-cfbca1cc2500)
 
   > f. Navigate to the folder where the audio was extracted to check any reported errors. Verify the correct number of wav files and the log file created by EAC.
-  > g. Quality control by playback should be performed in all cases. Check tracks carefully by playing them back in VLC Media Player. If the sound is satisfactory and EAC reported no errors, the capture is complete.
-
+  > g. Quality control by playback should be performed in all cases. Check tracks carefully by playing them back in VLC Media Player. If the sound is satisfactory and EAC reported no errors, the capture is complete. 
      
