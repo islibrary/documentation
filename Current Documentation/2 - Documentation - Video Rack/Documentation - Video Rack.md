@@ -172,11 +172,6 @@ A website which provides information about the U-matic video format, including a
 [Appendix E: RF Scope Monitoring](#appendix-e-rf-scope-monitoring)
 > [VHS Transfers](#vhs-transfers)
 
-[Appendix F: U-matic Tape Baking and Head Cleaning ](#appendix-f-u-matic-tape-baking-and-head-cleaning)
-> [Cleaning the U-matic Player Video Heads](#cleaning-the-u-matic-player-video-heads)
-> 
-> [Playing the Tape](#playing-the-tape)
-
 ## Rules and Guidelines
 Please contact an IS Lab Staff team member for any and all questions about the guidelines listed below.
 
@@ -698,17 +693,17 @@ This video format is open reel meaning the tape is not protected by a plastic ca
 
 **Resources:** [BVH2000 Manual Download](https://www.manualslib.com/manual/1741663/Sony-Bvh-2000.html)
 
-(insert bvh1) 
+![bvh1](https://github.com/user-attachments/assets/168ec447-b313-4e43-9f87-a8a339a3738e)
 
-(insert bvh2)
+![bvh2](https://github.com/user-attachments/assets/3ca62d41-cca5-4e88-910d-6853644b4b16)
 
-*Sony BVH-2000 machine (left) and its user interface (right)*
+*Sony BVH-2000 machine (top) and its user interface (bottom)*
 
 ### BVH2000 signal flow
 
 The BVH-2000 has a slightly unique signal flow to the other decks in the video rack. It has a dedicated time base corrector, rf scope, vectorscope. The signal from the 1” tape machine deck is digitized by a dedicated Aja analog to digital mini converter, the same model as the one used for the composite patch bay. The signal only needs to be routed on the Black Magic 20 x20 digital switcher. The signal will not play through the CRT monitors in the video rack or the waveform monitor. 
 
-(insert bvh3)
+![bvh3](https://github.com/user-attachments/assets/71f1544c-50b8-49dc-aaa8-a4f046924756)
 
 *Routing the signal flow for 1” video tape on the Black Magic switcher.* 
 
@@ -720,7 +715,7 @@ The BVH-2000 has a slightly unique signal flow to the other decks in the video r
 4. Place the tape reel lining up the teeth with the notches on the hubs of the VTR. 
 5. The tape should come off the outside of the supply reel and mirror that by joining up with the outside of the takeup reel.
 
-(insert bvh4)
+![bvh4](https://github.com/user-attachments/assets/26ed30ec-2ee9-4917-b881-408f0135bc33)
 
 *Tape threading diagram with the line indicating the path of the tape.*
 
@@ -779,7 +774,7 @@ DVRescue is an open source, free software, dedicated to developing procedures an
 How to capture a DV video tape using DVRescue.
 1. In the “Capture” tab from the left-hand menu, you will see a large box in the center of the screen showing your capture window:
 
-(insert dvrescue1)
+![dvrescue1](https://github.com/user-attachments/assets/a101590f-37ac-47b6-b70f-c0a187b62e5b)
 
 DV Rescue Navigation Menu
 > a. if you do not have a deck connected or if the deck is off, the message “No DV Deck Connected” will display on your screen.
@@ -875,9 +870,83 @@ All of these flags and options can also be viewed by typing dvrescue -h into the
 
 The images shown below depict various Media Formats. In each row, the media format corresponds to a particular deck, or playback machine. Once you have identified your media format, find the deck shorthand. This acronym has its own label on the Audio Rack, and will allow you to more quickly identify the location of the deck on the audio rack. Please note that some media formats are supported by multiple decks.
 
+Format | Image | Deck Shorthand | Deck Model # | Description of Media Format
+:--- | :---: | :--- | :--- | :---
+**VHS** | ![appendixa1](https://github.com/user-attachments/assets/756e8711-b035-4d86-a397-1da71ff64158) | **VHS1, VHS2** | Sony SLV-675HF, Sony SLV-AX10 | 
+**SVHS** | ![appendixa2](https://github.com/user-attachments/assets/3e2523ca-b51c-47a1-a90e-4aae495380af) | **SVHS** | Panasonic AG-7750 |VHS and SVHS look the same. Players are upwardly compatible, meaning SVHS players can play VHS, not the other way around.
+SVHS has a higher video quality than VHS
+**U-matic** | ![appendixa3](https://github.com/user-attachments/assets/dab723e2-324b-4678-a85b-721cb0aaaa82) | **UMA** | Sony BVU-950
+(UMA) | U-matic is a ¾ inch type of VCR cassette made by Sony. U-matic tapes need to be baked before playing. This prevents damage to the machine. Cassette size: Small (7¼" × 4⅝" × 1⅕"), Large, or full-sized, (8⅝" × 5⅜" × 1⅕") 
+**Hi8** | ![appendixa4](https://github.com/user-attachments/assets/28ddc7dc-d72f-453f-9d18-e06b8a236d96) | **Hi8** | Sony EVO-9800A | Hi8 is a video format made by Sony. It supports a digital audio track. This format was created as an improvement over Video8 and VHS.  
+**Betamax (Beta)** | ![appendixa5](https://github.com/user-attachments/assets/9e7ef173-4936-4739-b21c-f296c7d34cce) | **SBM** | Sony SL-HF2000 | Ubiquitous half inch video tape format rival to VHS made by Sony. Cassette size: 6⅛" × 3¾" × 1".
+**Betacam** | ![appendixa6](https://github.com/user-attachments/assets/740fa7c2-061a-4cfd-adc5-82d15f42f54a) | **DGB1, DGB2** | Sony DVW-A500, Sony J30-SDI | Half-inch magnetic video cassette tape used for the Sony Betacam line of video recording devices. Cassette size: 6¾" × 4⅜" × 1⅕".
+**Betacam SP** | ![appendixa7](https://github.com/user-attachments/assets/a87e92db-3913-4c64-83f6-79c7da027421) | **DGB1, DGB2** | Sony DVW-A500, Sony J30-SDI | Half-inch magnetic video cassette tape used for the Sony Betacam line of video recording devices. Like SVHS, Betacam SP was invented to provide superior performance compared to its predecessor.
+**DigitalBetacam (Digibeta)** | ![appendixa8](https://github.com/user-attachments/assets/e975bc29-0ca8-47e4-8fa6-34515b5acc82) |  **DGB1, DGB2** | Sony DVW-A500, Sony J30-SDI | 
+
 ## Format Comparisons
 
+**VHS vs.SVHS vs. D-VHS**
+
+![formcomp1](https://github.com/user-attachments/assets/142cfccf-f75f-4f85-a231-ef7e38b44738)
+
+![formcomp1_5](https://github.com/user-attachments/assets/a047a1d7-dfdd-436a-8870-169b84775f89)
+
+VHS is an analog video cassette format widely used for home video recording and playback. S-VHS is an improved version of VHS, offering higher video quality and enhanced resolution. D-VHS, on the other hand, is a digital version of VHS, providing superior image quality and supporting digital audio. 
+
+VHS, S-VHS, and D-VHS can be distinguished by the screw positions on the back of the tape. D-VHS and S-VHS both have a screw, where VHS does not.
+
+S-VHS tapes are usually identifiable by the “S-VHS” logo, typically seen on the front of the tape housing (see above).
+
+**VHS vs VHS-C**
+
+![formcomp2](https://github.com/user-attachments/assets/0d4daaad-c139-43d7-aac4-25f9ee5d43b8)
+
+VHS-C is another magnetic video tape format not to be confused with VHS tapes. The VHS-C tapes are smaller and were typically used in camcorders and are a common home video format. VHS-C tapes cannot be played in any of the VHS decks in the video rack without an adapter. A VHS-C tape alongside a regular sized VHS adapter is shown below. 
+
+**DVCAM vs. miniDV**
+
+![formcomp3](https://github.com/user-attachments/assets/a3fe7c87-b1e2-4176-8119-5a3d0743c992)
+
+**miniDV**:
+Panasonic HD1200A (DV1);
+Sony DSR-1500A (DV2)
+
+**DVCAM**:
+Sony DSR-1500A (DV1)
+
+* Panasonic requires DVCAM adapter
+
+**SVHS/VHS vs. Hi8 vs. VHSC vs. miniDV**
+
+![formcomp4](https://github.com/user-attachments/assets/2f72b742-d9a1-40cb-9fb7-8f1303df5529)
+
+VHSC not supported (adapter needed). See above for decks which support the other three formats.
+
+**U-matic vs. VHS vs. Betacam**
+
+![formcomp5](https://github.com/user-attachments/assets/eb7ea299-eefb-46b5-b5cd-89bf15649824)
+
+**U-matic vs. DigitBeta**
+
+![formcomp6](https://github.com/user-attachments/assets/25fddf2a-45d6-4b68-a5ff-715c986ed355)
+
 ## Timeline of Video Formats
+
+Format | Year Invented | Year Commercially Available | Obsolescence
+:--- | :--- | :--- | :--- 
+**VHS** | 1976 | In the 50s and 60s, magnetic tape recordings were very expensive and only used by professionals. It was not used domestically until the mid-70s, after the birth of VHS. | Last video release: 2006 Last VHS player: 2016
+**SVHS** | 1987 | 1987. SVHS offered better luminance and resolution than VHS. | Same as above 
+**U-matic** | 1969 | 1971. U-matic was one of the first video formats to contain tape within a cassette. | 2000
+**DVCAM** | 1996 | 1996 | Present. Widely used in professional settings.
+**HDCAM** | 1997 | Present | Sony still makes HDCAM stock as of 2025.
+**DVCPRO** | 1995 | Present | Still in use but not widely used. 
+**miniDV** | 1995 | 1995 | 2009 
+**Hi8** | 1989 | 1989 | 2007
+**Laserdisc** | 1972 | 1978 | 2001
+**Betamax (Beta)** | 1975 | 1975- late 1980s. It was widely available in consumer, industrial and educational environments during this time period so lots of Beta tapes still exist. Despite it’s superior signal quality, Betamax lost out to VHS in the format war and Beta is obsolete today. | 1990s
+**Betacam** | 1982 | Present | While Betacam tapes are no longer being manufactured, Betacam SX and Digibeta decks are still being produced which have backwards compatibility to Betacam.
+**Betacam SP** | 1986 | Present | Same as above 
+**Digital Betacam (DigiBeta)** | 1993 | Present | Decks and tapes are still in production but it’s difficult to know how much longer this will happen.
 
 # Appendix B: Equipment Legend
 
@@ -885,7 +954,41 @@ Please see the following page for the legend. Refer to the [Equipment Legend Pho
 
 ## Video Rack A and B 
 
+![Appendixb1](https://github.com/user-attachments/assets/76480f50-72e3-4372-a58f-03c0d3ed78e9)
+
+Number | Deck Shorthand | Deck Make/Model | Supported Media Formats
+:--- | :--- | :--- | :--- 
+1 | VHS 1 **(NO rewinds)** | Sony SLV-675HF | VHS
+1 | VHS 2 **(NO Rewinds)** | Sony SLV-AX10 | VHS; LP
+2 | SVHS | Panasonic AG-7750 | SVHS; VHS
+3 | Hi-8 **(NO rewinds)** | Sony EVO-9800A | Hi8 Video
+4 | VCR, DVD (rewinds) | Samsung | VCR; DVD
+5 | LZR | Pioneer LD-V8000 | LaserDisc 
+6 | SBM | Sony SL-HF2000 | Betamax; SuperBetaHifi
+7 | DGB 1 | Sony DVW-A500 | Digital Betacam; Betacam; Betacam SP; Betacam SX; MPEG IMX
+7 | DGB 2 | Sony J30-SDI | Digital Betacam; Betacam; Betacam SP; Betacam SX; MPEG IMX
+8 | UMA **(NO rewinds)** | Sony BVU-950 | U-matic Tape
+9 | DV1 | Sony DSR-1500A Panasonic AJ-HD1200A | MiniDV; DV(medium and large); DVCPRO (not LP); DVCAM(not LP)
+9 | DV2 | Sony DSR-1500A | DVCPRO; DVCPRO50; DVCPRO50P; DVCPRO HD; DVCPRO HD-LP; DVCPRO formatted tapes on ¼ consumer DV and DVCAM tapes. 
+9 | DVC | Panasonic VTR10 | DVCPro50
+10 | TBC | For.A FA-300 | 
+11 | BM-SWR | Blackmagic Smart Videohub 20x20 | 
+12 | MON1-SWR | Ikegami TM10-17RA | 
+12 | MON2-SWR | Ikegami TM9-1D | 
+13 | RF Scope | Tektronix 1710-J | 
+14 | Hi-8 (rewinds) | Sony EVO-9800A | Hi8; Video 8
+15 | WAV | Compuvideo | 
+
 ## Lab Cart
+
+<img src="https://github.com/user-attachments/assets/21f7b33a-6916-4fd8-92c3-ba1f24e6a51a" alt="umatic cart" height="500">
+
+Number | Deck Shorthand | Deck Make/Model | Supported Media Formats
+:--- | :--- | :--- | :--- 
+1 | Color Monitor | JVC TM-A130SU | 
+1 | Waveform Monitor | Compuvideo | 
+2 | U-matic Rewind Deck | Sony V0-5850 | U-matic Tape
+
 
 # Appendix C: Magnetic Tape Head Cleaning Guide
 
@@ -899,21 +1002,21 @@ Tape heads require regular maintenance and cleaning to ensure optimal signal qua
 2. Ensure the deck is turned off.
 3. Pull the U-matic deck drawer out of the video rack. Lift the cover off the deck (the screws should be taped to the top of the cover. It should be left unscrewed). 
 
-(insert appendixc1) 
+![AppendixC1](https://github.com/user-attachments/assets/60393db9-c90e-4ee4-87f3-f6173a0e732d)
 
 *U-matic deck with cover (cover screws taped to the top of the cover).*
 
-(insert appendixc2)
+![AppendixC2](https://github.com/user-attachments/assets/9bf469d8-1195-4754-ae47-a55e032c4d7d)
 
 *U-matic deck with cover removed.*
 
 4. Carefully lift the panel above the main cavity in the deck to expose the drum.
 
-(insert appendixc3)
+![AppendixC3](https://github.com/user-attachments/assets/c8533577-0488-4e96-aa05-21973e38a730)
 
 *The green circuit board must be gently lifted to access the drum.*
 
-(insert appendixc4)
+![AppendixC4](https://github.com/user-attachments/assets/b017fd0a-38ed-4538-8c4f-af7ff9f80e7c)
 
 *Removing the roof of the U-matic player provides access to the drum of the machine. Located around the drum are the video heads, which interpret information on the Videotape. The heads are periodically cleaned to ensure an accurate and smooth video transfer.*
 
@@ -932,7 +1035,7 @@ Tape heads require regular maintenance and cleaning to ensure optimal signal qua
 > a. Keeping in mind the rule of thumb: clean plastic or rubber parts with water and metal parts with alcohol. 
 7. To Push the shelf back into the rack, unlock the drawer using the switches on the tracks of the drawer.
 
-(insert appendixc5)
+![AppendixC5](https://github.com/user-attachments/assets/0e192356-1b83-487e-88a0-57707b7229ac)
 
 *When sliding the U-matic player back into place, the switches on either side of the metal track need to be pressed down for the rack to slide back.*
 
@@ -974,15 +1077,15 @@ Gather cleaning supplies:
 
 Video monitors are used to display elements in the video system. These units are essentially high-quality TV receivers with special inputs and modifications that permit them to accept video and sound signals through the appropriate VTR, camera, and audio connectors. Monitor/receivers can reproduce both sound and picture, commonly referred to as a TV Monitor or just Monitor.
 
-(insert appendixd1)
+![AppendixD1](https://github.com/user-attachments/assets/db06bf96-313e-4906-aa4f-7bd13646937b)
 
 *Right to left: Ikegami TM10-17RA (pre-digitization monitor) and Ikegami TM9-1D (post-digitization monitor).* 
 
-(insert appendixd2) 
+![AppendixD2](https://github.com/user-attachments/assets/9e12e1ba-021e-4962-969a-4f48c945fa16)
 
 *Pre-Digital Ikegami [TM10-17RA](https://crtdatabase.com/crts/ikegami/ikegami-tm10-17ra) High resolution 9” broadcast monitor with a 450 TVL shadow mask tube. It displays visible scan lines in 240p. It accepts composite, S-Video, RGB, and component video signals, and has a single speaker for audio.*
 
-(insert appendixd3)
+![AppendixD3](https://github.com/user-attachments/assets/fef455b2-28cc-4de1-b442-c71f04023148)
 
 Ikegami [TM9-1D](https://crtdatabase.com/crts/ikegami/ikegami-tm9-1d) Portable 9" broadcast monitor with a low TVL slot mask tube, dual composite inputs, and a built-in SDI input card.
 
@@ -1003,7 +1106,7 @@ Dropout:  A term used with analog videotape recorders.  A brief signal loss caus
 * Ensure monitors are turned off after use to avoid degraded picture quality. 
 * When transporting monitors, two people are needed. Take a photo of how cables were plugged in to have a record for your own convenience. Remove cables from the monitor. Two people lift the monitor onto a wheeled cart. Do not carry monitors longer than placing it on the cart. Gather cords needed.
 
-(insert appendixd4)
+![AppendixD4](https://github.com/user-attachments/assets/1331fcae-f9e4-4306-be46-a91c6008a99f)
 
 *Example of how to plug in a Post-Digital Monitor (left) and Pre-Digital Monitor (right)*
 
@@ -1015,7 +1118,7 @@ RF scope: The RF monitor is a useful monitoring tool for seeing if the U-matic p
 
 2. Play the tape for a bit and use the tracking and skew knobs to adjust the RF scope signal for optimal adjustments. Refer to document for more information on what the scope should look like: [RF, A Scope for Video Preservation](http://erikpiil.com/2014/07/14/rf-a-scope-for-video-preservation.html)
 
-(insert appendixe1)
+![AppendixE1](https://github.com/user-attachments/assets/54990f88-a4da-49b1-969d-bac420dfa25d)
 
 *RF Signal Scope*
 
@@ -1025,99 +1128,70 @@ RF scope: The RF monitor is a useful monitoring tool for seeing if the U-matic p
 
 The lab has three playback decks for VHS transfers to be completed (refer to Appendix B for equipment legend). There are two Sony consumer level decks, the SLV-AX10 (VHS 2) and SLF-675HF (VHS1), and one professional deck, the Panasonic SVHS deck AG-7750 (SVHS). 
 
-(insert appendixe2) 
+![AppendixE2](https://github.com/user-attachments/assets/f8c8293a-25d1-4aaa-857d-17f7d1dde5d3)
 
-(insert appendixe3)
+![AppendixE3](https://github.com/user-attachments/assets/9b054ac4-0786-4050-85cb-212165e3ec36)
 
 This guide outlines the setup for transferring VHS tapes using the IS Lab video rack, covering tape inspection, format identification, and compatibility with IS Lab equipment. It specifies recommended VHS playback decks for projects and provides instructions on setting up the video rack for signal capture to the computer.
 
-(insert appendixe4)
+![AppendixE4](https://github.com/user-attachments/assets/fcc78e78-34be-4cb3-a819-baef65e0624e)
 
 *Video Rack Power-On Order*
 
 1. Turn on the three power supplies for Video Rack A and B. Find the little red buttons underneath a plastic flap, located on the left of each CyberPower deck.
 
-(insert appendixe5)
+![AppendixE5](https://github.com/user-attachments/assets/860f6512-04f7-4929-9382-190fd288b061)
 
-(insert appendixe6)
+![AppendixE6](https://github.com/user-attachments/assets/19eeb4ed-afa6-4d88-a788-15f2e7478896)
 
 *Video Rack A and B Power Supply Buttons*
 
 2. Turn on the two Shinybow switchers, which allow the signal running to the monitors and waveform monitor to be toggled.
 
-(insert appendixe7)
+![AppendixE7](https://github.com/user-attachments/assets/52bcee07-b0f2-4a3c-9c9c-30f795dc02fc)
 
 *Two Shinybow Switchers Power Buttons*
 
 3. Turn on the Time Base Corrector (gray piece of equipment below the Waveform monitor.)
 
-(insert appendixe8)
+![AppendixE8](https://github.com/user-attachments/assets/989c4d2a-ee78-46c7-9661-0ed9ecb6f6c7)
 
 *Time Base Corrector (TBC) Power Button*
 
 4. Turn on the Waveform Monitor (the off-white object located above the TBC). Power button is in the bottom left corner.
 
-(insert appendixe9)
+![AppendixE9](https://github.com/user-attachments/assets/c6c8c3ee-d65c-41d4-b32d-65f20c7c2472)
 
 *Waveform Monitor Power Button.*
 
 5. Turn on the Pre-digitization and Post-digitization CRT Monitors (the two TVs). Power buttons are located on the bottom left and right corners of each monitor, respectively. **Do not leave these monitors on for a prolonged period of time, unless you are transferring a tape. As soon as you are finished with your transfer, please turn these monitors off to prevent them from burning out.**
 
-(insert appenxixe10)
+![AppendixE10](https://github.com/user-attachments/assets/9278558a-04d3-4b2a-bc7f-e9101037ae8e)
 
 *Monitor Power Buttons*
 
 6. Select the deck you are using and turn it on. The U-matic is shown below as number 10; the two VHS players are shown side by side; the SVHS player is shown at the bottom.)
 
-(insert appendixe11)
+![AppendixE11](https://github.com/user-attachments/assets/421c9921-a54d-487e-af1e-048ada118715)
 
 *U-matic Player power button*
 
-(insert appendixe12)
+![AppendixE12](https://github.com/user-attachments/assets/40ba76db-e5de-4390-9c4c-27d1fa40502a)
 
-(insert appendixe13)
+![AppendixE13](https://github.com/user-attachments/assets/1faf938a-92c3-4ce3-b3ea-7ab76bb29f10)
 
 *2 VHS Players power buttons*
 
-(insert appendixe14)
+![AppendixE14](https://github.com/user-attachments/assets/92869350-8036-4ae5-8f40-b24dd3302d00)
 
 *SVHS Player Power Button*
 
 Audio PatchBay Routing for three VHS decks are shown below. 
 
-(insert appendixe15)
+![AppendixE15](https://github.com/user-attachments/assets/f7fa14dd-663b-40dc-8a73-3e3c05e17a75)
 
-(insert appendixe16)
+![AppendixE16](https://github.com/user-attachments/assets/d2ef5d08-40c7-4be6-b3b9-a509a710f59a)
 
-(insert appendixe17)
-
-# Appendix F: U-matic Tape Baking and Head Cleaning 
-
-Assistance by IS Lab Staff is required to bake tapes using the Thermocenter oven. Please see [Thermocenter oven documentation - combined](https://docs.google.com/document/u/0/d/1PUGxgF3gJMQ374QfshrFgLr5_3rAtVtNAeZRWoPlrJE/edit) for more information about tape baking.
-
-## Cleaning the U-matic Player Video Heads
-
-**WAIT! Assistance by a Lab Staff member is required to perform these steps.** U-matic tapes can shed very easily and can therefore clog the video heads. **Never use cotton swabs! These fibers can catch on the video heads and break them easily.** Paper pieces and foam swabs are appropriate. 
-
-1. Cut a strip of paper and submerge it in high percentage isopropyl alcohol. Slide the U-matic deck out of the video rack and lift up the top. The top video board opens on a hinge.
-
-(insert appendixf1) 
-
-*U-matic head found when the top is lifted.*
-
-(insert appendixf2)
-
-*U-matic deck with top on.*
-
-2. The video drum is visible from the top, and using the strip of paper dipped in rubbing alcohol (make sure it has not dried), place firmly against the video drum until you can feel the heads, and manually rotate the drum to gently wipe over the heads.
-3. Close up the deck and put everything back into its original position for playback. 
-
-## Playing the Tape
-
-1. Refer to the Composite Video Workflow documentation and VRecord Tutorial for playback.
-
-(insert appendixf3)
-
-*U-matic Playback Head*
+![AppendixE17](https://github.com/user-attachments/assets/5ace4fdf-8d15-4645-9ced-c84c08e995d4)
 
 
