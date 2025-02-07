@@ -61,7 +61,7 @@ Richard Hess’ site is a helpful place to go for general info about audiotape, 
 
 ### Prep the tape
 
-#### Open Reel Audio Tape
+#### Open Reel 1/4" Audio Tape
 
 When handling open-reel audio tape, it is crucial to determine whether the tape's base is made of acetate or polyester. These materials degrade in distinct ways and, therefore, necessitate different treatment methods.
 
@@ -94,64 +94,72 @@ Once the tape has been properly wound onto the metal reel, place the reel onto t
 
 For all methods here, **allow the tape to cool for 24 hours** and readjust to IS Media Lab room temperature and humidity. It is important to note that <ins>these recipes are not an exact science, and thus may require multiple attempts to reach a satisfactory condition.</ins> Begin by trying 4 hours in the oven. If the tape still appears to have a sticky surface, re-bake the tape for a longer duration. If the tape is still sticky, re-bake it at a hotter temperature.
 
-### U-matic Tapes
+## U-matic Tapes
 
 In order to bake a Umatic tape, the tape reels must be separated from the rest of the cartridge. Umatic cassettes can be very fragile, and reassembly requires patience and time. Please treat [this YouTube tutorial](https://www.youtube.com/watch?v=ZbDSPrzorbA&t=2s&ab_channel=TheMediaNerd) as a companion to the instructions on reassembly which follow.
 
-{insert image here}
+![unnamed (23)](https://github.com/user-attachments/assets/053333f1-2043-4ab6-9330-0eeced9b3e44)
 
-#### Disassemble the Umatic Cassette
+### Disassemble the Umatic Cassette
 
 1. Flip the tape over and unscrew the 5 main screws that hold the cartridge together. Refer to the circled screws below.
 
-{insert image here}
+![unnamed (1)](https://github.com/user-attachments/assets/6149a636-4918-4805-ae28-1a04b94021ea)
 
 2. Unscrew the three screws affixed to the metal rollers, depicted below.
 
-{insert image here}
+![unnamed (2)](https://github.com/user-attachments/assets/3f8f8820-fe33-4dff-bb5d-c0f4d02bc5a8)
+
+_The three screws that hold the metal rollers in place._
 
 3. Place the loose screws on a piece of Scotch tape or in a small container to ensure they will not get lost.
 
-{insert image here}
+![unnamed (3)](https://github.com/user-attachments/assets/379f3729-ddae-4a8b-a9e8-aa1418cf6081)
+
+_Screws on a piece of tape._
 
 4. When all of the screws are out, carefully lift up the outer shell of the cassette. Caution: Do not attempt to improvise during this process. Opening the tape incorrectly can result in misalignment or loss of small pieces. 
 5. **Important: After opening the cassette shell, take a picture of the tape path on the cassette on the inside.** This photo will be used later on to ease the process of reassembly.
 
-{insert image here}
+![unnamed (4)](https://github.com/user-attachments/assets/8efc4fde-3fd1-4e97-ab2c-7302e7ddcfd0)
+
+_Tape path when the cassette shell is removed._
 
 In the photo above, the tape feeds from the supply (left) reel to the outside of the takeup (right) reel. On the supply side notice there is one metal post and on the takeup side there are two. The posts are used to feed the tape through the deck when playing. The tape travels on the outside of the post on the left and through the middle of the two posts on the right. The tape will not play if this is not assembled correctly when putting it back together.
 
 6. Remove the metal baking sheet from the ThermoCenter oven. Carefully lift the two plastic reels on which the U-matic tape is wound, then place them onto the baking sheet as shown below:
 
-{insert image here}
+![unnamed (5)](https://github.com/user-attachments/assets/15fc6be4-0cd7-4434-be58-a15f00b72f86)
 
-#### Baking Tape
+### Bake the Umatic Tape
 
 The photograph below depicts the ideal recipe for U-Matic tape:
 
-{insert image here}
+![unnamed (6)](https://github.com/user-attachments/assets/f1a5d837-3688-4be0-b9ae-a2a1aabe3b53)
 
 1. The **current** temperature is set to 24.2°C.
 2. The temperature **increases at** 4.0°C each minute.
 3. 52.0°C is the **peak** temperature.
-4. **The fan** is set to 60%. **Please note: these are calibrated for U-Matic videotape only, not audiotape.** For instructions on how to bake audiotape, refer to the next section.
+4. **The fan** is set to 60%. **Please note: these settings are intended for U-Matic videotape only; not audiotape.** For instructions on how to bake audiotape, refer to the next section.
 5. After 48 hours of baking, take the tape out of the oven. **Allow it to cool for an additional 24 hours** and adjust to the room’s atmospheric conditions before attempting playback.
 
-#### Reassembly of Umatic Tapes
+### Reassemble the Umatic Cassette
 
 1. Refer to the earlier photo that was taken when the carrier was first opened, and place the reels back.
 
-{insert two images here}
+![unnamed (7)](https://github.com/user-attachments/assets/68a559da-91e4-4b8b-b444-9ee6da12c904)
+
+![unnamed (25)](https://github.com/user-attachments/assets/5c1be4fc-6d73-424b-ba76-ddbe557ef6ef)
 
 2. Be sure to feed the tape in between the twin rollers and on the outside of the single roller.
 
-{insert image here}
+![unnamed (26)](https://github.com/user-attachments/assets/0c126505-12bd-4ed5-8195-b63b4881c352)
 
 3. Before screwing the carrier closed, turn the case on its side and rotate the reels, to confirm that the tape advances smoothly in both directions.
 
-{insert image here}
+![unnamed (27)](https://github.com/user-attachments/assets/57d08a9b-1151-40a1-8ce4-e7e0e0729b31)
 
-### Open Reel Video
+## Open Reel Video
 
 For Preparation, take the reel of tape out of any case and place it onto the stainless steel tray for the ThermoCenter oven. Place the tray on any shelf in the oven. Check out [this video by Obsolete Media](https://www.youtube.com/watch?v=i3AlNlmoyHg) on baking open reel video tape.
 
@@ -162,5 +170,5 @@ For Preparation, take the reel of tape out of any case and place it onto the sta
 
 Please note that while these baking parameters have yielded positive results for U-matic and open reel tapes, certain Ampex 1" tapes may require significantly longer baking times. However, for U-matic and open reel tapes, the specified parameters are typically sufficient.[^1]
 
-[^1]: Recommendations from AV preservationist Morgan Morel from BAVC who also has the thermocenter oven. 
+[^1]: Recommendations from AV preservationist Morgan Morel, from BAVC, who also has the ThermoCenter oven.
 
