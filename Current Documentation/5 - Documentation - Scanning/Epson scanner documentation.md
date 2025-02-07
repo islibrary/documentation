@@ -160,10 +160,14 @@ This section will walk through how to use the Epson SCAN 2 software, which commu
 
 ![unnamed (11)](https://github.com/user-attachments/assets/fb527926-ce3b-4c5f-b4d1-905cce7348ad)
 
+_Epson SCAN 2 desktop icon._
+
 3. Ensure that the application recognizes the scanner connected via USB to the workstation: “Epson Expression 10000XL”
 4. The Epson Scan 2 Dialog Box will open.
 
 ![unnamed (12)](https://github.com/user-attachments/assets/cdfa0bc4-7682-4690-9509-c3a4c74c4233)
+
+_Main dialog window after opening._
 
 5. At the top right of the dialog box, click the “Scan Settings” field. Choose one of the following presets, according to the materials to be scanned:
   > a. Photograph
@@ -184,6 +188,8 @@ This section will walk through how to use the Epson SCAN 2 software, which commu
   > c. The selected option will change the layout of the settings, as seen below:
 
 ![unnamed (13)](https://github.com/user-attachments/assets/f3fb7bbd-e4bf-4894-abd3-0aa49f4f2d19) ![unnamed (14)](https://github.com/user-attachments/assets/a7bcc922-a49d-4292-a3dc-d7e538c0867c)
+
+_"Document Mode"_                                                                                  _"Photo Mode"_
 
 7. The option for “Document Source” will always be set to “Scanner Glass,” regardless of the mode.
   > a. In “Photo Mode,” the option for “Document Type” will always be set to “Reflective.”
@@ -416,6 +422,59 @@ A list of all technical specifications for the Epson Expression 10000 XL can be 
 | Greyscale depth | 16-bit internal/external |
 | Maximum optical density | 3.8 |
 | Pixel depth | 16 bit per pixel input. 1 to 16 bit per pixel output |
+
+### Zoom
+Epson scanner allows for zoom out of 50% of original size to 200% of original size. Adjustments can be as small as 1% increments.
+
+### Brightness
+Epson Expression 10000XL offers 7 levels of brightness adjustment.
+
+If the scanned image looks blank, brightness controls may need to be changed. To adjust brightness, go to Epson main menu scroll down to “Adjustments” and select “Image Adjustments” (the third icon from the right). From this menu, saturation, color balance and contrast may be changed. 
+
+### Maximum document size
+The maximum document size accepted by the Epson is 12.2 × 17.2 inches (or 310 × 437 mm).
+
+# Appendix B: Cleaning Epson Expression 10000XL (Lab Staff Only)
+
+### Overview
+From page 68 of Epson Expression User Guide. Clean the scanner periodically to keep the scanner in good operating condition. Do not clean it excessively. Don’t use abrasive brushes to clean the scanner. 
+
+### Pre-Cleaning
+Press the power button to turn off the scanner and unplug the scanner from its power source.
+
+### Exterior
+Clean the outside plastic cover of the scanner with a cloth damp with water and light detergent. Be careful not to spill water into the mechanism or electrical components. Do not use alcohol thinner or corrosive solvents on these parts. 
+
+### Cleaning the document table glass
+Clean smudges and dust from document table glass with a soft, dry, microfiber glass cleaning cloth. Compressed air spray cleaners are also acceptable. For grease removal from the document table glass, use a treated lens wipe or a small amount of glass cleaner on a microfiber cloth. Don’t spray glass cleaner directly onto the glass; always spray onto the cloth first. 
+
+Allow document table glass time to dry afterward.
+
+# Appendix C: Document Specifications for Use with Epson Expression 10000XL
+## Paper
+
+| US paper sizes | International paper sizes |
+| Ledger or tabloid (11 x 17 in) | A3 (11.7 x 16.5 in; 297 x 420 mm) |
+| Legal (8.5 x 14 in) | B4 (9.8 x 13.9 in; 250 x 353 mm) |
+| Letter (8.5 x 11 in) | A4 (8.27 x 11.69 in; 210 x 297 mm) |
+| Executive (7.5 x 10in) | B5 (6.9 x 9.8 in; 176 x 250 mm) |
+|                        | A5 (5.83 x 8.27 in; 148 x 210 mm) |
+
+## Film (see identifying film for more information
+* **35mm** slides, filmstrips, and negative
+* **12o mm 220 mm** film (also known as medium format)
+* **4 x 5 in** film (also known as large format or sheet film)
+* Nonstandard film sizes **up to 12.2” x 17.2” (310 x 437 mm)**
+
+## Other compatible formats - must be smaller than 12.2” x 17.2” (310 x 437 mm)
+
+* Photographs
+* Text with images
+* Line art
+* Newspaper / newspaper articles
+* Magazines
+* Books
+
 
 
 
