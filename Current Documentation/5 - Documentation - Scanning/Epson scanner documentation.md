@@ -18,7 +18,7 @@ The Epson scanner is located at the Scanning Station, in Zone C of the IS Librar
 * Do not attempt to service the scanner. Never open the scanner case. For repairs or adjustments, please notify IS Library Staff as soon as possible.
 * Do not spray lubricants inside the scanner.
 * Visit [Epson’s support website](https://epson.com/Support/wa00603a) for free updates to the Epson SCAN software.
-* Questions about the format or specifications of your document? See Appendix C.
+* Questions about the format or specifications of your document? See [Appendix C](#appendix-c).
 
 ## Resources
 [Epson Expression 10000XL User Guide](https://files.support.epson.com/pdf/ex10kg/ex10kgu1.pdf)
@@ -474,39 +474,4 @@ Allow document table glass time to dry afterward.
 * Newspaper / newspaper articles
 * Magazines
 * Books
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
